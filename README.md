@@ -2,7 +2,7 @@
 
 This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/heroui)
+[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui)
 
 ## Technologies Used
 
@@ -21,7 +21,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template using `create-next-app`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/frontio-ai/next-app-template
+npx create-next-app -e https://github.com/heroui-inc/next-app-template
 ```
 
 ### Install dependencies
@@ -50,4 +50,4 @@ After modifying the `.npmrc` file, you need to run `pnpm install` again to ensur
 
 ## License
 
-Licensed under the [MIT license](https://github.com/frontio-ai/next-app-template/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).

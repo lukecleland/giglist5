@@ -1,0 +1,1002 @@
+[
+  {
+    "artist": "GTB Presents: “GET THE BAG VOL 1\"",
+    "startdate": "2025-04-08",
+    "starttime": "18:00:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "SONDER: Mary Ocher (GER) with Passepartout Duo (ITA)",
+    "startdate": "2025-04-08",
+    "starttime": "19:00:00",
+    "venue": "The Vanguard",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Vanguard"
+  },
+  {
+    "artist": "Darren Kiely The Never Been Here Before Tour",
+    "startdate": "2025-04-08",
+    "starttime": "19:30:00",
+    "venue": "Oxford Art Factory, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Oxford Art Factory, Sydney"
+  },
+  {
+    "artist": "Adam Coad & The Anomalies - Perth Launch",
+    "startdate": "2025-04-08",
+    "starttime": "21:30:00",
+    "venue": "The Duke of George",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Duke of George"
+  },
+  {
+    "artist": "Wolfpack + The Yowies",
+    "startdate": "2025-04-08",
+    "starttime": "21:30:00",
+    "venue": "The Charles Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Charles Hotel"
+  },
+  {
+    "artist": "Dethklok: Awaken Australia",
+    "startdate": "2025-04-08",
+    "starttime": "20:30:00",
+    "venue": "Hindley St Music Hall, Adelaide",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Hindley St Music Hall, Adelaide"
+  },
+  {
+    "artist": "New Calyptus + Harriet and the Hags  + Duke Daisy",
+    "startdate": "2025-04-09",
+    "starttime": "18:59:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "FEEDER (UK)",
+    "startdate": "2025-04-09",
+    "starttime": "19:00:00",
+    "venue": "170 RUSSELL, MELBOURNE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "170 RUSSELL, MELBOURNE"
+  },
+  {
+    "artist": "Lvl 1 - Hawthorne/Wong Quartet",
+    "startdate": "2025-04-09",
+    "starttime": "19:00:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "Matthew Ifield *SOLD OUT*",
+    "startdate": "2025-04-09",
+    "starttime": "19:00:00",
+    "venue": "The Vanguard",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Vanguard"
+  },
+  {
+    "artist": "Blue Moon Sessions Ft: CMT (Free)",
+    "startdate": "2025-04-09",
+    "starttime": "19:00:00",
+    "venue": "Altar Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Altar Bar"
+  },
+  {
+    "artist": "The Cuban Young Guns featuring Adam Hall",
+    "startdate": "2025-04-09",
+    "starttime": "21:30:00",
+    "venue": "The Duke of George",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Duke of George"
+  },
+  {
+    "artist": "GUM / AMBROSE KENNY SMITH - III TIMES AUSTRALIA TOUR",
+    "startdate": "2025-04-09",
+    "starttime": "19:30:00",
+    "venue": "HOWLER, MELBOURNE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "HOWLER, MELBOURNE"
+  },
+  {
+    "artist": "Sex Pistols featuring Frank Carter",
+    "startdate": "2025-04-09",
+    "starttime": "20:00:00",
+    "venue": "The Fortitude Music Hall",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Fortitude Music Hall"
+  },
+  {
+    "artist": "North Freo Songwriters Club",
+    "startdate": "2025-04-09",
+    "starttime": "22:00:00",
+    "venue": "Mojos Bar, North Fremantle",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Mojos Bar, North Fremantle"
+  },
+  {
+    "artist": "RAGA SAGA // THUR ARVO GIG SERIES",
+    "startdate": "2025-04-10",
+    "starttime": "14:00:00",
+    "venue": "Kindred Bandroom",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Kindred Bandroom"
+  },
+  {
+    "artist": "overdrive",
+    "startdate": "2025-04-10",
+    "starttime": "18:00:00",
+    "venue": "tiki 33, King St, Newtown, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "tiki 33, King St, Newtown, Sydney"
+  },
+  {
+    "artist": "JERICHO | Whispers and Murmurs SINGLE RELEASE SHOW",
+    "startdate": "2025-04-10",
+    "starttime": "18:30:00",
+    "venue": "Goodspace Gallery",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Goodspace Gallery"
+  },
+  {
+    "artist": "SUÉ + Xela + Erin Badman",
+    "startdate": "2025-04-10",
+    "starttime": "18:59:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "Crash Test Dummies 'God Shuffled His Feet' 30th Anniversary World Tour",
+    "startdate": "2025-04-10",
+    "starttime": "17:00:00",
+    "venue": "San Fran",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "San Fran"
+  },
+  {
+    "artist": "Lvl 1 - Sounds Fab! The music of the Beatles reimagined",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "Origami Angel Australian National Tour",
+    "startdate": "2025-04-10",
+    "starttime": "19:30:00",
+    "venue": "JIVE, ADELAIDE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "JIVE, ADELAIDE"
+  },
+  {
+    "artist": "BADGEY & BANDS W/ COLLEEN AVE, VENTURA + THE CHORDROYS",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "The Lansdowne Hotel, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Lansdowne Hotel, Sydney"
+  },
+  {
+    "artist": "Mayuan Poet Australia Tour Sydney",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "Liberty Hall",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Liberty Hall"
+  },
+  {
+    "artist": "JUPiTA: iO",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "The Vanguard",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Vanguard"
+  },
+  {
+    "artist": "The Satisfaction ",
+    "startdate": "2025-04-10",
+    "starttime": "21:00:00",
+    "venue": "Mojos Bar, North Fremantle",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Mojos Bar, North Fremantle"
+  },
+  {
+    "artist": "BAD THURSDAYS APRIL 10",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "Bad Decisions Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Bad Decisions Bar"
+  },
+  {
+    "artist": "FLOW MOTION ~ 19TH BIRTHDAY EDITION",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "Kindred Bandroom",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Kindred Bandroom"
+  },
+  {
+    "artist": "IT'S KARAOKE AT THE TROC!",
+    "startdate": "2025-04-10",
+    "starttime": "19:00:00",
+    "venue": "The Trocadero Room",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Trocadero Room"
+  },
+  {
+    "artist": "Stand Atlantic - ‘WAS HERE’ Regional Tour",
+    "startdate": "2025-04-10",
+    "starttime": "19:30:00",
+    "venue": "University of Wollongong",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "University of Wollongong"
+  },
+  {
+    "artist": "Kristian Borring Quartet playing the music of Grant Green",
+    "startdate": "2025-04-10",
+    "starttime": "21:30:00",
+    "venue": "The Duke of George",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Duke of George"
+  },
+  {
+    "artist": "Debaser X 198archie X Sollyywood present a night of 'Sydney'",
+    "startdate": "2025-04-10",
+    "starttime": "19:30:00",
+    "venue": "Oxford Art Factory, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Oxford Art Factory, Sydney"
+  },
+  {
+    "artist": "ttt w/ guests Hokkaido + Angel V Animal",
+    "startdate": "2025-04-10",
+    "starttime": "19:30:00",
+    "venue": "Bootleggers",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Bootleggers"
+  },
+  {
+    "artist": "HOSTILE VOL. 2",
+    "startdate": "2025-04-10",
+    "starttime": "19:30:00",
+    "venue": "OAF Gallery",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "OAF Gallery"
+  },
+  {
+    "artist": "FEEDER (UK)",
+    "startdate": "2025-04-10",
+    "starttime": "20:00:00",
+    "venue": "Manning Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Manning Bar"
+  },
+  {
+    "artist": "Garage Daze",
+    "startdate": "2025-04-11",
+    "starttime": "16:30:00",
+    "venue": "The Brocas",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Brocas"
+  },
+  {
+    "artist": "Sex Pistols featuring Frank Carter",
+    "startdate": "2025-04-11",
+    "starttime": "19:30:00",
+    "venue": "Fremantle Prison",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Fremantle Prison"
+  },
+  {
+    "artist": "Toni Childs—A Retrospective",
+    "startdate": "2025-04-11",
+    "starttime": "18:45:00",
+    "venue": "Odeon Theatre",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Odeon Theatre"
+  },
+  {
+    "artist": "End Notes presents Brazilian Funk",
+    "startdate": "2025-04-11",
+    "starttime": "18:59:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "FEEDER (UK) AUSTRALIA TOUR 2025",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "THE TRIFFID, BRISBANE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "THE TRIFFID, BRISBANE"
+  },
+  {
+    "artist": "Pierce Brothers - The Night Tree' 10 Year Anniversary Tour",
+    "startdate": "2025-04-11",
+    "starttime": "19:30:00",
+    "venue": "JIVE, ADELAIDE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "JIVE, ADELAIDE"
+  },
+  {
+    "artist": "Jaron Jay | East Coast Australian Tour | Sydney ",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "Bootleggers",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Bootleggers"
+  },
+  {
+    "artist": "RAGE AROUND THE KORN",
+    "startdate": "2025-04-11",
+    "starttime": "19:30:00",
+    "venue": "LION ARTS FACTORY, ADELAIDE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "LION ARTS FACTORY, ADELAIDE"
+  },
+  {
+    "artist": "G.E.M.S feat: Ally Oliver, Chamberwoman + More",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "Altar Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Altar Bar"
+  },
+  {
+    "artist": "Volatile Ways",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "The Vanguard",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Vanguard"
+  },
+  {
+    "artist": "Sam Cullen & His Band, Borderline with support from Dani Josie",
+    "startdate": "2025-04-11",
+    "starttime": "17:00:00",
+    "venue": "The Tuning Fork",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Tuning Fork"
+  },
+  {
+    "artist": "GRINDING EYES ALBUM LAUNCH 'OUT OF FOCUS'",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "The Trocadero Room",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Trocadero Room"
+  },
+  {
+    "artist": "Adam's Parade w/ Topnovil // Hugs",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "La La La's",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "La La La's"
+  },
+  {
+    "artist": "AFTER DARK W/ GEMMA YLANA, MAJEDA BEATTY, ANNELISE. + AIMÉS",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "The Lansdowne Hotel, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Lansdowne Hotel, Sydney"
+  },
+  {
+    "artist": "NANA KLUMPP ",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "The Lansdowne Hotel, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Lansdowne Hotel, Sydney"
+  },
+  {
+    "artist": "Lvl 1- HomeGrown presents “Liquid Soul”",
+    "startdate": "2025-04-11",
+    "starttime": "19:00:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "Reb Fountain - 'How Love Bends' Tour | Gisborne",
+    "startdate": "2025-04-11",
+    "starttime": "17:30:00",
+    "venue": "Dome Cinema",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Dome Cinema"
+  },
+  {
+    "artist": "The Black Charade (My Chemical Romance Tribute) (UK)",
+    "startdate": "2025-04-11",
+    "starttime": "21:30:00",
+    "venue": "Rosemount Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Rosemount Hotel"
+  },
+  {
+    "artist": "Reb Fountain - 'How Love Bends' Tour",
+    "startdate": "2025-04-11",
+    "starttime": "17:30:00",
+    "venue": "various venues",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "various venues"
+  },
+  {
+    "artist": "The Jungle Giants - Hold My Hand Single Tour",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Hindley St Music Hall, Adelaide",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Hindley St Music Hall, Adelaide"
+  },
+  {
+    "artist": "Jessie Gordon's Approximate Folk",
+    "startdate": "2025-04-11",
+    "starttime": "21:30:00",
+    "venue": "The Duke of George",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Duke of George"
+  },
+  {
+    "artist": "PHASE WANDERER w/ Lalu & Could Be Stars",
+    "startdate": "2025-04-11",
+    "starttime": "19:30:00",
+    "venue": "Brunswick Artists' Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Brunswick Artists' Bar"
+  },
+  {
+    "artist": "LOOPOLE + DJC + BARK (18+)",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "The Austral Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Austral Hotel"
+  },
+  {
+    "artist": "BATTLESNAKE WITH PEACH FUZZ, MILK AFTER SEX & DESTRENDS DJS / FREE BIRTHDAY DRINK ON ARRIVAL!",
+    "startdate": "2025-04-11",
+    "starttime": "19:30:00",
+    "venue": "Kindred Bandroom",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Kindred Bandroom"
+  },
+  {
+    "artist": "Bad Manners (UK) 50th Anniversary Tour",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "170 RUSSELL, MELBOURNE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "170 RUSSELL, MELBOURNE"
+  },
+  {
+    "artist": "Models and Boom Crash Opera",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Highfield Caringbah",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Highfield Caringbah"
+  },
+  {
+    "artist": "TBH FRIDAYS W/ KYE HALLSON & THE E.Ts // BETWEEN TWO // BARBARA",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Towradgi Beach Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Towradgi Beach Hotel"
+  },
+  {
+    "artist": "Liz Stringer - The Second High Album Launch Tour",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "The Night Cat",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Night Cat"
+  },
+  {
+    "artist": "Legs Electric 'Volcanic' Video Launch",
+    "startdate": "2025-04-11",
+    "starttime": "22:00:00",
+    "venue": "Mojos Bar, North Fremantle",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Mojos Bar, North Fremantle"
+  },
+  {
+    "artist": "Buried Feather + Neon Goblin @ Shotkickers",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Shotkickers",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Shotkickers"
+  },
+  {
+    "artist": "The Pyjama Sundayz: Waywards DEBUT ",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Waywards",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Waywards"
+  },
+  {
+    "artist": "HABIT’s 500 BEAT BIRTHDAY BASH",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Laundry Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Laundry Bar"
+  },
+  {
+    "artist": "SMILES ALL ROUND - MIDDLE KIDS, BETTY TAYLOR, NANA's PIE - Free entry!!",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "BEACH HOTEL, BYRON BAY",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "BEACH HOTEL, BYRON BAY"
+  },
+  {
+    "artist": "DARTZ - Moving To Melbourne",
+    "startdate": "2025-04-11",
+    "starttime": "18:30:00",
+    "venue": "San Fran",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "San Fran"
+  },
+  {
+    "artist": "TRASHED AGAIN’s ‘Here comes the Riff Raff’ Tour 2025!",
+    "startdate": "2025-04-11",
+    "starttime": "20:30:00",
+    "venue": "REPUBLIC BAR HOBART",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "REPUBLIC BAR HOBART"
+  },
+  {
+    "artist": "GOOD SNIFF “That’s It, Tiger” tour W/ STIMPIES & LOOCH ",
+    "startdate": "2025-04-11",
+    "starttime": "21:30:00",
+    "venue": "Crown and Anchor Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Crown and Anchor Hotel"
+  },
+  {
+    "artist": "sugarush: Pink Pony Club - Chappell Roan Night ",
+    "startdate": "2025-04-11",
+    "starttime": "21:00:00",
+    "venue": "Mary's Underground, Circular Quay, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Mary's Underground, Circular Quay, Sydney"
+  },
+  {
+    "artist": "Dreaming of Saturn: SZA Appreciation Night - Sydney",
+    "startdate": "2025-04-11",
+    "starttime": "21:00:00",
+    "venue": "Home The Venue",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Home The Venue"
+  },
+  {
+    "artist": "NEXT CROP HIP HOP SHOWCASE  APRIL 11TH ",
+    "startdate": "2025-04-11",
+    "starttime": "21:00:00",
+    "venue": "Laundry Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Laundry Bar"
+  },
+  {
+    "artist": "FOX FM's...... RNB FRIDAYS AT FABULOUS",
+    "startdate": "2025-04-11",
+    "starttime": "21:30:00",
+    "venue": "Level 3 Crown - Crown Melbourne",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Level 3 Crown - Crown Melbourne"
+  },
+  {
+    "artist": "NO SCRUBS: 90s + Early 00s Party - Dunedin",
+    "startdate": "2025-04-11",
+    "starttime": "20:00:00",
+    "venue": "Catacombs",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Catacombs"
+  },
+  {
+    "artist": "NON-STOP POP",
+    "startdate": "2025-04-11",
+    "starttime": "23:00:00",
+    "venue": "Bootleggers",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Bootleggers"
+  },
+  {
+    "artist": "Beyonce: Cowboy Carter Party - Melbourne",
+    "startdate": "2025-04-11",
+    "starttime": "23:00:00",
+    "venue": "The Night Cat",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Night Cat"
+  },
+  {
+    "artist": "INNERWEST HOP W/ SPECIAL GUEST YAWDOESITALL - FREE",
+    "startdate": "2025-04-11",
+    "starttime": "23:00:00",
+    "venue": "The Trocadero Room",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Trocadero Room"
+  },
+  {
+    "artist": "WE PREFER TO SWING",
+    "startdate": "2025-04-12",
+    "starttime": "12:30:00",
+    "venue": "BRUNSWICK BALLROOM, MELBOURNE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "BRUNSWICK BALLROOM, MELBOURNE"
+  },
+  {
+    "artist": "OUT ON THE DECK WITH BIG CAT",
+    "startdate": "2025-04-12",
+    "starttime": "13:00:00",
+    "venue": "Kindred Bandroom",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Kindred Bandroom"
+  },
+  {
+    "artist": "Spike F*ck World Tour",
+    "startdate": "2025-04-12",
+    "starttime": "15:00:00",
+    "venue": "The Triffid Garden",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Triffid Garden"
+  },
+  {
+    "artist": "MADAMS - SATURDAYS IN APRIL #2",
+    "startdate": "2025-04-12",
+    "starttime": "16:00:00",
+    "venue": "Brunswick Artists' Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Brunswick Artists' Bar"
+  },
+  {
+    "artist": "The Black Sorrows 'The Way We Do Business' National Tour",
+    "startdate": "2025-04-12",
+    "starttime": "18:00:00",
+    "venue": "Shearwater Resort",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Shearwater Resort"
+  },
+  {
+    "artist": "Rammfest 2025",
+    "startdate": "2025-04-12",
+    "starttime": "20:00:00",
+    "venue": "Freo.Social",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Freo.Social"
+  },
+  {
+    "artist": "NEIL ANTHONY AS MEAT LOAF ",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "Banana Bender Pub",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Banana Bender Pub"
+  },
+  {
+    "artist": "GAVIN JAMES",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "Mary's Underground, Circular Quay, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Mary's Underground, Circular Quay, Sydney"
+  },
+  {
+    "artist": "Jeremy Spoke - The Pearl Jam Tribute",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "The Bridge Hotel",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Bridge Hotel"
+  },
+  {
+    "artist": "Vanilla Gorilla 2025 ‘Home’ Album Tour",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "BRUNSWICK BALLROOM, MELBOURNE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "BRUNSWICK BALLROOM, MELBOURNE"
+  },
+  {
+    "artist": "Liz Stringer - The Second High Album Launch Tour ",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "The Vanguard",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Vanguard"
+  },
+  {
+    "artist": "Psychedelic Porn Crumpets – ‘MARCH ON FOR PAX ROMANA’ Australian Tour",
+    "startdate": "2025-04-12",
+    "starttime": "19:30:00",
+    "venue": "LION ARTS FACTORY, ADELAIDE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "LION ARTS FACTORY, ADELAIDE"
+  },
+  {
+    "artist": "Deadshowws 'I Should' Tour | Sydney",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "OAF Gallery",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "OAF Gallery"
+  },
+  {
+    "artist": "Afro Moses Spirit Band with Special Guests ",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "Lazybones Lounge Restaurant & Bar",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Lazybones Lounge Restaurant & Bar"
+  },
+  {
+    "artist": "FILE TYPE ‘Map Accident Termite Help’ EP launch",
+    "startdate": "2025-04-12",
+    "starttime": "19:00:00",
+    "venue": "Oxford Art Factory, Sydney",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Oxford Art Factory, Sydney"
+  },
+  {
+    "artist": "CANCELLED | Boyzlife – Brian McFadden & Keith Duffy:The Hits of Boyzone & Westlife",
+    "startdate": "2025-04-12",
+    "starttime": "20:00:00",
+    "venue": "Hindley St Music Hall, Adelaide",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Hindley St Music Hall, Adelaide"
+  },
+  {
+    "artist": "Reb Fountain - ‘How Love Bends’ Tour | Napier",
+    "startdate": "2025-04-12",
+    "starttime": "17:30:00",
+    "venue": "MTG Century Theatre",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "MTG Century Theatre"
+  },
+  {
+    "artist": "The Black Charade (My Chemical Romance Tribute) (UK)",
+    "startdate": "2025-04-12",
+    "starttime": "20:00:00",
+    "venue": "The Gov, ADELAIDE",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "The Gov, ADELAIDE"
+  },
+  {
+    "artist": "You Am I—The Hi Fi Daily Double Down Tour ",
+    "startdate": "2025-04-12",
+    "starttime": "19:30:00",
+    "venue": "Odeon Theatre",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Odeon Theatre"
+  },
+  {
+    "artist": "THE JUNGLE GIANTS - Hold My Hand Single Tour",
+    "startdate": "2025-04-12",
+    "starttime": "19:30:00",
+    "venue": "Northcote Theatre",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "Northcote Theatre"
+  },
+  {
+    "artist": "Origami Angel - Australian Tour w/ Talk Heavy // Quite Like Pete",
+    "startdate": "2025-04-12",
+    "starttime": "19:30:00",
+    "venue": "La La La's",
+    "existing_entry": 0,
+    "hidden": 0,
+    "location_id": 0,
+    "location_name": "La La La's"
+  }
+]

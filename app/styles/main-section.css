@@ -1,0 +1,62 @@
+main section {
+    overflow: auto;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid-column;
+    column-count: 1;
+    column-gap: 0px;
+    column-fill: auto;
+}
+
+/* Small devices (Portrait tablets, 468px and up) */
+@media only screen and (min-width: 368px) {
+    main section {
+        column-count: 2;
+        min-height: calc(100vh - 45px);
+        height: calc(100vh - 45px);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main section {
+        column-count: 5;
+        min-height: calc(100vh - 45px);
+        height: calc(100vh - 45px);
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main section {
+        column-count: 5;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1600px) {
+    main section {
+        column-count: 8;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 2000px) {
+    main section {
+        column-count: 10;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 2400px) {
+    main section {
+        column-count: 12;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 2800px) {
+    main section {
+        column-count: 14;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 3200px) {
+    main section {
+        column-count: 16;
+    }
+}

@@ -1,8 +1,6 @@
-# Next.js & HeroUI Template
+# Giglist
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+Gigs in a list. Giglist. Version 5
 
 ## Technologies Used
 
@@ -15,13 +13,15 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
 ## How to Use
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
+### Clone the repository
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+git clone https://github.com/giglist/giglist.git
+```
+### Navigate to the project directory
+
+```bash
+cd giglist
 ```
 
 ### Install dependencies
@@ -47,7 +47,3 @@ public-hoist-pattern[]=*@heroui/*
 ```
 
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).

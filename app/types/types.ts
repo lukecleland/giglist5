@@ -1,41 +1,42 @@
-export type TGiglistApiResponse = {
+export type GiglistApiResponse = {
     status: number;
     statusText: string;
-    data: TDate[];
+    data: ListingDate[];
     error: any;
     loading: boolean;
 };
 
-export type TListing = {
+export type Listing = {
     id: number;
-    lat: string;
-    lng: string;
     name: string;
-    artist: string;
-    artist_url: string;
-    address: string;
-    suburb: string;
-    location_url: string;
-    start: string;
-    date_formatted: string;
-    date: string;
-    state: string;
-    zip: string;
-    location_image_url?: string;
-    answer: string;
-    datestamp: {
-        date: Date | string;
-    };
+    url: string;
+    starttime: string;
+    startdate: string;
+    venueName: string;
     prominence?: number;
-};
+    wheelchairAccessible: boolean;
+    minPrice: number;
+    categories: [];
+    tourName: string;
+    coversOriginals: ['covers' | 'originals'];
+    ageRestricted: boolean;
+    artists: [];
+    type: ['Festival' | 'Concert' | 'Pub'];
+    recommended: boolean;
+    highlighted: boolean;
+    patreon: boolean;
+    specialGuests: string;
+    listedBy: number;
+}
+    
 
-export type TDate = {
+export type ListingDate = {
     datestring: string;
     datetime: string;
-    listings: TListing[];
+    listings: Listing[];
 };
 
-export type TGiglist = TDate[];
+export type Giglist = Date[];
 
 export type GigAd = {
     Name: string;
@@ -45,7 +46,7 @@ export type GigAd = {
     Postcode_Prefixes: string;
 };
 
-export type TAllTimeCount = {
+export type AllTimeCount = {
     count: number;
 };
 

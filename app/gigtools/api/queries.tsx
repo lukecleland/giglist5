@@ -136,6 +136,19 @@ export async function linkVenue(linkedVenueId: number, holdingId: number) {
 }
 
 /**
+ * Get all listings from the database
+ * @param limit
+ */
+export async function getListings(limit: number = 100) {
+  const result = await query(
+    `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
+      LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
+      ORDER BY startdate ASC LIMIT ${limit}`
+  );
+  return result;
+}
+
+/**
  * Get listings filtered by holdingId
  */
 export async function getListingsByHoldingIds(holdingIds: number[]) {

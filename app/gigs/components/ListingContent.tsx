@@ -1,37 +1,39 @@
 import { CardHeader } from "@heroui/react";
 import { ListingImage } from "./ListingImage";
-import { TListing } from "@/app/types/types";
+import { Listing } from "@/app/types/types";
 
-export const ListingContent = ({gig}: {gig: TListing}) => {
-    if (gig.prominence === 1) {
-      return (
-        <>
-          <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            <h4 className="font-bold uppercase text-large">
-              {gig.artist} {gig.date_formatted}
-            </h4>
-            <p className="text-default-500 text-tiny">{gig.name}</p>
-            <p className="text-default-500 text-tiny">{gig.start}</p>
-            <small className="text-default-500">
-              {gig.address}, {gig.suburb}, {gig.zip} {gig.state}
-            </small>
-          </CardHeader>
-          <ListingImage gig={gig} />
-        </>
-      );
-    } else {
-      return (
-        <>
-          <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            <h4 className="font-bold uppercase text-small">{gig.artist}</h4>
-            <p className="text-default-500 text-tiny">{gig.name}</p>
-            <p className="text-default-500 text-tiny">{gig.start}</p>
-  
-            <small className="text-default-500">
-              {gig.address}, {gig.suburb}, {gig.zip} {gig.state}
-            </small>
-          </CardHeader>
-        </>
-      );
-    }
-  };
+export const ListingContent = ({ listing }: { listing: Listing }) => {
+  if (listing.prominence === 1) {
+    return (
+      <>
+        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+          <h4 className="font-bold uppercase text-large">
+            {listing.name} {listing.startdate}
+          </h4>
+          <p className="text-default-500 text-tiny">{listing.venueName}</p>
+          <p className="text-default-500 text-tiny">{listing.starttime}</p>
+          <small className="text-default-500">
+            {listing.address1}, {listing.suburb}, {listing.postcode}{" "}
+            {listing.state}
+          </small>
+        </CardHeader>
+        <ListingImage listing={listing} />
+      </>
+    );
+  } else {
+    return (
+      <>
+        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+          <h4 className="font-bold uppercase text-small">{listing.name}</h4>
+          <p className="text-default-500 text-tiny">{listing.venueName}</p>
+          <p className="text-default-500 text-tiny">{listing.starttime}</p>
+
+          <small className="text-default-500">
+            {listing.address}, {listing.suburb}, {listing.postcode}{" "}
+            {listing.state}
+          </small>
+        </CardHeader>
+      </>
+    );
+  }
+};

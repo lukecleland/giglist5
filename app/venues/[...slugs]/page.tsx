@@ -5,7 +5,7 @@ type Props = {
   params: { slugs?: string[] };
 };
 
-export default async function Page({ params }: Props) {
+export default async function VenuesPage({ params }: Props) {
   const path = (params.slugs?.join("/") || "").toLowerCase();
 
   const venues = await getSlugs();

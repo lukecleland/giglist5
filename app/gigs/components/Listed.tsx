@@ -14,17 +14,17 @@ import {
   CardHeader,
   CardBody,
 } from "@heroui/react";
-import { TListing } from "@/app/types/types";
+import { Listing } from "@/app/types/types";
 import { ListingContent } from "./ListingContent";
 
-export function Listing({ gig }: { gig: TListing }) {
+export function Listed({ listing }: { listing: Listing }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
     <>
       <li onClick={onOpen}>
         <Card className="max-w-[400px] my-5 lato">
-          <ListingContent gig={gig as TListing} />
+          <ListingContent listing={listing as Listing} />
         </Card>
       </li>
 
@@ -33,20 +33,25 @@ export function Listing({ gig }: { gig: TListing }) {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                {gig.artist} @ {gig.name}
+                {listing.name} @ {listing.venueName}
               </ModalHeader>
               <ModalBody>
-                <h4 className="font-bold uppercase text-large">{gig.artist}</h4>
-                <h5 className="text-default-500 text-tiny">{gig.start}</h5>
-                <p className="text-tiny font-bold">{gig.name}</p>
+                <h4 className="font-bold uppercase text-large">
+                  {listing.name}
+                </h4>
+                <h5 className="text-default-500 text-tiny">
+                  {listing.starttime}
+                </h5>
+                <p className="text-tiny font-bold">{listing.venueName}</p>
                 <small className="text-default-500">
-                  {gig.address}, {gig.suburb}, {gig.zip} {gig.state}
+                  {listing.address1}, {listing.suburb}, {listing.postcode}{" "}
+                  {listing.state}
                 </small>
 
                 <Image
                   alt="Card background"
                   className="object-cover rounded-xl"
-                  src={gig.location_image_url}
+                  src={listing.url}
                   width={1000}
                 />
               </ModalBody>

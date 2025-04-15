@@ -61,7 +61,7 @@ export function Incoming({
               </TableCell>
               <TableCell>{item.venue}</TableCell>
               <TableCell>
-                <Link href={item.artisturl} target="_blank">
+                <Link href={item.artisturl || ""} target="_blank">
                   Event Link
                 </Link>
               </TableCell>

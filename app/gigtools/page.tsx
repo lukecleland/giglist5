@@ -13,7 +13,7 @@ const specialElite = Special_Elite({
   display: "swap",
 });
 
-export default async function Page() {
+export default async function GigtoolsPage() {
   return (
     <>
       <h1 className={clsx(title(), specialElite.className)}>Gigtools</h1>

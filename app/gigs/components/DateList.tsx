@@ -1,15 +1,15 @@
-import { TDate, TListing } from "@/app/types/types";
-import { Listing } from "./Listing";
+import { ListingDate, Listed } from "@/app/types/types";
+import { Listing } from "@/app/types/types";
 
-export function DateList({ dates }: { dates: TDate[] }) {
+export function DateList({ dates }: { dates: ListingDate[] }) {
   return (
     <ul>
-      {dates.map((date: TDate) => (
+      {dates.map((date: ListingDate) => (
         <li key={date.datetime} className="m-2">
           <div className="merriweather">{date.datestring}</div>
           <ul>
-            {date.listings.map((gig: TListing) => {
-              return <Listing gig={gig} key={gig.id} />;
+            {date.listings.map((listing: Listing) => {
+              return <Listing listing={listing} key={listing.id} />;
             })}
           </ul>
         </li>

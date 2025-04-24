@@ -23,6 +23,7 @@ import { DownArrowIcon } from "../../icons/DownArrowIcon.tsx";
 import { UpArrowIcon } from "../../icons/UpArrowIcon.tsx";
 import { useEffect, useState } from "react";
 import { createSlug, formatter } from "./_utils";
+import { THolding, Listing } from "@/app/types/types.ts";
 
 export function Holding({
   label,
@@ -41,8 +42,8 @@ export function Holding({
   }, []);
 
   useEffect(() => {
-    const result = holding.filter((item: any) => {
-      const isListed = listings.find((l: any) => l.holdingId === item.id);
+    const result = holding.filter((item: THolding) => {
+      const isListed = listings.find((l: Listing) => l.holdingId === item.id);
       const isHidden = item.hidden === 1;
       return !isListed && isHidden === showHidden;
     });
@@ -63,7 +64,7 @@ export function Holding({
           <TableColumn width={"50"}>TOOLS</TableColumn>
         </TableHeader>
         <TableBody>
-          {filtered.map((item: any, index: number) => (
+          {filtered.map((item: THolding, index: number) => (
             <TableRow key={index}>
               <TableCell style={{ textTransform: "uppercase" }}>
                 <div className="flex w-full">

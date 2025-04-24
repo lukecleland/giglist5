@@ -17,14 +17,17 @@ export default async function GigtoolsPage() {
   return (
     <>
       <h1 className={clsx(title(), specialElite.className)}>Gigtools</h1>
-      <Spacer y={8} />
       <Link href="./gigtools/moshtix">
         <ScraperCard image="/images/moshtix.png" label="Moshtix" />
       </Link>
+      <Spacer x={8} />
       <Link href="./gigtools/oztix">
         <ScraperCard image="/images/oztix.png" label="Oztix" />
       </Link>
-      <Spacer y={8} />
+      <Spacer x={8} />
+      <Link href="./gigtools/submissions">
+        <ScraperCard image="" label="Submissions" />
+      </Link>
     </>
   );
 }

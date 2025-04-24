@@ -12,10 +12,13 @@ export default function ScraperCard({
 }) {
   return (
     <Card isFooterBlurred className="border-none" radius="lg">
-      <Image className="object-cover" height={200} src={image} width={200} />
-      <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-        {label}
-      </CardFooter>
+      <Image
+        className="object-fit h-full"
+        height={200}
+        src={image}
+        width={200}
+      />
+      <CardFooter>{label}</CardFooter>
     </Card>
   );
 }

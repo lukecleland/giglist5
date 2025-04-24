@@ -1,5 +1,5 @@
-import { DateList } from "./components/DateList";
-import { TDate } from "@/app/types/types";
+import { ListingDates } from "./components/ListingDates";
+import { ListingDate } from "@/app/types/types";
 import { getListings } from "../gigtools/api/queries";
 
 export default async function GigsPage() {
@@ -8,7 +8,7 @@ export default async function GigsPage() {
   return (
     <div className="w-full">
       <div>
-        <DateList dates={listings as TDate[]} />
+        <ListingDates listingDates={listings as ListingDate[]} />
       </div>
     </div>
   );

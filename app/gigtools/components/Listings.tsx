@@ -15,14 +15,14 @@ import {
 import { DownArrowIcon } from "../../icons/DownArrowIcon.tsx";
 import { UpArrowIcon } from "../../icons/UpArrowIcon.tsx";
 import { DeleteListing } from "./DeleteListing.tsx";
-import { useEffect, useState } from "react";
 import { useHoldingStore } from "@/app/gigtools/store/gigtools";
 import { formatter } from "./_utils";
+import { Listing } from "@/app/types/types.ts";
 
 export function Listings() {
   const { holding, listings, refresh } = useHoldingStore();
 
-  const getScraperFromListing = (listing: any) => {
+  const getScraperFromListing = (listing: Listing) => {
     const matchedHolding = holding.find((h: any) => h.id === listing.holdingId);
     return matchedHolding?.scraper;
   };

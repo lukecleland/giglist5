@@ -11,13 +11,15 @@ import {
   useDisclosure,
   Image,
   Card,
-  CardHeader,
-  CardBody,
 } from "@heroui/react";
-import { Listing } from "@/app/types/types";
+import { Listing, Venue } from "@/app/types/types";
 import { ListingContent } from "./ListingContent";
 
-export function Listed({ listing }: { listing: Listing }) {
+type ListingItemProps = {
+  listing: Listing & Venue;
+};
+
+export function ListingItem({ listing }: ListingItemProps) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (

@@ -19,16 +19,8 @@ import { DownArrowIcon } from "../../icons/DownArrowIcon";
 import { IncomingData } from "../[scraper]/page";
 import { formatter } from "./_utils";
 
-export function Incoming({
-  scraper,
-  data,
-  holding,
-}: {
-  scraper: string;
-  data: any;
-  holding: any;
-}) {
-  const { refresh } = useHoldingStore();
+export function Incoming({ scraper, data }: { scraper: string; data: any }) {
+  const { refresh, holding } = useHoldingStore();
 
   const dataNotAlreadyInHolding = data.filter((item: any) => {
     return !holding.find(
@@ -42,8 +34,7 @@ export function Incoming({
 
   return (
     <>
-      <h4>Incoming</h4>
-      <Spacer y={2} />
+      <h2>Incoming</h2>
       <Table aria-label="">
         <TableHeader>
           <TableColumn width={"30%"}>ARTIST</TableColumn>

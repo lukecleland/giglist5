@@ -19,11 +19,9 @@ import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
 import { Input } from "@heroui/input";
 import { link as linkStyles } from "@heroui/theme";
-import NextLink from "next/link";
-import clsx from "clsx";
-
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
+import { specialElite } from "@/config/fonts";
 import {
   TwitterIcon,
   GithubIcon,
@@ -32,6 +30,8 @@ import {
   SearchIcon,
   Logo,
 } from "@/components/icons";
+import NextLink from "next/link";
+import clsx from "clsx";
 
 export const Navbar = () => {
   const searchInput = (
@@ -56,7 +56,11 @@ export const Navbar = () => {
   );
 
   return (
-    <HeroUINavbar maxWidth="full" position="sticky">
+    <HeroUINavbar
+      maxWidth="full"
+      position="sticky"
+      className={clsx(specialElite.className)}
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">

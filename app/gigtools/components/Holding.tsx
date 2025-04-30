@@ -52,8 +52,7 @@ export function Holding({
 
   return (
     <>
-      <h1>{label}</h1>
-      <Spacer y={2} />
+      <h2>{label}</h2>
       <Table aria-label="">
         <TableHeader>
           <TableColumn width={"30%"}>ARTIST</TableColumn>
@@ -124,8 +123,6 @@ export function Holding({
                       color="success"
                       onPress={async () => {
                         await addListing({
-                          description: "",
-                          image: "",
                           name: item.artist,
                           slug: createSlug(
                             `${item.artist} ${item.venue} ${item.startdate}`

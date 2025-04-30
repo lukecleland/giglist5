@@ -1,4 +1,6 @@
-import "../styles/main-section.css";
+import "@/app/styles/main-section.css";
+import clsx from "clsx";
+import { lato } from "@/config/fonts";
 
 export default function GigsLayout({
   children,
@@ -6,7 +8,7 @@ export default function GigsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main>
+    <main className={clsx(lato.className, "flex")}>
       <section>{children}</section>
     </main>
   );

@@ -28,6 +28,7 @@ export const DeleteListing = ({
     <>
       <Button
         isIconOnly
+        size="sm"
         onPress={() => {
           setError("");
           setSuccess("");

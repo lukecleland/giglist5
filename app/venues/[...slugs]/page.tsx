@@ -1,15 +1,16 @@
+"use client";
+
 import { notFound } from "next/navigation";
 import { getSlugs } from "./queries";
+import { useRouter } from "next/router";
 
-type Props = {
-  params: { slugs?: string[] };
-};
-
-export default async function VenuesPage({ params }: Props) {
-  const path = (params.slugs?.join("/") || "").toLowerCase();
+export default async function ArtistsPage() {
+  const router = useRouter();
 
   const venues = await getSlugs();
-  const matchedVenue = venues.find((v) => v.slug.toLowerCase() === path);
+  const matchedVenue = venues.find(
+    (v) => v.slug.toLowerCase() === router.query.slug
+  );
 
   if (!matchedVenue) {
     notFound();

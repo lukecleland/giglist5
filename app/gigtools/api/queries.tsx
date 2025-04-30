@@ -136,15 +136,37 @@ export async function linkVenue(linkedVenueId: number, holdingId: number) {
 }
 
 /**
- * Get all listings from the database
+ * Get a single listing by ID
+ * @param id
+ */
+export async function selectListing(id: number) {
+  const result: any = await query(
+    `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
+      LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
+      WHERE gl_listings.id = ${id} LIMIT 1`
+  );
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+}
+
+/**
+ * Get listings from the database
  * @param limit
  */
 export async function getListings(limit: number = 100) {
-  const result = await query(
-    `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
-      LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
-      ORDER BY startdate ASC LIMIT ${limit}`
-  );
+  //WHERE gl_listings.startdate >= DATE(DATE_ADD( NOW( ) , INTERVAL  '-5:00' HOUR_MINUTE ))
+  //AND gl_listings.startdate <= DATE(DATE_ADD( NOW( ) , INTERVAL  '3' MONTH ))
+
+  const theQuery = `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
+    LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
+    GROUP BY gl_listings.startdate, gl_listings.id
+    HAVING count( * ) < 2
+    ORDER BY gl_listings.startdate ASC, gl_listings.starttime ASC LIMIT ${limit}`;
+
+  console.log("getListings query:", theQuery);
+  const result = await query(theQuery);
   return result;
 }
 
@@ -169,29 +191,29 @@ export async function getListingsByHoldingIds(holdingIds: number[]) {
  * @param item
  */
 export async function addListing(item: {
-  description: string;
-  image: string;
+  description?: string;
+  image?: string;
   name: string;
-  slug: string;
+  slug?: string;
   startdate: string;
   starttime: string;
   url: string;
   venueId: number;
-  holdingId: number;
+  holdingId?: number;
 }) {
   const theQuery = `
     INSERT INTO gl_listings (description, image, name, slug, startdate, starttime, url, venueId, holdingId)
       VALUES
     (
-      '${sqlparam(item.description)}',
+      '${sqlparam(item.description || "")}',
       '${item.image}',
       '${sqlparam(item.name)}',
-      '${sqlparam(item.slug)}',
+      '${sqlparam(item.slug || "")}',
       '${item.startdate}',
       '${item.starttime}',
       '${sqlparam(item.url)}',
-      ${item.venueId},
-      ${item.holdingId}
+      ${item.venueId || 0},
+      ${item.holdingId || 0}
     )
   `;
   console.log("addListing query:", theQuery);
@@ -205,19 +227,33 @@ export async function addListing(item: {
  */
 export async function updateListing(item: {
   id: number;
-  description: string;
-  image: string;
+  description?: string;
+  image?: string;
   name: string;
-  slug: string;
+  slug?: string;
   startdate: string;
   starttime: string;
   url: string;
   venueId: number;
-  holdingId: number;
+  holdingId?: number;
+  minPrice?: number;
+  specialGuests?: string;
+  coversOriginals?: string;
+  tourName?: string;
+  type?: string;
+  categories?: string;
+  artists?: string;
+  isPubished?: boolean;
+  wheelchairAccessible?: boolean;
+  ageRestricted?: boolean;
+  recommended?: boolean;
+  highlighted?: boolean;
+  patreon?: boolean;
+  prominence?: boolean;
 }) {
   const theQuery = `
     UPDATE gl_listings
-    SET description = '${sqlparam(item.description)}',
+    SET description = '${sqlparam(item.description || "")}',
         image = '${item.image}',
         name = '${sqlparam(item.name)}',
         slug = '${item.slug}',
@@ -225,7 +261,24 @@ export async function updateListing(item: {
         starttime = '${item.starttime}',
         url = '${sqlparam(item.url)}',
         venueId = ${item.venueId},
-        holdingId = ${item.holdingId}
+        holdingId = ${item.holdingId || 0},
+        
+        minPrice = ${item.minPrice || 0},
+        specialGuests = '${sqlparam(item.specialGuests || "")}',
+        coversOriginals = '${sqlparam(item.coversOriginals || "")}',
+        tourName = '${sqlparam(item.tourName || "")}',
+        type = '${sqlparam(item.type || "")}',
+        categories = '${sqlparam(item.categories || "")}',
+        artists = '${sqlparam(item.artists || "")}',
+
+        isPublished = ${item.isPubished || 0},
+        wheelchairAccessible = ${item.wheelchairAccessible || 0},
+        ageRestricted = ${item.ageRestricted || 0},
+        recommended = ${item.recommended || 0},
+        highlighted = ${item.highlighted || 0},
+        patreon = ${item.patreon || 0},
+        prominence = ${item.prominence || 0}
+        
     WHERE id = ${item.id}
 `;
   console.log("updateListing query:", theQuery);

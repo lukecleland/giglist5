@@ -8,10 +8,9 @@ import {
   useDisclosure,
   Input,
 } from "@heroui/react";
-
 import { searchVenue, linkVenue } from "@/app/gigtools/api/queries";
-
 import { useState } from "react";
+import { lato } from "@/config/fonts";
 
 function htmlEnc(s: string) {
   return s
@@ -80,7 +79,7 @@ export const LinkVenue = ({
         {label}
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="3xl">
-        <ModalContent>
+        <ModalContent className={lato.className}>
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">

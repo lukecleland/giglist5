@@ -5,22 +5,30 @@ export type Listing = {
     starttime: string;
     startdate: string;
     venueName: string;
-    prominence?: number;
+    prominence?: boolean;
     wheelchairAccessible?: boolean;
     minPrice?: number;
-    categories?: [];
+    categories?: string;
     tourName?: string;
-    coversOriginals?: ['covers' | 'originals'];
+    coversOriginals?: string;
     ageRestricted?: boolean;
-    artists?: [];
-    type?: ['Festival' | 'Concert' | 'Pub'];
+    artists?: string;
+    type?: string;
     recommended?: boolean;
     highlighted?: boolean;
     patreon?: boolean;
     specialGuests?: string;
     listedBy?: number;
     holdingId?: number;
-    isPublished: number;
+    isPublished?: boolean;
+    description?: string;
+    image?: string;
+    slug?: string;
+    venueId: number;
+}
+
+export type ListingVenue = {
+    listing: Listing & Venue;
 }
 
 
@@ -41,20 +49,20 @@ export type THolding = {
 export type ListingDate = {
     datestring: string;
     datetime: string;
-    listings: Listing[];
+    listings: ListingVenue[];
 };
 
-export type ListingDates = ListingDate[];
-
 export type GigAd = {
-    Name: string;
+    id: number;
+    name: string;
     image: { url: string }[];
     link: string;
-    Active: boolean;
-    Postcode_Prefixes: string;
+    active: boolean;
+    postcodePrefixes: string;
 };
 
 export type Venue = {
+    id: number;
     name: string;
     address1: string;
     suburb: string;

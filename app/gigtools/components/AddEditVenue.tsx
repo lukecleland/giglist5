@@ -14,7 +14,6 @@ import {
   Textarea,
 } from "@heroui/react";
 
-import { Lato } from "next/font/google";
 import { addVenue, updateVenue, selectVenue } from "@/app/gigtools/api/queries";
 import { useLoadScript } from "@react-google-maps/api";
 import { useEffect, useState } from "react";
@@ -24,11 +23,7 @@ import { Venue } from "@/app/types/types";
 import { createSlug } from "./_utils";
 import { VenueImageUpload } from "./VenueImageUpload";
 import clsx from "clsx";
-
-const lato = Lato({
-  weight: ["400"],
-  display: "swap",
-});
+import { lato } from "@/config/fonts";
 
 export const AddEditVenueForm = ({
   id,
@@ -38,6 +33,7 @@ export const AddEditVenueForm = ({
   onSubmitSuccess?: () => void;
 }) => {
   const defaultVenue: Venue = {
+    id: 0,
     name: "",
     address1: "",
     suburb: "",

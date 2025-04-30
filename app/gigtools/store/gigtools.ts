@@ -1,12 +1,10 @@
 import { create } from "zustand";
 import { selectHolding, getListingsByHoldingIds } from "@/app/gigtools/api/queries";
-
-type HoldingItem = any; // you can replace this with a proper type
-type ListingItem = any;
+import { THolding, Listing } from "@/app/types/types";
 
 interface HoldingState {
-  holding: HoldingItem[];
-  listings: ListingItem[];
+  holding: THolding[];
+  listings: Listing[];
   refresh: (scraper: string) => Promise<void>;
 }
 
@@ -14,9 +12,9 @@ export const useHoldingStore = create<HoldingState>((set) => ({
   holding: [],
   listings: [],
   refresh: async (scraper: string) => {
-    const holding = (await selectHolding(scraper)) as HoldingItem[];
-    const holdingIds = holding.map((item: HoldingItem) => item.id);
-    const listings = (await getListingsByHoldingIds(holdingIds)) as ListingItem[];
+    const holding = (await selectHolding(scraper)) as THolding[];
+    const holdingIds = holding.map((item: THolding) => item.id);
+    const listings = (await getListingsByHoldingIds(holdingIds)) as Listing[];
     set({ holding, listings });
   },
 }));

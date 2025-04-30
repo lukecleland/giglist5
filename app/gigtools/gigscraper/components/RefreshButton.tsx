@@ -17,8 +17,9 @@ export const RefreshButton = ({
 
   return (
     <>
-      <Button onPress={handleScrape}>Refresh Data</Button>
-      {data && <div>Completed</div>}
+      <Button color={data ? "success" : "danger"} onPress={handleScrape}>
+        Refresh Data
+      </Button>
     </>
   );
 };

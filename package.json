@@ -1,6 +1,6 @@
 {
- "name": "next-app-template",
- "version": "0.0.1",
+ "name": "giglist-version-5",
+ "version": "0.1.0",
  "private": true,
  "scripts": {
   "dev": "next dev --turbopack",
@@ -9,7 +9,7 @@
   "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
  },
  "dependencies": {
-  "@clerk/nextjs": "^6.14.2",
+  "@clerk/nextjs": "^6.18.1",
   "@heroui/button": "2.2.9",
   "@heroui/code": "2.2.6",
   "@heroui/input": "2.4.9",
@@ -33,7 +33,7 @@
   "fs": "^0.0.1-security",
   "intl-messageformat": "^10.5.0",
   "mysql2": "^3.14.0",
-  "next": "15.0.4",
+  "next": "^15.2.3",
   "next-auth": "^5.0.0-beta.25",
   "next-themes": "^0.4.4",
   "react": "18.3.1",

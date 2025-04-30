@@ -3,7 +3,7 @@
 import { Card, CardFooter, Image } from "@heroui/react";
 import React from "react";
 
-export default function ScraperCard({
+export function ScraperCard({
   image,
   label,
 }: {

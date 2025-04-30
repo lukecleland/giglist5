@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply text-2xl text-gray-900 dark:text-white light:text-black;
+}
+
+h2 {
+    @apply text-lg text-gray-900 dark:text-white light:text-black my-2 mx-1;
+}

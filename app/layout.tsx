@@ -1,24 +1,9 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
-import clsx from "clsx";
 import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { Navbar } from "@/components/navbar";
-import { Special_Elite } from "next/font/google";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
-
-const specialElite = Special_Elite({
-  weight: ["400"],
-  display: "swap",
-});
+import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: {
@@ -47,12 +32,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html suppressHydrationWarning lang="en">
         <head />
-        <body
-          className={clsx(
-            "min-h-screen bg-background font-sans antialiased",
-            specialElite.className
-          )}
-        >
+        <body className="min-h-screen bg-background font-sans antialiased">
           <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
             <>
               <Navbar />

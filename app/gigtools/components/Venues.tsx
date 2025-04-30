@@ -27,8 +27,7 @@ export const Venues = () => {
 
   return (
     <div>
-      <h1>Venues</h1>
-      <Spacer y={2} />
+      <h2>Venues</h2>
       <div className="flex flex-col gap-4 mb-4">
         <div className="flex justify-between gap-3 items-end">
           <Input

@@ -2,16 +2,10 @@
 
 import { title } from "@/components/primitives";
 import { Spacer } from "@heroui/react";
-import { Special_Elite } from "next/font/google";
+import { specialElite } from "@/config/fonts";
+import { ScraperCard } from "./gigscraper/components/ScraperCard";
 import clsx from "clsx";
-
 import Link from "next/link";
-import ScraperCard from "./gigscraper/components/ScraperCard";
-
-const specialElite = Special_Elite({
-  weight: ["400"],
-  display: "swap",
-});
 
 export default async function GigtoolsPage() {
   return (

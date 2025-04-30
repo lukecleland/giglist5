@@ -1,8 +1,8 @@
-import { Listing } from "@/app/types/types";
+import { ListingVenue } from "@/app/types/types";
 import { CardBody, Image } from "@heroui/react";
 
-export const ListingImage = ({ listing }: { listing: Listing }) => {
-  if (!listing.venueImage) {
+export const ListingImage = ({ listing }: ListingVenue) => {
+  if (!listing.heroImage) {
     return null;
   }
 
@@ -11,7 +11,7 @@ export const ListingImage = ({ listing }: { listing: Listing }) => {
       <Image
         alt="Card background"
         className="object-cover rounded-xl"
-        src={listing.venueImage}
+        src={listing.heroImage}
         width={300}
         height={300}
         isBlurred={true}

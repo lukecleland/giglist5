@@ -1,10 +1,5 @@
-import { Open_Sans } from "next/font/google";
+import { lato } from "@/config/fonts";
 import clsx from "clsx";
-
-const lato = Open_Sans({
-  weight: ["400"],
-  display: "swap",
-});
 
 export default function GigtoolsLayout({
   children,

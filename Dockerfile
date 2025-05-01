@@ -1,20 +1,27 @@
-FROM node:20-slim
+FROM node:20-slim AS builder
 
-# Set working directory
 WORKDIR /app
 
-# Set environment
 ENV NODE_ENV=development
 
-# Install dependencies
 COPY package*.json ./
-RUN npm install
+RUN npm install --production=false
 
-# Copy app files
 COPY . .
 
-# Expose dev server port
+RUN npm run build
+
+FROM node:20-slim
+
+WORKDIR /app
+
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/next.config.js ./
+
+ENV NODE_ENV=production
 EXPOSE 3000
 
-# Run dev server
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]

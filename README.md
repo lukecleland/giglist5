@@ -16,7 +16,7 @@ Gigs in a list. Giglist. Version 5
 ### Clone the repository
 
 ```bash
-git clone https://github.com/giglist/giglist.git
+git clone https://github.com/lukecleland/giglist5.git
 ```
 ### Navigate to the project directory
 
@@ -38,12 +38,14 @@ npm install
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+### Build the project
 
 ```bash
-public-hoist-pattern[]=*@heroui/*
+npm run build
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+### Start the production server
+
+```bash
+npm run start
+```

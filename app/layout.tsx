@@ -3,7 +3,6 @@ import { Metadata, Viewport } from "next";
 import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { Navbar } from "@/components/navbar";
-import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: {
@@ -29,18 +28,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
-      <html suppressHydrationWarning lang="en">
-        <head />
-        <body className="min-h-screen bg-background font-sans antialiased">
-          <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-            <>
-              <Navbar />
-              <main className="flex">{children}</main>
-            </>
-          </Providers>
-        </body>
-      </html>
-    </ClerkProvider>
+    <html suppressHydrationWarning lang="en">
+      <head />
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+          <>
+            <Navbar />
+            <main className="flex">{children}</main>
+          </>
+        </Providers>
+      </body>
+    </html>
   );
 }

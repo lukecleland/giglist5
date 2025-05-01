@@ -13,9 +13,9 @@ export function ScraperCard({
   return (
     <Card isFooterBlurred className="border-none" radius="lg">
       <Image
-        className="object-fit h-full"
+        className="object-contain"
         height={200}
-        src={image}
+        src={image || " "}
         width={200}
       />
       <CardFooter>{label}</CardFooter>

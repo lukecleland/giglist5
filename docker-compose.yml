@@ -12,7 +12,7 @@ services:
       - DB_HOST=db
       - DB_USER=root
       - DB_PASSWORD=root
-      - DB_NAME=giglist
+      - DB_NAME=giglistc_wp180
     depends_on:
       - db
 
@@ -22,11 +22,10 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: giglist
+      MYSQL_DATABASE: giglistc_wp180
     volumes:
       - mysql-data:/var/lib/mysql
-      - ./giglist5.sql.zip:/giglist5.sql.zip
-      - ./scripts/import.sh:/docker-entrypoint-initdb.d/import.sh
+      - ./giglist5.sql:/docker-entrypoint-initdb.d/giglist5.sql
     ports:
       - "3306:3306"
 

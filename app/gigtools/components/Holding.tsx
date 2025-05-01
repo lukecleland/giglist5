@@ -67,24 +67,28 @@ export function Holding({
             <TableRow key={index}>
               <TableCell style={{ textTransform: "uppercase" }}>
                 <div className="flex w-full">
-                  <Input
-                    style={{ textTransform: "uppercase" }}
-                    value={item.artist}
-                    onChange={(e) => {
-                      const updated = [...filtered];
-                      updated[index] = {
-                        ...updated[index],
-                        artist: e.target.value,
-                      };
-                      setFiltered(updated);
-                    }}
-                    onBlur={(e) => {
-                      updateHoldingArtist(
-                        item.id,
-                        (e.target as HTMLInputElement).value
-                      );
-                    }}
-                  />
+                  {item.hidden ? (
+                    <div>{item.artist}</div>
+                  ) : (
+                    <Input
+                      style={{ textTransform: "uppercase" }}
+                      value={item.artist}
+                      onChange={(e) => {
+                        const updated = [...filtered];
+                        updated[index] = {
+                          ...updated[index],
+                          artist: e.target.value,
+                        };
+                        setFiltered(updated);
+                      }}
+                      onBlur={(e) => {
+                        updateHoldingArtist(
+                          item.id,
+                          (e.target as HTMLInputElement).value
+                        );
+                      }}
+                    />
+                  )}
                 </div>
               </TableCell>
               <TableCell>{item.venue}</TableCell>
@@ -97,6 +101,7 @@ export function Holding({
                   onSuccess={() => {
                     refresh(scraper);
                   }}
+                  disabled={item.hidden ? true : false}
                 />
               </TableCell>
               <TableCell>
@@ -114,7 +119,11 @@ export function Holding({
                       refresh(scraper);
                     }}
                   >
-                    <DownArrowIcon size={16} filled={true} fill={"#ffffff"} />
+                    {item.hidden ? (
+                      <UpArrowIcon size={16} filled={true} fill={"#ffffff"} />
+                    ) : (
+                      <DownArrowIcon size={16} filled={true} fill={"#ffffff"} />
+                    )}
                   </Button>
                   {item.linkedVenueId ? (
                     <Button

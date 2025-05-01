@@ -27,6 +27,7 @@ export const LinkVenue = ({
   label,
   color,
   onSuccess,
+  disabled,
 }: {
   holding: any;
   item: any;
@@ -39,6 +40,7 @@ export const LinkVenue = ({
     | "warning"
     | "danger";
   onSuccess?: () => void;
+  disabled?: boolean;
 }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [holdingId, setHoldingId] = useState(0);
@@ -75,7 +77,12 @@ export const LinkVenue = ({
 
   return (
     <>
-      <Button size="sm" onPress={() => openModal(item.id)} color={color}>
+      <Button
+        size="sm"
+        onPress={() => openModal(item.id)}
+        color={color}
+        isDisabled={disabled}
+      >
         {label}
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="3xl">

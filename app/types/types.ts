@@ -79,3 +79,20 @@ export type Venue = {
   };
 
   export type Venues = Venue[];
+
+  export enum Scraper {
+    moshtix = "moshtix",
+    oztix = "oztix",
+  }
+
+  export type IncomingGig = {
+    artist: string;
+    venue: string;
+    starttime: string;
+    startdate: string;
+    originalArtist: string;
+  };
+
+  export type IncomingData = {
+    [key: string]: IncomingGig[];
+  };

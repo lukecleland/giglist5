@@ -16,15 +16,25 @@ import { useHoldingStore } from "@/app/gigtools/store/gigtools";
 import { addToHolding } from "@/app/gigtools/api/queries";
 import { UpArrowIcon } from "../../icons/UpArrowIcon";
 import { DownArrowIcon } from "../../icons/DownArrowIcon";
-import { IncomingData } from "../[scraper]/page";
 import { formatter } from "./_utils";
+import { IncomingData, IncomingGig, Scraper } from "@/app/types/types";
 
-export function Incoming({ scraper, data }: { scraper: string; data: any }) {
+export function Incoming({
+  scraper,
+  data,
+}: {
+  scraper: Scraper;
+  data: IncomingGig[];
+}) {
   const { refresh, holding } = useHoldingStore();
 
-  const dataNotAlreadyInHolding = data.filter((item: any) => {
+  if (!data) {
+    return <div>No data</div>;
+  }
+
+  const dataNotAlreadyInHolding = data.filter((item: IncomingGig) => {
     return !holding.find(
-      (holdingItem: IncomingData) =>
+      (holdingItem: IncomingGig) =>
         holdingItem.venue === item.venue &&
         holdingItem.starttime === item.starttime &&
         holdingItem.startdate === item.startdate &&

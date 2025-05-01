@@ -11,7 +11,7 @@ export const GigMap = () => {
   const [zoom, setZoom] = React.useState(12);
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyDTkZauLKxFmJ3qW2jKsgjLvgt30kqJ3AM",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || "",
   });
 
   const [map, setMap] = React.useState(null);

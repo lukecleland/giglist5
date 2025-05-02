@@ -46,20 +46,23 @@ CREATE DATABASE giglistc_wp180;
 Then, you can import the `giglistc_wp180.sql` file into the database. You can use the following command to import the file:
 
 ```bash
-mysql -u root -p giglistc_wp180 < giglistc_wp180.sql
+mysql -u root -p giglistc_wp180 < giglist5.sql
 ```
 ### .env
-Create a `.env` file in the root directory of the project and add the following environment variables:
+Create a `.env` file in the root directory of the project and add the following environment variables.  Contact me for the values of the variables. 
 
 ```env
-DATABASE_URL=mysql://root:password@localhost:3306/giglistc_wp180
-NEXTAUTH_SECRET=your_secret
-NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_GITHUB_ID=your_github_id
-NEXT_PUBLIC_GITHUB_SECRET=your_github_secret
-NEXT_PUBLIC_GOOGLE_ID=your_google_id
-NEXT_PUBLIC_GOOGLE_SECRET=your_google_secret
+GOOGLE_ID=...
+GOOGLE_SECRET=...
+MYSQL_HOST=db
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_DATABASE=giglistc_wp180
+NEXT_PUBLIC_GOOGLE_MAPS_KEY=...
+AUTH_SECRET=...
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
 ```
 ### Docker
 

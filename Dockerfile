@@ -1,27 +1,20 @@
-FROM node:20-slim AS builder
-
-WORKDIR /app
-
-ENV NODE_ENV=development
-
-COPY package*.json ./
-RUN npm install --production=false
-
-COPY . .
-
-RUN npm run build
-
 FROM node:20-slim
 
+# Set working directory
 WORKDIR /app
 
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/next.config.js ./
+# Install dependencies early to cache them
+COPY package*.json ./
 
-ENV NODE_ENV=production
+RUN rm -rf .next
+
+RUN npm install
+
+# Copy the rest of your app
+COPY . .
+
+# Expose the port Next.js runs on
 EXPOSE 3000
 
-CMD ["npm", "start"]
+# Start the Next.js dev server
+CMD ["npm", "run", "dev"]

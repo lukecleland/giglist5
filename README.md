@@ -38,14 +38,8 @@ npm install
 npm run dev
 ```
 
-### Build the project
+### Docker
 
 ```bash
-npm run build
-```
-
-### Start the production server
-
-```bash
-npm run start
+docker compose up -d
 ```

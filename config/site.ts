@@ -5,21 +5,29 @@ export const siteConfig = {
   description: "Gigs in a list",
   navItems: [
     {
-      label: "Submit",
-      href: "/submit",
+      label: "Gigs",
+      href: "/gigs",
     },
     {
-      label: "Store",
-      href: "/store",
+      label: "Gigtools",
+      href: "/gigtools",
     },
-    {
-      label: "About",
-      href: "/about",
-    },
-    {
-      label: "Map",
-      href: "/map",
-    },
+    // {
+    //   label: "Submit",
+    //   href: "/submit",
+    // },
+    // {
+    //   label: "Store",
+    //   href: "/store",
+    // },
+    // {
+    //   label: "About",
+    //   href: "/about",
+    // },
+    // {
+    //   label: "Map",
+    //   href: "/map",
+    // },
   ],
   navMenuItems: [
     {

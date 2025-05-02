@@ -43,7 +43,7 @@ You'll need to make a MySQL database and setup the giglistc_wp180 database. You 
 CREATE DATABASE giglistc_wp180;
 ```
 
-Then, you can import the `giglistc_wp180.sql` file into the database. You can use the following command to import the file:
+Then, you can import the `giglist5.sql` file into the database. You can use the following command to import the file:
 
 ```bash
 mysql -u root -p giglistc_wp180 < giglist5.sql

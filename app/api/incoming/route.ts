@@ -14,9 +14,23 @@ export async function GET() {
       const filePath = path.join(dirPath, file);
       const fileContents = await fs.readFile(filePath, 'utf-8');
       const jsonData = JSON.parse(fileContents);
-      data[file.replace('.json', '')] = jsonData;
+      const scraper = file.replace('.json', '');
+      
+      // sort by startdate and !starttime
+      const filteredData = jsonData.filter((item: any) => {
+        return item.startdate && item.starttime;
+      }
+        ).sort((a: any, b: any) => {
+          const dateA = new Date(a.startdate + 'T' + a.starttime);
+          const dateB = new Date(b.startdate + 'T' + b.starttime);
+          return dateA.getTime() - dateB.getTime();
+        }
+      );
+
+      data[scraper] = filteredData;
     }
   }
+  
 
   return NextResponse.json(data);
 }

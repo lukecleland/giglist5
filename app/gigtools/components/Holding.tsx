@@ -24,6 +24,7 @@ import { UpArrowIcon } from "../../icons/UpArrowIcon.tsx";
 import { useEffect, useState } from "react";
 import { createSlug, formatter } from "./_utils";
 import { THolding, Listing } from "@/app/types/types.ts";
+import { useListingsStore } from "../store/listings.ts";
 
 export function Holding({
   label,
@@ -34,11 +35,13 @@ export function Holding({
   scraper: string;
   showHidden: boolean;
 }) {
-  const { holding, listings, refresh } = useHoldingStore();
+  const { holding, listings, refreshHolding, setScraper } = useHoldingStore();
   const [filtered, setFiltered] = useState<any[]>([]);
+  const refreshListings = useListingsStore((state) => state.refreshListings);
 
   useEffect(() => {
-    refresh(scraper);
+    setScraper(scraper);
+    refreshHolding(scraper);
   }, []);
 
   useEffect(() => {
@@ -52,8 +55,17 @@ export function Holding({
 
   return (
     <>
-      <h2>{label}</h2>
-      <Table aria-label="">
+      <Table
+        aria-label=""
+        topContent={
+          <div className="flex justify-between items-center py-2">
+            <h4 className="text-medium font-medium">{label}</h4>
+            {/* <p className="text-small text-default-500">
+              {holding.length} records
+            </p> */}
+          </div>
+        }
+      >
         <TableHeader>
           <TableColumn width={"30%"}>ARTIST</TableColumn>
           <TableColumn>VENUE</TableColumn>
@@ -99,7 +111,7 @@ export function Holding({
                   label={item.linkedVenueId ? item.linkedVenue : "Link Venue"}
                   color={item.linkedVenueId ? "primary" : "default"}
                   onSuccess={() => {
-                    refresh(scraper);
+                    refreshHolding(scraper);
                   }}
                   disabled={item.hidden ? true : false}
                 />
@@ -116,7 +128,7 @@ export function Holding({
                     color="danger"
                     onPress={async () => {
                       await deleteHolding(item.id);
-                      refresh(scraper);
+                      refreshHolding(scraper);
                     }}
                   >
                     {item.hidden ? (
@@ -142,7 +154,8 @@ export function Holding({
                           venueId: item.linkedVenueId,
                           holdingId: item.id,
                         });
-                        refresh(scraper);
+                        refreshHolding(scraper);
+                        refreshListings();
                       }}
                     >
                       <UpArrowIcon size={16} filled={true} fill={"#000000"} />

@@ -286,6 +286,21 @@ export async function updateListing(item: {
 }
 
 /**
+ * Update the published status of a listing
+ * @param id
+ * @param isPublished
+ */
+export async function updateListingPublished(id: number, isPublished: boolean) {
+  const theQuery = `
+    UPDATE gl_listings
+    SET isPublished = ${isPublished ? 1 : 0}
+    WHERE id = ${id}
+  `;
+  console.log("updateListingPublished query:", theQuery);
+  await query(theQuery);
+}
+
+/**
  * Delete a listing from the database
  * @param id
  */

@@ -17,7 +17,7 @@ import { addToHolding } from "@/app/gigtools/api/queries";
 import { UpArrowIcon } from "../../icons/UpArrowIcon";
 import { DownArrowIcon } from "../../icons/DownArrowIcon";
 import { formatter } from "./_utils";
-import { IncomingData, IncomingGig, Scraper } from "@/app/types/types";
+import { IncomingGig, Scraper } from "@/app/types/types";
 
 export function Incoming({
   scraper,
@@ -26,7 +26,7 @@ export function Incoming({
   scraper: Scraper;
   data: IncomingGig[];
 }) {
-  const { refresh, holding } = useHoldingStore();
+  const { refreshHolding, holding } = useHoldingStore();
 
   if (!data) {
     return <div>No data</div>;
@@ -44,8 +44,17 @@ export function Incoming({
 
   return (
     <>
-      <h2>Incoming</h2>
-      <Table aria-label="">
+      <Table
+        aria-label=""
+        topContent={
+          <div className="flex justify-between items-center py-2">
+            <h4 className="text-medium font-medium">Incoming</h4>
+            {/* <p className="text-small text-default-500">
+            {holding.length} records
+          </p> */}
+          </div>
+        }
+      >
         <TableHeader>
           <TableColumn width={"30%"}>ARTIST</TableColumn>
           <TableColumn>VENUE</TableColumn>
@@ -80,7 +89,7 @@ export function Incoming({
                         hidden: 1,
                         scraper: scraper,
                       });
-                      refresh(scraper);
+                      refreshHolding(scraper);
                     }}
                     color="danger"
                     size="sm"
@@ -95,7 +104,7 @@ export function Incoming({
                         hidden: 0,
                         scraper: scraper,
                       });
-                      refresh(scraper);
+                      refreshHolding(scraper);
                     }}
                     color="success"
                     size="sm"

@@ -20,6 +20,8 @@ import {
 } from "@/app/gigtools/api/queries";
 import { EditIcon } from "@/app/icons/EditIcon";
 import { PlusIcon } from "@/app/icons/PlusIcon";
+import { parseDate } from "@internationalized/date";
+import { useListingsStore } from "../store/listings";
 
 export const AddEditListingForm = ({
   id,
@@ -102,6 +104,16 @@ export const AddEditListingForm = ({
     onSubmitSuccess?.();
   };
 
+  try {
+    console.log(
+      listing.startdate,
+      typeof listing.startdate,
+      new Date(listing.startdate || "2000-01-01").toISOString().slice(0, 10)
+    );
+  } catch (error) {
+    console.error("Error parsing date:", error);
+  }
+
   return (
     <Form className="space-y-4" onSubmit={handleSubmit}>
       <Input
@@ -128,21 +140,29 @@ export const AddEditListingForm = ({
         label="Start Time"
         name="starttime"
         placeholder="Start Time"
+        type="time"
         isRequired
         isInvalid={!!errors.starttime}
         errorMessage={errors.starttime}
-        value={listing.starttime}
+        value={listing.starttime || ""}
         onChange={(e) => setListing({ ...listing, starttime: e.target.value })}
       />
       <Input
         label="Start Date"
         name="startdate"
-        placeholder="Start Date"
+        type="date"
         isRequired
         isInvalid={!!errors.startdate}
         errorMessage={errors.startdate}
-        value={listing.startdate}
-        onChange={(e) => setListing({ ...listing, startdate: e.target.value })}
+        value={new Date(listing.startdate || "2000-01-01").toLocaleDateString(
+          "en-CA"
+        )}
+        onChange={(e) =>
+          setListing({
+            ...listing,
+            startdate: e.target.value,
+          })
+        }
       />
       <Input
         label="Venue Name"
@@ -219,14 +239,19 @@ const AddEditListingModal = ({
                 {id !== 0 ? "Edit Listing" : "Add Listing"}
               </ModalHeader>
               <ModalBody>
-                <AddEditListingForm
-                  id={id}
-                  onSubmitSuccess={() => {
-                    setIsOpen(false);
-                    onClose();
-                    onSuccess?.();
-                  }}
-                />
+                <div
+                  onClick={(e) => e.stopPropagation()}
+                  onMouseDown={(e) => e.stopPropagation()}
+                >
+                  <AddEditListingForm
+                    id={id}
+                    onSubmitSuccess={() => {
+                      setIsOpen(false);
+                      onClose();
+                      onSuccess?.();
+                    }}
+                  />
+                </div>
               </ModalBody>
               <ModalFooter />
             </>

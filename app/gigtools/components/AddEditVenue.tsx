@@ -24,6 +24,8 @@ import { createSlug } from "./_utils";
 import { VenueImageUpload } from "./VenueImageUpload";
 import clsx from "clsx";
 import { lato } from "@/config/fonts";
+import { useListingsStore } from "../store/listings";
+import { useHoldingStore } from "../store/gigtools";
 
 export const AddEditVenueForm = ({
   id,
@@ -347,10 +349,10 @@ const AddEditVenueModal = ({
   onSuccess?: () => void;
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const refreshListings = useListingsStore((state) => state.refreshListings);
+  const refreshHolding = useHoldingStore((state) => state.refreshHolding);
 
-  const handleOpenChange = (open: boolean) => {
-    setIsOpen(open);
-  };
+  const scraper = useHoldingStore((state) => state.scraper);
 
   return (
     <>
@@ -387,6 +389,8 @@ const AddEditVenueModal = ({
                       setIsOpen(false);
                       onClose();
                       onSuccess?.();
+                      refreshListings();
+                      refreshHolding(scraper);
                     }}
                   />
                 </div>

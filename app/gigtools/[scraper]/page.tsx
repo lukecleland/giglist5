@@ -32,9 +32,7 @@ export default function Page() {
   return (
     <>
       <h1>Gigtools {scraper}</h1>
-      <Spacer y={8} />
       <RefreshButton scraper={scraper as Scraper} />
-      <Spacer y={8} />
       <Venues />
       <Listings />
       <Holding label="Holding" scraper={scraper} showHidden={false} />

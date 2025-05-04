@@ -20,7 +20,7 @@ export type Listing = {
     specialGuests?: string;
     listedBy?: number;
     holdingId?: number;
-    isPublished?: boolean;
+    isPublished?: number;
     description?: string;
     image?: string;
     slug?: string;

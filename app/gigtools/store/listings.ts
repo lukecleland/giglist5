@@ -1,17 +1,22 @@
 import { create } from "zustand";
 import { getListings } from "@/app/gigtools/api/queries";
 import { Listing } from "@/app/types/types";
+import { bc } from "@/lib/broadcast";
 
 interface ListingsState {
   listings: Listing[];
-  refresh: () => Promise<void>;
+  fullListings: Listing[];
+  refreshListings: () => Promise<void>;
+  setListings: (listings: Listing[]) => void;
 }
 
 export const useListingsStore = create<ListingsState>((set) => ({
-  holding: [],
   listings: [],
-  refresh: async () => {
+  fullListings: [],
+  refreshListings: async () => {
     const listings = (await getListings()) as Listing[];
     set({ listings });
+    bc?.postMessage({ type: 'update', listings });
   },
+  setListings: (listings: Listing[]) => set({ listings }),
 }));

@@ -56,13 +56,14 @@ export function Holding({
   return (
     <>
       <Table
+        isKeyboardNavigationDisabled
         aria-label=""
         topContent={
           <div className="flex justify-between items-center py-2">
             <h4 className="text-medium font-medium">{label}</h4>
-            {/* <p className="text-small text-default-500">
-              {holding.length} records
-            </p> */}
+            <p className="text-small text-default-500">
+              {holding.filter((item) => !item.hidden).length} records
+            </p>
           </div>
         }
       >
@@ -108,7 +109,9 @@ export function Holding({
                 <LinkVenue
                   holding={holding}
                   item={item}
-                  label={item.linkedVenueId ? item.linkedVenue : "Link Venue"}
+                  label={
+                    item.linkedVenueId ? (item.linkedVenue ?? "") : "Link Venue"
+                  }
                   color={item.linkedVenueId ? "primary" : "default"}
                   onSuccess={() => {
                     refreshHolding(scraper);
@@ -119,7 +122,11 @@ export function Holding({
               <TableCell>
                 {formatter.format(new Date(`2000-01-01T${item.starttime}`))}
               </TableCell>
-              <TableCell>{new Date(item.startdate).toDateString()}</TableCell>
+              <TableCell>
+                {item.startdate
+                  ? new Date(item.startdate).toDateString()
+                  : "Invalid Date"}
+              </TableCell>
               <TableCell>
                 <div className="flex gap-2">
                   <Button
@@ -144,14 +151,14 @@ export function Holding({
                       color="success"
                       onPress={async () => {
                         await addListing({
-                          name: item.artist,
+                          name: item.artist ?? "",
                           slug: createSlug(
                             `${item.artist} ${item.venue} ${item.startdate}`
                           ),
-                          starttime: item.starttime,
-                          startdate: item.startdate,
+                          starttime: item.starttime ?? "",
+                          startdate: item.startdate ?? "",
                           url: "",
-                          venueId: item.linkedVenueId,
+                          venueId: item.linkedVenueId ?? 0,
                           holdingId: item.id,
                         });
                         refreshHolding(scraper);

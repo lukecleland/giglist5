@@ -17,7 +17,7 @@ import { addToHolding } from "@/app/gigtools/api/queries";
 import { UpArrowIcon } from "../../icons/UpArrowIcon";
 import { DownArrowIcon } from "../../icons/DownArrowIcon";
 import { formatter } from "./_utils";
-import { IncomingGig, Scraper } from "@/app/types/types";
+import { IncomingGig, Scraper, THolding } from "@/app/types/types";
 
 export function Incoming({
   scraper,
@@ -34,7 +34,7 @@ export function Incoming({
 
   const dataNotAlreadyInHolding = data.filter((item: IncomingGig) => {
     return !holding.find(
-      (holdingItem: IncomingGig) =>
+      (holdingItem: THolding) =>
         holdingItem.venue === item.venue &&
         holdingItem.starttime === item.starttime &&
         holdingItem.startdate === item.startdate &&
@@ -45,6 +45,7 @@ export function Incoming({
   return (
     <>
       <Table
+        isKeyboardNavigationDisabled
         aria-label=""
         topContent={
           <div className="flex justify-between items-center py-2">
@@ -64,14 +65,14 @@ export function Incoming({
           <TableColumn width={"50"}>TOOLS</TableColumn>
         </TableHeader>
         <TableBody>
-          {dataNotAlreadyInHolding.map((item: any, index: number) => (
+          {dataNotAlreadyInHolding.map((item: IncomingGig, index: number) => (
             <TableRow key={index}>
               <TableCell style={{ textTransform: "uppercase" }}>
                 {item.artist}
               </TableCell>
               <TableCell>{item.venue}</TableCell>
               <TableCell>
-                <Link href={item.artisturl || ""} target="_blank">
+                <Link href={item.url || ""} target="_blank">
                   Event Link
                 </Link>
               </TableCell>
@@ -86,7 +87,7 @@ export function Incoming({
                     onPress={async () => {
                       await addToHolding({
                         ...item,
-                        hidden: 1,
+                        hidden: true,
                         scraper: scraper,
                       });
                       refreshHolding(scraper);
@@ -101,7 +102,7 @@ export function Incoming({
                     onPress={async () => {
                       await addToHolding({
                         ...item,
-                        hidden: 0,
+                        hidden: false,
                         scraper: scraper,
                       });
                       refreshHolding(scraper);

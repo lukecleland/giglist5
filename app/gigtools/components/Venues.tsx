@@ -14,6 +14,7 @@ import { useState } from "react";
 import { SearchIcon } from "@/app/icons/SearchIcon";
 import { searchVenue } from "@/app/gigtools/api/queries";
 import { AddEditVenue } from "./AddEditVenue";
+import { Venue } from "@/app/types/types";
 
 export const Venues = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -53,17 +54,15 @@ export const Venues = () => {
               <TableColumn width={"30%"}>NAME</TableColumn>
               <TableColumn>ADDRESS</TableColumn>
               <TableColumn>SUBURB</TableColumn>
-              <TableColumn width={"150"}>CITY</TableColumn>
-              <TableColumn width={"50"}>POSTCODE</TableColumn>
+              <TableColumn width={"150"}>POSTCODE</TableColumn>
               <TableColumn width={"100"}>TOOLS</TableColumn>
             </TableHeader>
             <TableBody>
-              {searchResults.map((item: any, index: number) => (
+              {searchResults.map((item: Venue, index: number) => (
                 <TableRow key={index}>
                   <TableCell>{item.name}</TableCell>
                   <TableCell>{item.address1}</TableCell>
                   <TableCell>{item.suburb}</TableCell>
-                  <TableCell>{item.city}</TableCell>
                   <TableCell>{item.postcode}</TableCell>
                   <TableCell>
                     <div

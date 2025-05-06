@@ -11,6 +11,7 @@ import {
 import { searchVenue, linkVenue } from "@/app/gigtools/api/queries";
 import { useState } from "react";
 import { lato } from "@/config/fonts";
+import { THolding, Venue, Venues } from "@/app/types/types";
 
 function htmlEnc(s: string) {
   return s
@@ -29,8 +30,8 @@ export const LinkVenue = ({
   onSuccess,
   disabled,
 }: {
-  holding: any;
-  item: any;
+  holding: THolding[];
+  item: THolding;
   label: string;
   color?:
     | "default"
@@ -45,12 +46,12 @@ export const LinkVenue = ({
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [holdingId, setHoldingId] = useState(0);
   const [venueToBeLinked, setVenueToBeLinked] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState<Venues>([]);
 
   function openModal(holdingId: number) {
     setHoldingId(holdingId);
     setVenueToBeLinked(
-      holding.find((item: any) => item.id === holdingId).venue
+      holding.find((item: THolding) => item.id === holdingId)?.venue ?? ""
     );
     // open modal
     onOpen();
@@ -61,15 +62,17 @@ export const LinkVenue = ({
         (input as HTMLInputElement).focus();
       }
     }, 0);
-    // set the search results to use the first 3 chars of the holding venue
-    searchVenue(holding.find((item: any) => item.id === holdingId).venue).then(
-      (res) => {
-        setSearchResults(JSON.parse(res));
-      }
-    );
+
+    // todo: imporve this
+    const quickVenueSearch = venueToBeLinked.substring(0, 5);
+
+    searchVenue(quickVenueSearch).then((res) => {
+      setSearchResults(JSON.parse(res));
+    });
   }
 
-  function searchVenues(e: any) {
+  function searchVenues(e: React.ChangeEvent<HTMLInputElement>) {
+    setSearchResults([]);
     searchVenue(e.target.value).then((res) => {
       setSearchResults(JSON.parse(res));
     });
@@ -105,7 +108,7 @@ export const LinkVenue = ({
                     onChange={searchVenues}
                   />
                 </div>
-                {searchResults.map((item: any, index: number) => (
+                {searchResults.map((item: Venue, index: number) => (
                   <div key={index}>
                     <Button
                       key={index}

@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { IncomingData, IncomingGig, Scraper } from "@/app/types/types";
-import { Incoming } from "../components/Incoming";
+import { Incoming } from "../../components/Incoming";
 import { Spacer } from "@heroui/react";
 import { RefreshButton } from "@/app/gigtools/gigscraper/components/RefreshButton";
-import { Listings } from "../components/Listings";
-import { Holding } from "../components/Holding";
-import { Venues } from "../components/Venues";
+import { Listings } from "../../components/Listings";
+import { Holding } from "../../components/Holding";
+import { Venues } from "../../components/Venues";
 
 export default function Page() {
   const { scraper } = useParams();

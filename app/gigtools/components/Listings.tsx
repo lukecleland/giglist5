@@ -14,7 +14,7 @@ import { DeleteListing } from "./DeleteListing";
 import { useHoldingStore } from "@/app/gigtools/store/gigtools";
 import { useListingsStore } from "@/app/gigtools/store/listings";
 import { formatter } from "./_utils";
-import { Listing } from "@/app/types/types";
+import { Listing, ListingVenue, THolding } from "@/app/types/types";
 import { AddEditListing } from "./AddEditListing";
 import { updateListingPublished } from "../api/queries";
 import { useSuspectedListings } from "../hooks/useSuspectedListings";
@@ -25,7 +25,9 @@ export function Listings() {
   const suspectedIds = useSuspectedListings(listings, allListings);
 
   const getScraperFromListing = (listing: Listing) => {
-    const matchedHolding = holding.find((h: any) => h.id === listing.holdingId);
+    const matchedHolding = holding.find(
+      (h: THolding) => h.id === listing.holdingId
+    );
     return matchedHolding?.scraper;
   };
 
@@ -53,7 +55,7 @@ export function Listings() {
           <TableColumn width={"50"}>TOOLS</TableColumn>
         </TableHeader>
         <TableBody>
-          {listings.map((item: any, index: number) => (
+          {listings.map((item: Listing, index: number) => (
             <TableRow
               key={index}
               className={
@@ -69,7 +71,7 @@ export function Listings() {
               <TableCell>
                 <Switch
                   aria-label="Published"
-                  defaultSelected={item.isPublished}
+                  defaultSelected={!!item.isPublished}
                   onChange={async (e) => {
                     const isChecked = e.target.checked;
                     await updateListingPublished(item.id, isChecked);

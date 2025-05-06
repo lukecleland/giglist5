@@ -34,15 +34,16 @@ export type ListingVenue = {
 
 export type THolding = {
     id: number;
-    artist: string;
-    originalArtist: string;
-    hidden: number;
-    starttime: string;
-    startdate: string;
-    linkedVenueId: number;
-    linkedVenue: string;
-    scraper: string;
-    venue: string;
+    artist?: string;
+    label?: string;
+    originalArtist?: string;
+    hidden?: number;
+    starttime?: string;
+    startdate?: string;
+    linkedVenueId?: number;
+    linkedVenue?: string;
+    scraper?: string;
+    venue?: string;
 }
     
 
@@ -91,6 +92,8 @@ export type Venue = {
     starttime: string;
     startdate: string;
     originalArtist: string;
+    url: string;
+    hidden: boolean;
   };
 
   export type IncomingData = {

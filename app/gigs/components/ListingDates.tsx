@@ -19,6 +19,7 @@ export function ListingDates() {
     [listings]
   );
 
+  // This needs to be in the sync, and this will call from a static file along with listings
   const listingDates = useMemo(
     () => pivotEvents(filteredListings as (Listing & Venue)[]),
     [filteredListings]

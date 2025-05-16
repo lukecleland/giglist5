@@ -1,11 +1,15 @@
-"use client";
+"use server";
 
+import { getListings } from "../gigtools/api/queries";
+import { Listing, Venue } from "../types/types";
 import { GigMap } from "./components/GigMap";
 
-export default function MapPage() {
+export default async function MapPage() {
+  const gigs = (await getListings()) as (Listing & Venue)[];
+
   return (
     <div style={{ height: "100vh", width: "100%" }}>
-      <GigMap />
+      <GigMap gigs={gigs} />
     </div>
   );
 }

@@ -1,61 +1,91 @@
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
-import { styles } from "../styles";
-import React, { useEffect } from "react";
+"use client";
 
-const center = {
-  lat: -31.9505,
-  lng: 115.8605,
+import {
+  GoogleMap,
+  Marker,
+  useJsApiLoader,
+  InfoWindow,
+} from "@react-google-maps/api";
+import React, { useCallback, useEffect, useState } from "react";
+import { styles } from "../styles";
+import { Listing, Venue } from "@/app/types/types";
+
+const containerStyle: React.CSSProperties = {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  width: "100vw",
+  height: "100vh",
 };
 
-export const GigMap = () => {
-  const [zoom, setZoom] = React.useState(12);
+const center = { lat: -31.9505, lng: 115.8605 };
+
+export const GigMap = ({ gigs }: { gigs: (Listing & Venue)[] }) => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || "",
   });
 
-  const [map, setMap] = React.useState(null);
+  const [map, setMap] = useState<google.maps.Map | null>(null);
+  const [selectedGig, setSelectedGig] = useState<(Listing & Venue) | null>(
+    null
+  );
 
-  useEffect(() => {
-    setZoom(12);
-  }, [map]);
-
-  const onLoad = React.useCallback(function callback(map: any) {
-    // This is just an example of getting and using the map instance!!! don't just blindly copy!
-    const bounds = new window.google.maps.LatLngBounds(center);
-    map.fitBounds(bounds);
-
+  const onLoad = useCallback((map: google.maps.Map) => {
     setMap(map);
   }, []);
 
-  const onUnmount = React.useCallback(function callback(map: any) {
+  const onUnmount = useCallback(() => {
     setMap(null);
   }, []);
 
+  useEffect(() => {
+    if (!map || !gigs?.length) return;
+
+    const bounds = new google.maps.LatLngBounds();
+    gigs.forEach((v) =>
+      bounds.extend({ lat: Number(v.lat), lng: Number(v.lng) })
+    );
+
+    map.fitBounds(bounds);
+  }, [map, gigs]);
+
   return isLoaded ? (
     <GoogleMap
-      mapContainerStyle={{
-        margin: "auto",
-        position: "absolute",
-        width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight,
-        top: 0,
-        left: 0,
-      }}
+      mapContainerStyle={containerStyle}
       center={center}
-      zoom={zoom}
+      zoom={12}
       onLoad={onLoad}
       onUnmount={onUnmount}
       options={{
-        styles: styles,
+        styles,
         disableDefaultUI: true,
         gestureHandling: "greedy",
       }}
     >
-      {/* Child components, such as markers, info windows, etc. */}
-      <></>
+      {gigs.map((gig) => (
+        <Marker
+          key={gig.id}
+          position={{ lat: Number(gig.lat), lng: Number(gig.lng) }}
+          title={gig.name}
+          onClick={() => setSelectedGig(gig)}
+        />
+      ))}
+
+      {selectedGig && (
+        <InfoWindow
+          position={{
+            lat: Number(selectedGig.lat),
+            lng: Number(selectedGig.lng),
+          }}
+          onCloseClick={() => setSelectedGig(null)}
+        >
+          <div>
+            <h4 className="text-sm font-semibold">{selectedGig.name}</h4>
+            <p className="text-xs text-gray-600">More info can go here...</p>
+          </div>
+        </InfoWindow>
+      )}
     </GoogleMap>
-  ) : (
-    <></>
-  );
+  ) : null;
 };

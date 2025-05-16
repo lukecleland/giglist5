@@ -26,6 +26,7 @@ export const LinkVenue = ({
   holding,
   item,
   label,
+  venue,
   color,
   onSuccess,
   disabled,
@@ -33,6 +34,7 @@ export const LinkVenue = ({
   holding: THolding[];
   item: THolding;
   label: string;
+  venue: string;
   color?:
     | "default"
     | "primary"
@@ -63,8 +65,8 @@ export const LinkVenue = ({
       }
     }, 0);
 
-    // todo: imporve this
-    const quickVenueSearch = venueToBeLinked.substring(0, 5);
+    const quickVenueSearch = venue.replace(/The /g, "").substring(0, 5);
+    console.log(quickVenueSearch);
 
     searchVenue(quickVenueSearch).then((res) => {
       setSearchResults(JSON.parse(res));

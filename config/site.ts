@@ -12,10 +12,10 @@ export const siteConfig = {
       label: "Gigtools",
       href: "/gigtools",
     },
-    // {
-    //   label: "Submit",
-    //   href: "/submit",
-    // },
+    {
+      label: "Submit",
+      href: "/submit",
+    },
     // {
     //   label: "Store",
     //   href: "/store",
@@ -24,10 +24,10 @@ export const siteConfig = {
     //   label: "About",
     //   href: "/about",
     // },
-    // {
-    //   label: "Map",
-    //   href: "/map",
-    // },
+    {
+      label: "Map",
+      href: "/map",
+    },
   ],
   navMenuItems: [
     {

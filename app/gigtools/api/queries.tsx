@@ -347,10 +347,11 @@ export async function addToHolding(item: {
   startdate: string;
   hidden: boolean;
   scraper: string;
+  submittedBy?: string;
 }) {
   const q = `
     INSERT INTO gl_holding 
-      (artist, originalArtist, venue, starttime, startdate, hidden, scraper) 
+      (artist, originalArtist, venue, starttime, startdate, hidden, scraper, submittedBy) 
       VALUES 
         ('${sqlparam(item.artist)}', 
         '${sqlparam(item.artist)}', 
@@ -358,11 +359,11 @@ export async function addToHolding(item: {
         '${item.starttime}', 
         '${item.startdate}',
         ${item.hidden},
-        '${item.scraper}'
+        '${item.scraper}',
+        '${sqlparam(item.submittedBy || "")}'
     )`;
   console.log("addToHolding query:", q);
   await query(q);
-  revalidatePath("/");
 }
 
 /**

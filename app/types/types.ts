@@ -44,6 +44,7 @@ export type THolding = {
     linkedVenue?: string;
     scraper?: string;
     venue?: string;
+    submittedBy?: string;
 }
     
 

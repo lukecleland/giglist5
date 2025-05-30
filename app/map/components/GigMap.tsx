@@ -85,7 +85,7 @@ export const GigMap = ({ gigs }: { gigs: (Listing & Venue)[] }) => {
 
   const filteredGigs = useMemo(() => {
     return gigs.filter((gig) => {
-      const gigDate = gig.startdate;
+      const gigDate = new Date(gig.startdate);
       return formatDate(gigDate) === formatDate(currentDate);
     });
   }, [gigs, currentDate]);

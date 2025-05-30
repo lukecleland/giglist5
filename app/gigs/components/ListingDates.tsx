@@ -8,6 +8,7 @@ import { pivotEvents, formatDateWithSuffix } from "./_utils";
 import { specialElite } from "@/config/fonts";
 import clsx from "clsx";
 import { bc } from "@/lib/broadcast";
+import "./ListingDates.css";
 
 export function ListingDates() {
   const listings = useListingsStore((state) => state.listings);
@@ -46,15 +47,10 @@ export function ListingDates() {
   }, []);
 
   return (
-    <ul>
+    <>
       {listingDates.map((listingDate: ListingDate) => (
-        <li key={listingDate.datetime} className="m-2">
-          <div
-            className={clsx(
-              specialElite.className,
-              "dark:bg-white dark:text-black light:bg-black light:text-white p-2 font-black"
-            )}
-          >
+        <div key={listingDate.datetime} className="day">
+          <div className={clsx(specialElite.className, "date")}>
             {formatDateWithSuffix(listingDate.datestring)}
           </div>
           <ul>
@@ -64,8 +60,8 @@ export function ListingDates() {
               </li>
             ))}
           </ul>
-        </li>
+        </div>
       ))}
-    </ul>
+    </>
   );
 }

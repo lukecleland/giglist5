@@ -26,10 +26,6 @@ type Submission = {
   submittedBy?: string;
 };
 
-const inputStyles: React.CSSProperties = {
-  margin: "0",
-};
-
 export const Submissions = ({ submittedBy }: { submittedBy?: string }) => {
   const { refreshHolding } = useHoldingStore();
 

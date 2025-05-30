@@ -20,9 +20,7 @@ export function ListingModal({ listing }: ListingVenue) {
   return (
     <>
       <div onClick={onOpen}>
-        <Card className="my-5">
-          <ListingContent listing={listing} />
-        </Card>
+        <ListingContent listing={listing} />
       </div>
 
       <Modal

@@ -18,11 +18,10 @@
     width: 100%;
     font-size: 20px;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.2;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    font-weight: 100;
     margin-bottom: 2px;
     color: #f4f4f4;
 }
@@ -32,13 +31,13 @@
 .listing-date {
     display: none;
 }
-.listing-wrapper.active .address,
+.listing-wrapper.active .address1,
 .listing-wrapper.active .listing-links {
     display: block;
 }
 
-li.listing-wrapper.sponsored,
-li.listing-wrapper.patreon {
+.listing-wrapper.sponsored,
+.listing-wrapper.patreon {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     background-image: url(/star-32.png);
@@ -51,7 +50,7 @@ li.listing-wrapper.patreon {
     background-repeat: no-repeat;
 }
 
-li.listing-wrapper.patreon {
+.listing-wrapper.patreon {
     border-top: 1px solid #ff5900;
     border-bottom: 1px solid #ff5900;
     background-image: url(/patreon.png);
@@ -59,7 +58,7 @@ li.listing-wrapper.patreon {
     background-position: right 10px bottom 10px;
 }
 
-li .listingTrigger {
+.listingTrigger {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -68,7 +67,7 @@ li .listingTrigger {
     /* background-color: transparent; */
 }
 
-li.listing-wrapper > .listing-venue > .name {
+.listing-wrapper > .listing-venue > .name {
     color: #a8a8a8;
 }
 
@@ -88,4 +87,8 @@ li.listing-wrapper > .listing-venue > .name {
     page-break-inside: avoid !important;
     width: 100%;
     cursor: pointer;
+}
+
+.listing-wrapper {
+    padding: 12px 12px 12px 16px;
 }

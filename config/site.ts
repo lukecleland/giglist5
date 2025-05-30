@@ -25,7 +25,7 @@ export const siteConfig = {
     //   href: "/about",
     // },
     {
-      label: "Map",
+      label: "Gigmap",
       href: "/map",
     },
   ],

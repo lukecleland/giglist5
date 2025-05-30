@@ -15,7 +15,8 @@ INSERT INTO gl_venues (
     slug,
     state,
     suburb,
-    url
+    url,
+    legacyVenueId
 )
 SELECT 
     location_address1,
@@ -27,5 +28,39 @@ SELECT
     location_slug,
     location_state,
     location_city,
-    location_url
+    location_url,
+    location_id
 FROM wpdr_eme_locations;
+
+
+/**
+* Migration script to copy data to gl_listings from wpdr_eme_events and wpdr_eme_locations.
+* Note: Ensure that you have a backup of your database before running this migration.
+*/
+
+
+INSERT INTO gl_listings (
+    name,
+    slug,
+    startdate,
+    starttime,
+    url,
+    venueId,
+    legacyVenueId,
+    legacyListingId
+)
+SELECT 
+    e.event_name,
+    e.event_slug,
+    e.event_start_date,
+    e.event_start_time,
+    e.event_url,
+    v.id AS venueId,
+    v.legacyVenueId,
+    e.event_id AS legacyListingId
+FROM wpdr_eme_events e
+JOIN wpdr_eme_locations l ON e.location_id = l.location_id
+JOIN gl_venues v ON v.name = l.location_name
+                AND v.suburb = l.location_city
+;
+

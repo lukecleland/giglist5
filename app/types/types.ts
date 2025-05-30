@@ -3,7 +3,7 @@ export type Listing = {
     name: string;
     url: string;
     starttime: string;
-    startdate: string;
+    startdate: Date;
     venueName: string;
     prominence?: boolean;
     wheelchairAccessible?: boolean;

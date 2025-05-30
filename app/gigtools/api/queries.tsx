@@ -30,7 +30,7 @@ export async function searchVenue(searchText: string) {
  * Get all venues from the database
  * @param limit
  */
-export async function selectVenues(limit: number = 100) {
+export async function selectVenues(limit: number = 300000) {
   const result = await query(
     `SELECT * FROM gl_venues ORDER BY name ASC LIMIT ${limit}`
   );
@@ -155,16 +155,18 @@ export async function selectListing(id: number) {
  * Get listings from the database
  * @param limit
  */
-export async function getListings(limit: number = 100) {
+export async function getListings(limit: number | "*" = 2000) {
   //WHERE gl_listings.startdate >= DATE(DATE_ADD( NOW( ) , INTERVAL  '-5:00' HOUR_MINUTE ))
   //AND gl_listings.startdate <= DATE(DATE_ADD( NOW( ) , INTERVAL  '3' MONTH ))
 
-  const theQuery = `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
-    LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
+  const theQuery = `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings
+    LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id 
+    WHERE  gl_venues.lat is not null and gl_listings.startdate >= DATE(DATE_ADD(NOW(), INTERVAL -1 WEEK))
     GROUP BY gl_listings.startdate, gl_listings.id
     HAVING count( * ) < 2
-    ORDER BY gl_listings.startdate ASC, gl_listings.starttime ASC LIMIT ${limit}`;
-
+    ORDER BY gl_listings.startdate ASC, gl_listings.starttime ASC 
+    ${limit === "*" ? "" : " " + "LIMIT " + limit}
+  `;
   console.log("getListings query:", theQuery);
   const result = await query(theQuery);
   return result;

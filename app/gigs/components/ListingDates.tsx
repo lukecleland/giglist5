@@ -50,7 +50,7 @@ export function ListingDates() {
     <>
       {listingDates.map((listingDate: ListingDate) => (
         <div key={listingDate.datetime} className="day">
-          <div className={clsx(specialElite.className, "date")}>
+          <div className="date labelmaker">
             {formatDateWithSuffix(listingDate.datestring)}
           </div>
           <ul>

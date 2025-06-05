@@ -4,7 +4,7 @@
 
 .listing-time {
     font-size: 12px;
-    color: #a8a8a8;
+    /* color: #a8a8a8; */
 }
 
 .listing-venue {
@@ -25,24 +25,44 @@
 }
 
 .date {
-    font-size: 18px;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-image: url("/brush.png");
-    background-position: left -30px top -60px;
-    background-repeat: no-repeat;
-    background-size: 110% 150px;
-    font-weight: bold;
-    color: black;
-    padding: 7px 0 5px 7px;
-    cursor: pointer;
+    font-size: 28px;
+    /* margin-right: 10px;*/
+    margin-left: 15px; 
+    width: 100%;
+    /* background-image: url("/brush.png"); */
+    /* background-position: left -30px top -60px; */
+    /* background-repeat: no-repeat;
+    background-size: 110% 150px; */
+    /* font-weight: bold; */
+    /* color: black; */
+    
+    /* cursor: pointer;
     line-height: 1.2;
     height: 35px;
     color: black;
     margin-top: -10px;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 .date span {
     margin-top: 5px;
 }
+
+@font-face {
+  font-family: "label";
+  src: url("/fonts/ImpactLabel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.labelmaker {
+  font-family: "label", sans-serif;
+  rotate: -0.3deg;
+}
+
+/* ul {
+    list-style: none !important;
+    padding-inline-start: 10px;
+    background-image: url(/column_bg5.png);
+    background-position: 0px 0;
+} */

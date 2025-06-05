@@ -16,20 +16,28 @@ export const siteConfig = {
       label: "Submit",
       href: "/submit",
     },
-    // {
-    //   label: "Store",
-    //   href: "/store",
-    // },
-    // {
-    //   label: "About",
-    //   href: "/about",
-    // },
+    {
+      label: "Store",
+      href: "/store",
+    },
+    {
+      label: "About",
+      href: "/about",
+    },
     {
       label: "Gigmap",
       href: "/map",
     },
   ],
   navMenuItems: [
+     {
+      label: "Gigs",
+      href: "/gigs",
+    },
+    {
+      label: "Gigtools",
+      href: "/gigtools",
+    },
     {
       label: "Submit",
       href: "/submit",
@@ -43,7 +51,7 @@ export const siteConfig = {
       href: "/about",
     },
     {
-      label: "Map",
+      label: "Gigmap",
       href: "/map",
     },
   ],

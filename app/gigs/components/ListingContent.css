@@ -2,6 +2,14 @@
 .listing-venue {
     font-size: 26px;
     line-height: 1.4;
+    /* color: #979797; */
+}
+
+.dark .listing-time {
+    color: #919191;
+}
+
+.dark .listing-venue {
     color: #979797;
 }
 
@@ -23,6 +31,10 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     margin-bottom: 2px;
+    /* color: #f4f4f4; */
+}
+
+.dark .listing-title {
     color: #f4f4f4;
 }
 
@@ -68,7 +80,7 @@
 }
 
 .listing-wrapper > .listing-venue > .name {
-    color: #a8a8a8;
+    /* color: #a8a8a8; */
 }
 
 .listing-links {

@@ -1,18 +1,18 @@
 main section {
-    overflow: auto;
+    overflow-x: auto;
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;
     column-count: 1;
     column-gap: 0px;
     column-fill: auto;
+    min-height: calc(100vh - 75px);
+    height: calc(100vh - 75px);
 }
 
 /* Small devices (Portrait tablets, 468px and up) */
 @media only screen and (min-width: 368px) {
     main section {
         column-count: 2;
-        min-height: calc(100vh - 45px);
-        height: calc(100vh - 45px);
     }
 }
 
@@ -20,8 +20,6 @@ main section {
 @media only screen and (min-width: 768px) {
     main section {
         column-count: 5;
-        min-height: calc(100vh - 45px);
-        height: calc(100vh - 45px);
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */

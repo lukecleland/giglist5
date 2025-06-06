@@ -7,9 +7,5 @@ export default function GigsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <main className={clsx(lato.className, "flex")}>
-      <section>{children}</section>
-    </main>
-  );
+  return <main className={clsx(lato.className, "flex")}>{children}</main>;
 }

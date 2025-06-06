@@ -31,23 +31,28 @@ export function pivotEvents(events: (Listing & Venue)[]): ListingDate[] {
     return result;
 }
 
+
 export function formatDateWithSuffix(dateStr: string) {
   const date = new Date(dateStr);
-  const formatted = date.toLocaleDateString("en-US", {
-    weekday: "short",
-    month: "long",
-    day: "numeric",
-  });
+  const weekday = date.toLocaleDateString("en-US", { weekday: "short" });
+  const month = date.toLocaleDateString("en-US", { month: "short" });
+  const day = date.getDate();
 
-  return formatted.replace(
-    /\b(\d{1,2})(?=\b)/,
-    (d) =>
-      d +
-      (["th", "st", "nd", "rd"][
-        (((d as any) % 100) - 20) % 10 || (d as any) % 100
-      ] || "th")
-  );
+  const getSuffix = (day: number): string => {
+    if (day >= 11 && day <= 13) return "th";
+    switch (day % 10) {
+      case 1: return "st";
+      case 2: return "nd";
+      case 3: return "rd";
+      default: return "th";
+    }
+  };
+
+  return `${weekday} ${month} ${day}${getSuffix(day)}`;
 }
+
+
+
 
 export const formatter = new Intl.DateTimeFormat("en-US", {
     hour: "numeric",

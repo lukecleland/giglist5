@@ -3,7 +3,7 @@
 import { Listing, ListingDate, ListingVenue, Venue } from "@/app/types/types";
 import { ListingModal } from "./ListingModal";
 import { useListingsStore } from "@/app/gigtools/store/listings";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { pivotEvents, formatDateWithSuffix } from "./_utils";
 import { specialElite } from "@/config/fonts";
 import clsx from "clsx";
@@ -14,6 +14,7 @@ export function ListingDates() {
   const listings = useListingsStore((state) => state.listings);
   const setListings = useListingsStore((state) => state.setListings);
   const refreshListings = useListingsStore((state) => state.refreshListings);
+  const sectionRef = useRef<HTMLElement | null>(null);
 
   const filteredListings = useMemo(
     () => listings.filter((listing: Listing) => listing.isPublished === 1),
@@ -44,10 +45,28 @@ export function ListingDates() {
 
   useEffect(() => {
     refreshListings();
+
+    const handleWheel = (event: WheelEvent) => {
+      if (window.innerWidth > 600 && sectionRef.current) {
+        event.preventDefault();
+        sectionRef.current.scrollLeft += event.deltaY * 3; // adjust scroll speed
+      }
+    };
+
+    const section = sectionRef.current;
+    if (section) {
+      section.addEventListener("wheel", handleWheel, { passive: false });
+    }
+
+    return () => {
+      if (section) {
+        section.removeEventListener("wheel", handleWheel);
+      }
+    };
   }, []);
 
   return (
-    <>
+    <section ref={sectionRef} className="w-full">
       {listingDates.map((listingDate: ListingDate) => (
         <div key={listingDate.datetime} className="day">
           <div className="date labelmaker">
@@ -62,6 +81,6 @@ export function ListingDates() {
           </ul>
         </div>
       ))}
-    </>
+    </section>
   );
 }

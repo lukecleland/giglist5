@@ -173,15 +173,20 @@ export async function getListings(limit: number | "*" = 2000) {
 }
 
 /**
- * Get listings filtered by holdingId
+ * Get listings filtered by holdingId for gigtools
  */
-export async function getListingsByHoldingIds(holdingIds: number[]) {
+export async function getListingsByHoldingIds(
+  holdingIds: number[],
+  showHistorical: boolean = false
+) {
   if (holdingIds.length === 0) {
     return [];
   }
   const theQuery = `SELECT *, gl_listings.id as id, gl_listings.name as name, gl_venues.name as venueName FROM gl_listings  
     LEFT JOIN gl_venues ON gl_listings.venueId = gl_venues.id
-    WHERE holdingId in (${holdingIds.join(",")})`;
+    WHERE TRUE
+    ${showHistorical ? "" : "AND gl_listings.startdate >= DATE(DATE_ADD(NOW(), INTERVAL -1 WEEK))"}
+    AND holdingId in (${holdingIds.join(",")})`;
 
   console.log("getListingsByHoldingIds query:", theQuery);
   const result = await query(theQuery);

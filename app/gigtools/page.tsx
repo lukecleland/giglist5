@@ -11,29 +11,32 @@ export default async function GigtoolsPage() {
   return (
     <>
       <h1 className={clsx(title(), specialElite.className)}>Gigtools</h1>
-      <Link href="./gigtools/ingress/moshtix">
-        <ScraperCard
-          image="/images/moshtix.png"
-          label="Moshtix"
-          backgroundColor="#fff"
-        />
-      </Link>
-      <Spacer x={8} />
-      <Link href="./gigtools/ingress/oztix">
-        <ScraperCard
-          image="/images/oztix.png"
-          label="Oztix"
-          backgroundColor="#000"
-        />
-      </Link>
-      <Spacer x={8} />
-      <Link href="./gigtools/ingress/submissions">
-        <ScraperCard
-          image="./android-chrome-192x192.png"
-          label="Submissions"
-          backgroundColor="#fff"
-        />
-      </Link>
+      <br />
+      <div className="flex gap-5 items-center justify-center">
+        <Link href="./gigtools/ingress/moshtix">
+          <ScraperCard
+            image="/images/moshtix.png"
+            label="Moshtix"
+            backgroundColor="#fff"
+          />
+        </Link>
+        <Spacer x={8} />
+        <Link href="./gigtools/ingress/oztix">
+          <ScraperCard
+            image="/images/oztix.png"
+            label="Oztix"
+            backgroundColor="#000"
+          />
+        </Link>
+        <Spacer x={8} />
+        <Link href="./gigtools/ingress/submissions">
+          <ScraperCard
+            image="./android-chrome-192x192.png"
+            label="Submissions"
+            backgroundColor="#fff"
+          />
+        </Link>
+      </div>
     </>
   );
 }

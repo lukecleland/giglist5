@@ -378,11 +378,16 @@ export async function addToHolding(item: {
  * @returns
  * @todo Add only future gigs - requires updating startdate to datetime in mysql
  */
-export async function selectHolding(scraper: string) {
+export async function selectHolding(
+  scraper: string,
+  showHistorical: boolean = false
+) {
   return await query(
     `SELECT *, gl_holding.id as id, gl_venues.name as linkedVenue FROM gl_holding 
       LEFT JOIN gl_venues ON gl_holding.linkedVenueId = gl_venues.id
-      WHERE scraper = '${scraper}'
+      WHERE TRUE
+      ${showHistorical ? "" : "AND gl_holding.startdate >= DATE(DATE_ADD(NOW(), INTERVAL -1 WEEK))"}
+      AND scraper = '${scraper}'
       ORDER BY startdate ASC`
   );
 }

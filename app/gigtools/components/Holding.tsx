@@ -27,6 +27,14 @@ import { THolding, Listing } from "@/app/types/types.ts";
 import { useListingsStore } from "../store/listings.ts";
 import { CloseIcon } from "@/app/icons/CloseIcon.tsx";
 
+const parseDate = (dateString: string) => {
+  let date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    date = new Date();
+  }
+  return date;
+};
+
 export function Holding({
   label,
   scraper,
@@ -191,7 +199,7 @@ export function Holding({
                             `${item.artist} ${item.venue} ${item.startdate}`
                           ),
                           starttime: item.starttime ?? "",
-                          startdate: item.startdate ?? "",
+                          startdate: parseDate(item.startdate ?? ""),
                           url: "",
                           venueId: item.linkedVenueId ?? 0,
                           holdingId: item.id,

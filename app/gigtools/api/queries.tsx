@@ -202,7 +202,7 @@ export async function addListing(item: {
   image?: string;
   name: string;
   slug?: string;
-  startdate: string;
+  startdate: Date;
   starttime: string;
   url: string;
   venueId: number;
@@ -216,7 +216,7 @@ export async function addListing(item: {
       '${item.image}',
       '${sqlparam(item.name)}',
       '${sqlparam(item.slug || "")}',
-      '${item.startdate}',
+      '${item.startdate.toISOString().slice(0, 19).replace("T", " ")}',
       '${item.starttime}',
       '${sqlparam(item.url)}',
       ${item.venueId || 0},
@@ -238,7 +238,7 @@ export async function updateListing(item: {
   image?: string;
   name: string;
   slug?: string;
-  startdate: string;
+  startdate: Date;
   starttime: string;
   url: string;
   venueId: number;
@@ -264,7 +264,7 @@ export async function updateListing(item: {
         image = '${item.image}',
         name = '${sqlparam(item.name)}',
         slug = '${item.slug}',
-        startdate = '${item.startdate}',
+        startdate = '${item.startdate.toISOString().slice(0, 19).replace("T", " ")}',
         starttime = '${item.starttime}',
         url = '${sqlparam(item.url)}',
         venueId = ${item.venueId},

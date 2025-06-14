@@ -15,8 +15,8 @@ export const useListingsStore = create<ListingsState>((set) => ({
   fullListings: [],
   refreshListings: async () => {
     const listings = (await getListings()) as Listing[];
-    set({ listings });
+    set({ listings: [...listings] }); // ✅ ensure new array
     bc?.postMessage({ type: 'update', listings });
   },
-  setListings: (listings: Listing[]) => set({ listings }),
+  setListings: (listings: Listing[]) => set({ listings: [...listings] }), // ✅ same here
 }));

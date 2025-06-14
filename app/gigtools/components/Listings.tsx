@@ -18,11 +18,16 @@ import { Listing, ListingVenue, THolding } from "@/app/types/types";
 import { AddEditListing } from "./AddEditListing";
 import { updateListingPublished } from "../api/queries";
 import { useSuspectedListings } from "../hooks/useSuspectedListings";
+import { useEffect } from "react";
 
 export function Listings() {
   const { holding, listings, refreshHolding, allListings } = useHoldingStore();
   const { refreshListings } = useListingsStore();
   const suspectedIds = useSuspectedListings(listings, allListings);
+
+  useEffect(() => {
+    console.log("Listings updated", listings);
+  }, [listings]);
 
   const getScraperFromListing = (listing: Listing) => {
     const matchedHolding = holding.find(
@@ -97,6 +102,8 @@ export function Listings() {
                     id={item.id}
                     onSuccess={() => {
                       console.log("onSuccess");
+                      const scraper = getScraperFromListing(item);
+                      if (scraper) refreshHolding(scraper);
                       refreshListings();
                     }} // Why isn't this working?
                   />

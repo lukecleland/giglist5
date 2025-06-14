@@ -20,22 +20,30 @@ import {
 } from "@/app/gigtools/api/queries";
 import { EditIcon } from "@/app/icons/EditIcon";
 import { PlusIcon } from "@/app/icons/PlusIcon";
-import { parseDate } from "@internationalized/date";
-import { useListingsStore } from "../store/listings";
+import clsx from "clsx";
+import { lato } from "@/config/fonts";
+
+const parseDate = (dateString: string) => {
+  let date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    date = new Date();
+  }
+  return date;
+};
 
 export const AddEditListingForm = ({
   id,
-  onSubmitSuccess,
+  onSuccess,
 }: {
   id: number;
-  onSubmitSuccess?: () => void;
+  onSuccess?: () => void;
 }) => {
   const defaultListing: Listing = {
     id: 0,
     name: "",
     url: "",
     starttime: "",
-    startdate: "",
+    startdate: new Date(),
     venueName: "",
     tourName: "",
     listedBy: 0,
@@ -101,7 +109,7 @@ export const AddEditListingForm = ({
       await addListing(listingData);
     }
 
-    onSubmitSuccess?.();
+    onSuccess?.();
   };
 
   try {
@@ -160,7 +168,7 @@ export const AddEditListingForm = ({
         onChange={(e) =>
           setListing({
             ...listing,
-            startdate: e.target.value,
+            startdate: parseDate(e.target.value),
           })
         }
       />
@@ -231,6 +239,7 @@ const AddEditListingModal = ({
         size="5xl"
         isOpen={isOpen}
         onOpenChange={(open) => setIsOpen(open)}
+        className={clsx(lato.className)}
       >
         <ModalContent>
           {(onClose) => (
@@ -245,7 +254,7 @@ const AddEditListingModal = ({
                 >
                   <AddEditListingForm
                     id={id}
-                    onSubmitSuccess={() => {
+                    onSuccess={() => {
                       setIsOpen(false);
                       onClose();
                       onSuccess?.();

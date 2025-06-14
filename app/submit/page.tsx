@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { Holding } from "../gigtools/components/Holding";
 import { Submissions } from "../gigtools/components/Submissions";
 import { v4 as uuidv4 } from "uuid";
-import { set } from "zod";
 import { Chip } from "@heroui/react";
 
 type UserDetails = {

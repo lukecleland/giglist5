@@ -86,12 +86,12 @@ export function Holding({
     <>
       <Table
         isKeyboardNavigationDisabled
-        aria-label=""
+        aria-label="Holding Table"
         topContent={
           <div className="flex justify-between items-center py-2">
             <h4 className="text-medium font-medium">{label}</h4>
             <p className="text-small text-default-500">
-              {holding.filter((item) => !item.hidden).length} records
+              {filtered.filter((item) => !item.hidden).length} records
             </p>
           </div>
         }

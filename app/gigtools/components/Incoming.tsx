@@ -46,13 +46,13 @@ export function Incoming({
     <>
       <Table
         isKeyboardNavigationDisabled
-        aria-label=""
+        aria-label="Incoming Gigs Table"
         topContent={
           <div className="flex justify-between items-center py-2">
             <h4 className="text-medium font-medium">Incoming</h4>
-            {/* <p className="text-small text-default-500">
-            {holding.length} records
-          </p> */}
+            <p className="text-small text-default-500">
+              {dataNotAlreadyInHolding.length} records
+            </p>
           </div>
         }
       >
@@ -72,8 +72,8 @@ export function Incoming({
               </TableCell>
               <TableCell>{item.venue}</TableCell>
               <TableCell>
-                <Link href={item.url || ""} target="_blank">
-                  Event Link
+                <Link href={item.artisturl || ""} target="_blank">
+                  {item.artisturl ? "Event Link" : "Invalid Link"}
                 </Link>
               </TableCell>
               <TableCell>

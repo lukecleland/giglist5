@@ -373,6 +373,7 @@ const AddEditVenueModal = ({
           }
         }}
         className={clsx(lato.className)}
+        isDismissable={false}
       >
         <ModalContent>
           {(onClose) => (

@@ -22,7 +22,7 @@ export function pivotEvents(events: (Listing & Venue)[]): ListingDate[] {
 
     const result: ListingDate[] = Array.from(map, ([date, listings]) => ({
         datestring: date,
-        datetime: new Date(date).toISOString(),
+        datetime: new Date(date),
         listings,
     }));
 

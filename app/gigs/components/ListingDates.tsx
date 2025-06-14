@@ -67,8 +67,8 @@ export function ListingDates() {
 
   return (
     <section ref={sectionRef} className="w-full">
-      {listingDates.map((listingDate: ListingDate) => (
-        <div key={listingDate.datetime.toISOString()} className="day">
+      {listingDates.map((listingDate: ListingDate, index) => (
+        <div key={index} className="day">
           <div className="date labelmaker">
             {formatDateWithSuffix(listingDate.datestring)}
           </div>

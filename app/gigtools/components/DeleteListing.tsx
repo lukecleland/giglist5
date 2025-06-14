@@ -11,6 +11,8 @@ import { useState } from "react";
 import { deleteListing } from "../api/queries";
 import { DownArrowIcon } from "@/app/icons/DownArrowIcon";
 import { CloseIcon } from "@/app/icons/CloseIcon";
+import clsx from "clsx";
+import { lato } from "@/config/fonts";
 
 export const DeleteListing = ({
   listingId,
@@ -38,7 +40,12 @@ export const DeleteListing = ({
         <CloseIcon size={16} filled={true} fill={"#ffffff"} />
       </Button>
 
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="sm">
+      <Modal
+        isOpen={isOpen}
+        onOpenChange={onOpenChange}
+        size="sm"
+        className={clsx(lato.className)}
+      >
         <ModalContent>
           {(onClose) => (
             <>

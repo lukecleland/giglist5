@@ -41,7 +41,7 @@ export function Listings() {
   return (
     <>
       <Table
-        aria-label=""
+        aria-label="Listings Table"
         topContent={
           <div className="flex justify-between items-center py-2">
             <h4 className="text-medium font-medium">Listings</h4>

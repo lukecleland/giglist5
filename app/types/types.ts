@@ -93,7 +93,7 @@ export type Venue = {
     starttime: string;
     startdate: string;
     originalArtist: string;
-    url: string;
+    artisturl?: string;
     hidden: boolean;
   };
 

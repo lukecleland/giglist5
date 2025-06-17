@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Navbar as HeroUINavbar,
   NavbarContent,
@@ -26,11 +28,24 @@ import {
 } from "@/components/icons";
 import NextLink from "next/link";
 import clsx from "clsx";
+import { useState } from "react";
+import { useListingsStore } from "@/app/gigtools/store/listings";
 
 export const Navbar = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const searchListings = useListingsStore((s) => s.searchListings);
+
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value;
+    setSearchTerm(val);
+    searchListings(val);
+  };
+
   const searchInput = (
     <Input
       aria-label="Search"
+      value={searchTerm}
+      onChange={handleSearch}
       classNames={{
         inputWrapper: "bg-default-100",
         input: "text-sm",
@@ -40,14 +55,44 @@ export const Navbar = () => {
           K
         </Kbd>
       }
-      labelPlacement="outside"
-      placeholder="Search..."
+      placeholder="Search gigs..."
       startContent={
         <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
       }
       type="search"
     />
   );
+
+  // const [expanded, setExpanded] = useState(false);
+  // const [searchTerm, setSearchTerm] = useState("");
+  // const inputRef = useRef<HTMLInputElement>(null);
+  // const searchListings = useListingsStore((s) => s.searchListings);
+
+  // const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   const val = e.target.value;
+  //   setSearchTerm(val);
+  //   searchListings(val);
+  // };
+
+  // useEffect(() => {
+  //   if (expanded && inputRef.current) {
+  //     inputRef.current.focus();
+  //   }
+  // }, [expanded]);
+
+  // useEffect(() => {
+  //   const handleClickOutside = (e: MouseEvent) => {
+  //     if (inputRef.current && !inputRef.current.contains(e.target as Node)) {
+  //       setExpanded(false);
+  //     }
+  //   };
+  //   if (expanded) {
+  //     document.addEventListener("mousedown", handleClickOutside);
+  //   } else {
+  //     document.removeEventListener("mousedown", handleClickOutside);
+  //   }
+  //   return () => document.removeEventListener("mousedown", handleClickOutside);
+  // }, [expanded]);
 
   return (
     <HeroUINavbar
@@ -99,7 +144,7 @@ export const Navbar = () => {
           </Link> */}
           <ThemeSwitch />
         </NavbarItem>
-        {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
+        <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <div className="flex gap-2">
             <Button

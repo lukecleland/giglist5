@@ -48,7 +48,7 @@ export function formatDateWithSuffix(dateStr: string) {
     }
   };
 
-  return `${weekday} ${month} ${day}${getSuffix(day)}`;
+  return `‎T${weekday} ${month} ${day}${getSuffix(day)}‎`;
 }
 
 

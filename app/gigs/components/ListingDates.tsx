@@ -9,12 +9,15 @@ import { specialElite } from "@/config/fonts";
 import clsx from "clsx";
 import { bc } from "@/lib/broadcast";
 import "./ListingDates.css";
+import { useListingAds } from "@/app/gigs/hooks/useListingAds";
+import { ListingAds } from "./ListingAds";
 
 export function ListingDates() {
   const listings = useListingsStore((state) => state.listings);
   const setListings = useListingsStore((state) => state.setListings);
   const refreshListings = useListingsStore((state) => state.refreshListings);
   const sectionRef = useRef<HTMLElement | null>(null);
+  const { listingAds, isLoading } = useListingAds();
 
   const filteredListings = useMemo(
     () => listings.filter((listing: Listing) => listing.isPublished === 1),
@@ -65,20 +68,35 @@ export function ListingDates() {
     };
   }, []);
 
+  const getRandomInt = (min: number, max: number) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  };
+
+  const adStart = getRandomInt(0, 100);
+
   return (
     <section ref={sectionRef} className="w-full">
       {listingDates.map((listingDate: ListingDate, index) => (
-        <div key={index} className="day">
-          <div className="date labelmaker">
-            {formatDateWithSuffix(listingDate.datestring)}
+        <div key={index}>
+          <ListingAds
+            index={index}
+            adId={(index + adStart) % listingAds.length}
+            listingAds={listingAds}
+          />
+          <div className="day">
+            <div className="date labelmaker">
+              {formatDateWithSuffix(listingDate.datestring)}
+            </div>
+            <ul>
+              {listingDate.listings?.map(({ listing }: ListingVenue, index) => (
+                <li key={`${listing.id}-${index}`}>
+                  <ListingModal listing={listing} />
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul>
-            {listingDate.listings?.map(({ listing }: ListingVenue, index) => (
-              <li key={`${listing.id}-${index}`}>
-                <ListingModal listing={listing} />
-              </li>
-            ))}
-          </ul>
         </div>
       ))}
     </section>

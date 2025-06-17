@@ -54,13 +54,13 @@ export type ListingDate = {
     listings: ListingVenue[];
 };
 
-export type GigAd = {
+export type ListingAd = {
     id: number;
-    name: string;
+    Name: string;
     image: { url: string }[];
     link: string;
-    active: boolean;
-    postcodePrefixes: string;
+    Active: boolean;
+    Postcode_Prefixes: string;
 };
 
 export type Venue = {

@@ -24,7 +24,7 @@ export const useListingAds = () => {
           "https://api.baserow.io/api/database/rows/table/108866/?user_field_names=true",
           {
             headers: {
-              Authorization: "Token oBtxXLOu03SJmaB8O8TNh3c8M6dbMobB",
+              Authorization: `Token ${process.env.NEXT_PUBLIC_BASEROW_API_KEY}`,
             },
           }
         );

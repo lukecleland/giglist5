@@ -1,1362 +1,1306 @@
 [
   {
-    "artist": "Scenic Rim Clydesdale Spectacular",
-    "startdate": "2025-06-14",
-    "starttime": "08:00:00",
-    "venue": "Beaudesert Showgrounds",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2a74775a-5c47-4f4a-ba7e-b038835e9535?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Beaudesert Showgrounds"
-  },
-  {
-    "artist": "The Kittyhawks - Euro Trip Fundraiser Send",
-    "startdate": "2025-06-15",
-    "starttime": "12:30:00",
-    "venue": "The Leadbeater Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/4cc18bd0-823f-4606-9c15-9b119af467bc?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Leadbeater Hotel"
-  },
-  {
-    "artist": "Frank Sultana - A Bluesy Lazy Sunday Arvo",
-    "startdate": "2025-06-15",
-    "starttime": "13:00:00",
-    "venue": "Camden Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/53ee60e8-6e5a-4e7d-8f0e-926ed847cdf6?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Camden Hotel"
-  },
-  {
-    "artist": "SI-FI FEST 4.0",
-    "startdate": "2025-06-15",
-    "starttime": "14:00:00",
-    "venue": "The Brightside",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/1dfdc6db-381d-4526-885a-74c40010ae06?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Brightside"
-  },
-  {
-    "artist": "Sunny Coast Rude Boys",
-    "startdate": "2025-06-15",
-    "starttime": "14:00:00",
-    "venue": "Solbar",
-    "artisturl": "https://tickets.solbar.com.au/outlet/event/a8bdd178-690a-437a-b0b4-5648bd32fac2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Solbar"
-  },
-  {
-    "artist": "WHERE'S JIMMY TOUR +W.O.M.B.A.T.+VIXEN SCREAM+HANDGRENADE HEARTS.",
-    "startdate": "2025-06-15",
-    "starttime": "15:00:00",
-    "venue": "The Yorkshire Stingo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/090aae9e-bf47-47af-8631-e2af4c186b8a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Yorkshire Stingo Hotel"
-  },
-  {
-    "artist": "KITSUNEVI (JAPAN) AT THE LAST CHANCE (ONLY HEADLINE SHOW) WITH JUDO CHOP AND THE PERNICIOUS",
-    "startdate": "2025-06-15",
-    "starttime": "15:00:00",
-    "venue": "The Last Chance Rock & Roll Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9de8eb46-1b46-4a31-8457-fad029ffab10?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Last Chance Rock & Roll Bar"
-  },
-  {
-    "artist": "Sheer Chance",
-    "startdate": "2025-06-15",
-    "starttime": "16:00:00",
+    "artist": "Reverie (Debut Show)",
+    "startdate": "2025-07-23",
+    "starttime": "19:00:00",
     "venue": "The Workers Club",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9090071a-fd6d-47d5-af94-17c798b18c64?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/76a9c7a4-c333-45d9-8a07-9e31bc55d7c5?utm_source=Oztix&utm_medium=Website",
     "location_name": "The Workers Club"
   },
   {
-    "artist": "Class Traitor / Sondar (NSW) / Lily of the Valley",
-    "startdate": "2025-06-15",
-    "starttime": "16:00:00",
-    "venue": "Cactus Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/63dc4611-7287-4854-b552-f9212c7b3e2d?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Cactus Room"
-  },
-  {
-    "artist": "Hope Di Do Review",
-    "startdate": "2025-06-15",
-    "starttime": "16:00:00",
-    "venue": "The Gem Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3d1c7f56-e563-4d5a-a9d8-fc61164ef21c?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Gem Bar"
-  },
-  {
-    "artist": "FREE ENTRY: Jungaji - Betting On Blak Album Launch (ALL AGES)",
-    "startdate": "2025-06-15",
-    "starttime": "16:00:00",
-    "venue": "Mo's Desert Clubhouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d7131251-8a32-451b-8748-2836bdb7dd17?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Mo's Desert Clubhouse"
-  },
-  {
-    "artist": "Tote SkaBQ Feat Loin Groin and Miss SkaTonic",
-    "startdate": "2025-06-15",
-    "starttime": "16:30:00",
-    "venue": "The Tote - Band Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/4a8bf5ec-cfbc-4f68-83ce-2535718aa68b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Tote - Band Room"
-  },
-  {
-    "artist": "CATNIP THE BAND @ Sooki",
-    "startdate": "2025-06-15",
-    "starttime": "17:00:00",
-    "venue": "Sooki Lounge",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c1289412-5537-4481-859c-d2f917e30858?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Sooki Lounge"
-  },
-  {
-    "artist": "Velvet Bloom Album Launch w/ Jay Jarome (Trio)- SS VOL 4. at The Presynct",
-    "startdate": "2025-06-15",
-    "starttime": "17:00:00",
-    "venue": "The Presynct",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/a664f0a0-3ab6-4ca2-bddf-63f454fd5df1?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Presynct"
-  },
-  {
-    "artist": "**FREE ENTRY** Sunday Blues - Firefly Horns",
-    "startdate": "2025-06-15",
-    "starttime": "18:00:00",
-    "venue": "Espy Basement",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6bccf37b-3b6d-4faa-ae91-11660edcf695?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Espy Basement"
-  },
-  {
-    "artist": "Keyan | The Kinetic Tour | Melbourne",
-    "startdate": "2025-06-15",
-    "starttime": "18:00:00",
-    "venue": "Bergy Bandroom",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/ea0a4228-d52a-42b7-9b24-c79a5c18d8af?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bergy Bandroom"
-  },
-  {
-    "artist": "SOCCER MOMMY (USA) - Australia Tour 2025",
-    "startdate": "2025-06-15",
-    "starttime": "18:00:00",
-    "venue": "Theatre Royal, Castlemaine",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d3d26ee1-7b59-4cc1-8b4f-4d3cfd3525fd?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Theatre Royal, Castlemaine"
-  },
-  {
-    "artist": "ELLE EM DEBUT SINGLE ‘WEEKEND’ RELEASE SHOW",
-    "startdate": "2025-06-15",
+    "artist": "Cheersquad Records & Tapes Residency |Phil Jamieson + Al Matcott + Lava Fangs (Northcote SC 20th Birthday)",
+    "startdate": "2025-07-23",
     "starttime": "19:00:00",
-    "venue": "Black Bear Lodge",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9013f769-d669-45c7-95a1-35ebcf8e14a5?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Black Bear Lodge"
-  },
-  {
-    "artist": "Bassvictim",
-    "startdate": "2025-06-15",
-    "starttime": "19:00:00",
-    "venue": "Crowbar Brisbane",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d0ed1632-b9e9-49ce-839a-f1eb70d9b5be?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Crowbar Brisbane"
-  },
-  {
-    "artist": "AUTOBAHNS (GERMANY)",
-    "startdate": "2025-06-15",
-    "starttime": "19:00:00",
-    "venue": "The Hamilton Station Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/838c2294-6950-46b1-8ce7-c5d05c7da1e4?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Hamilton Station Hotel"
-  },
-  {
-    "artist": "BOO SEEKA – RAW FILES TOUR (VOL. 2)",
-    "startdate": "2025-06-15",
-    "starttime": "19:00:00",
-    "venue": "Lefty's Music Hall",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/97741146-e235-4e45-a559-b991ef7a39ec?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Lefty's Music Hall"
-  },
-  {
-    "artist": "Make Them Suffer Regional Australian Tour 2025",
-    "startdate": "2025-06-15",
-    "starttime": "19:00:00",
-    "venue": "Coolangatta Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8d6fc15b-eaa8-4745-9703-815cf02bec35?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Coolangatta Hotel"
-  },
-  {
-    "artist": "SUNDAY SESH",
-    "startdate": "2025-06-15",
-    "starttime": "18:00:00",
-    "venue": "Indian Ocean Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7c1a18cd-1785-457b-bdea-d618d14cf976?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Indian Ocean Hotel"
-  },
-  {
-    "artist": "Pisco Sour",
-    "startdate": "2025-06-15",
-    "starttime": "20:00:00",
-    "venue": "King Street Warehouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/5d621ec3-621e-4e14-8605-52bbd7e42344?utm_source=Oztix&utm_medium=Website",
-    "location_name": "King Street Warehouse"
-  },
-  {
-    "artist": "Kanekoayano (JPN)",
-    "startdate": "2025-06-15",
-    "starttime": "20:00:00",
     "venue": "Northcote Social Club",
-    "artisturl": "https://tickets.northcotesocialclub.com/outlet/event/24cf01d1-f486-4824-b332-c67edf626fb3?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.northcotesocialclub.com/outlet/event/f7cfe565-d95b-435b-b7d2-cbb0bf2a16f7?utm_source=Oztix&utm_medium=Website",
     "location_name": "Northcote Social Club"
   },
   {
-    "artist": "Lee Sappho - Sunday Best",
-    "startdate": "2025-06-15",
-    "starttime": "19:00:00",
-    "venue": "Clancy's Fish Pub | Fremantle",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/714690e8-458e-4dba-ac2f-6e81ac69c3cf?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Clancy's Fish Pub | Fremantle"
-  },
-  {
-    "artist": "Jim E. Brown, Andy Burns + special guest",
-    "startdate": "2025-06-16",
-    "starttime": "20:00:00",
-    "venue": "Vinnies Dive",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3ad6a3a0-cac1-4d7c-83ae-76aca0a44873?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Vinnies Dive"
-  },
-  {
-    "artist": "Make Them Suffer Regional Australian Tour 2025",
-    "startdate": "2025-06-17",
-    "starttime": "19:00:00",
-    "venue": "Miranda Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8c6d8d1f-a3a4-4d7c-b7cb-b3f801e2dc78?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Miranda Hotel"
-  },
-  {
-    "artist": "Bassvictim",
-    "startdate": "2025-06-18",
-    "starttime": "19:00:00",
-    "venue": "Max Watt's Melbourne",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3f1cd0db-cc69-464f-8cda-c6811cddcd7a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Max Watt's Melbourne"
-  },
-  {
-    "artist": "Simply West",
-    "startdate": "2025-06-19",
-    "starttime": "18:00:00",
-    "venue": "Lefty's Music Hall",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/bca3c58f-a0dc-4767-abd6-f8bb756af0b9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Lefty's Music Hall"
-  },
-  {
-    "artist": "Bradley McCarthy Trio // The Jazz Sessions at The Presynct",
-    "startdate": "2025-06-19",
-    "starttime": "18:00:00",
-    "venue": "The Presynct",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9d1b8714-bf10-47af-b0a5-c9085e937cf7?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Presynct"
-  },
-  {
-    "artist": "Princes Hill Secondary College",
-    "startdate": "2025-06-19",
-    "starttime": "18:00:00",
-    "venue": "Wesley Anne",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2adc9ab0-b3fc-4829-8f29-173c53ee79fa?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Wesley Anne"
-  },
-  {
-    "artist": "Unplugged at the Waz - The Honey Giant's Heart",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "The Warren View Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/5746afcf-04bf-4c40-833c-ed590e5a56c2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Warren View Hotel"
-  },
-  {
-    "artist": "Indie Reverie at The Junk Bar",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "The Junk Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/451e4e15-679f-409c-8231-0eb67114389a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Junk Bar"
-  },
-  {
-    "artist": "Stray Dogs / Social Afterparty / Blinking, Hunting",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "Cactus Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c3313f2d-0570-4cd6-82fe-9ff1316ec898?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Cactus Room"
-  },
-  {
-    "artist": "Autobahns (Germany), Love Banana + DVD",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "Vinnies Dive",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9fba4118-f0d1-404d-a27e-e0f95177a4b9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Vinnies Dive"
-  },
-  {
-    "artist": "EGOISM - And Go Nowhere Tour - Brisbane",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "Black Bear Lodge",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8735d96d-ed7d-4def-b04b-f84ba3ab3ed6?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Black Bear Lodge"
-  },
-  {
-    "artist": "Parents Battle of the Bands: Northside 1",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "The Croxton Bandroom",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/062782b8-3e24-427c-ba92-0c769d689263?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Croxton Bandroom"
-  },
-  {
-    "artist": "Make Them Suffer Regional Australian Tour 2025",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "Drifters Wharf",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6f493034-0075-43a9-b63a-a7d9d16c8912?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Drifters Wharf"
-  },
-  {
-    "artist": "Old Mervs Album Tour",
-    "startdate": "2025-06-19",
-    "starttime": "19:00:00",
-    "venue": "Barwon Heads Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/723cf3ee-cda8-42f4-bdbc-93b7f83f8bef?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Barwon Heads Hotel"
-  },
-  {
-    "artist": "Little Faiths album launch with Baker Mellonie & Adams, and The Delvenes",
-    "startdate": "2025-06-19",
+    "artist": "YHWH NAILGUN (USA)",
+    "startdate": "2025-07-23",
     "starttime": "19:30:00",
-    "venue": "The Tote - Upstairs",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/b691a4cf-4f67-4ceb-9dfb-d0e72cf7d48d?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Tote - Upstairs"
-  },
-  {
-    "artist": "Atticus Chimps Cradle Cage Tour with The Dead Amigos and Shylox",
-    "startdate": "2025-06-19",
-    "starttime": "19:30:00",
-    "venue": "The Last Chance Rock & Roll Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/203b95ef-f49b-45c6-ae12-a4c606a1a811?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Last Chance Rock & Roll Bar"
-  },
-  {
-    "artist": "CALI NOISE // Liquid Zoo",
-    "startdate": "2025-06-19",
-    "starttime": "20:00:00",
-    "venue": "Kings Beach Tavern",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2ced1fd4-2d6f-48b3-ae78-7066c5ffa082?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Kings Beach Tavern"
-  },
-  {
-    "artist": "Pretty Good Sofa w/ The Dropkicks + James Pav",
-    "startdate": "2025-06-19",
-    "starttime": "20:00:00",
-    "venue": "Bar Open",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/bcff77c2-5a3c-4132-9cd4-35f725b886eb?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bar Open"
-  },
-  {
-    "artist": "Kings of Country Rock - Eagles Vs Creedence",
-    "startdate": "2025-06-20",
-    "starttime": "17:00:00",
-    "venue": "Great Western Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/921d8abc-7de1-4b95-a92f-097fc20cf417?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Great Western Hotel"
-  },
-  {
-    "artist": "Twilight Idols 'Endless Night' Release Party!",
-    "startdate": "2025-06-20",
-    "starttime": "18:00:00",
-    "venue": "Evilcorp Haunted Attractions Australia",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/95a65272-fdce-436a-8a12-ec236b5b0c52?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Evilcorp Haunted Attractions Australia"
-  },
-  {
-    "artist": "BOO SEEKA - RAW FILES TOUR (VOL. 2)",
-    "startdate": "2025-06-20",
-    "starttime": "18:30:00",
-    "venue": "The Station Boardstore, Crescent Head",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/bec434d8-7868-4e98-826c-df804e4e6659?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Station Boardstore, Crescent Head"
-  },
-  {
-    "artist": "Windwaker",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "Crowbar Sydney",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c6e875bc-e0f2-488b-957a-1f77db05b3b2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Crowbar Sydney"
-  },
-  {
-    "artist": "Dragnet live at The Last Chance w/ Kosmetika, Metdog & Property",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Last Chance Rock & Roll Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/351dd57a-5126-40b1-b402-b4f3dfb926f2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Last Chance Rock & Roll Bar"
-  },
-  {
-    "artist": "Violent Soho (Performed by Concrete Gold) - Late Nights",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Junk Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d830dea4-f053-439b-9b39-4fa00faef427?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Junk Bar"
-  },
-  {
-    "artist": "TJAKA – ELEVATE EP TOUR",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "Black Bear Lodge",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/705fb119-2c38-4616-b886-28cb509caed0?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Black Bear Lodge"
-  },
-  {
-    "artist": "Private Function",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Brightside",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6baf3254-92e1-451d-8768-1c53b1b9898f?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Brightside"
-  },
-  {
-    "artist": "Sugarbag Blonde Live Show at The Presynct",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Presynct",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/45406fb1-3766-4ccb-9502-af49ffc3f970?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Presynct"
-  },
-  {
-    "artist": "Double Pumper - \"Diamond - Single Launch\"",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Leadbeater Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/48f4b579-0710-454c-8ed2-96635dc7ab4a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Leadbeater Hotel"
-  },
-  {
-    "artist": "NEW BLOOD",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Baso - The Abyss",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/1aa8b8f8-a579-443c-a70e-e091d7c3acbd?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Baso - The Abyss"
-  },
-  {
-    "artist": "The Brisbane Blitz | 4 Bands - 1 Night",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Back Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/752a8ff3-5f28-445c-815d-30685210a669?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Back Room"
-  },
-  {
-    "artist": "The Amy Winehouse Experience",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "Mo's Desert Clubhouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/895f9477-5589-42b2-b929-94e07f207568?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Mo's Desert Clubhouse"
-  },
-  {
-    "artist": "Alex Lloyd - Gold Coast",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "Miami Marketta, Gold Coast",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/51e41763-3127-421a-b8f3-4d5b4baf7a24?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Miami Marketta, Gold Coast"
-  },
-  {
-    "artist": "Kisschasy ‘Hymns for the New Believers’ Tour 2025",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "Uni Bar Hobart",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6689ba8a-127e-4996-a66a-f885d6c9699c?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Uni Bar Hobart"
-  },
-  {
-    "artist": "Satin Cali EP Tour w/ Chamber Lane & The Vandastruts",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Vinnies Dive",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8fedf321-bc4f-444b-a77a-4244f9c58dbf?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Vinnies Dive"
-  },
-  {
-    "artist": "Lucienne - Single Launch",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Buddy’s Bar Newtown",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/5fe7fb5a-55d1-4e6e-85be-a1f6edcd6060?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Buddy’s Bar Newtown"
-  },
-  {
-    "artist": "Club Halifax 'Apple Juice' Single Launch",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "The Chippo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/de858be2-eac5-4e68-8102-b8ea49805ac1?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Chippo Hotel"
-  },
-  {
-    "artist": "TRANSIENCE \"TEMPLE\" 10 YEAR ANNIVERSARY SHOW",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Bergy Bandroom",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/a9c41cf8-9a7e-4845-983f-f8942df137eb?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bergy Bandroom"
-  },
-  {
-    "artist": "Taxiride & The Radiators | Narre Warren",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "District 14",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9101f0f6-4b5b-48b5-963a-efb60d9c3eea?utm_source=Oztix&utm_medium=Website",
-    "location_name": "District 14"
-  },
-  {
-    "artist": "The Alan Fletcher Band",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Wheatsheaf Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c522f101-7998-432a-a8d8-20291fd652b0?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Wheatsheaf Hotel"
-  },
-  {
-    "artist": "Al Matcott (solo) + Nick Batterham (duo) + Pollyman",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Corner Hotel",
-    "artisturl": "https://tickets.cornerhotel.com/outlet/event/2c055300-171d-4754-81bf-0fd9781973cd?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Corner Hotel"
-  },
-  {
-    "artist": "ONLY VOLUME  // Liquid Zoo",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Royal Quarters",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/575f1a4f-4b03-4311-8ec9-a7549a28b934?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Royal Quarters"
-  },
-  {
-    "artist": "Morag (Album Launch) w/ Arsam Samadi + Bollard + Npcede",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Bar Open",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d49ed438-efdf-478f-b3ee-caa53a6e6938?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bar Open"
-  },
-  {
-    "artist": "Barbarion Back at The Bendy",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Bendigo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/ef75f147-5c8e-433e-ae3c-3f4a805ed7ba?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bendigo Hotel"
-  },
-  {
-    "artist": "EMO Rave",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Provincial Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/93b84e9b-cda6-46dd-9d6b-41055958ef64?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Provincial Hotel"
-  },
-  {
-    "artist": "Pisco Sour",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Cleveland Sands Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/173b712a-d01c-47a8-8763-8b0d82ae50d9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Cleveland Sands Hotel"
-  },
-  {
-    "artist": "Comets / Dopplerhaus / Bass Meadows",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Cactus Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/83e6f999-3c41-497e-85be-f17dddf0cf15?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Cactus Room"
-  },
-  {
-    "artist": "GEE TEE + PLEASANTS (W.A) + GHOULIES (W.A)",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Marrickville Bowling Club",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/f86d1a8f-9bb0-43af-99cf-c7457ba8f8f9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Marrickville Bowling Club"
-  },
-  {
-    "artist": "GOOD RAMEN - The Gem Based Magicks Tour",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Hamilton Station Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c46eeb26-a073-4736-91e3-2dacf1c659c8?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Hamilton Station Hotel"
-  },
-  {
-    "artist": "Burnt Orange",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Woodshed ",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/df5f4a29-9a38-4a4d-a804-4d52048236be?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Woodshed "
-  },
-  {
-    "artist": "You Am I - Townsville",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Warehouse Bandroom ",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/22fbd3c2-6e73-498e-90e0-d8b48648b1cc?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Warehouse Bandroom "
-  },
-  {
-    "artist": "POLISH CLUB'S POUND CAKE IT IF YA HORNY TOUR",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Tote - Band Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7e214a6e-3aeb-421a-b422-6a81d2ba074b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Tote - Band Room"
-  },
-  {
-    "artist": "19-Twenty",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Kirwan Tavern",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0d848ac5-0cc5-4843-875e-0e6c56f81d35?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Kirwan Tavern"
-  },
-  {
-    "artist": "Atticus Chimps",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "King Street Warehouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/fcf16c9e-8c56-4755-a17f-ee3df13519de?utm_source=Oztix&utm_medium=Website",
-    "location_name": "King Street Warehouse"
-  },
-  {
-    "artist": "MAMMA MIA! - ABBA TRIBUTE SHOW",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Stamford Inn",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/5b929c2e-8b28-4cd8-a19c-d2abb6246bab?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Stamford Inn"
-  },
-  {
-    "artist": "Amber Lawrence - You Can Admit You Like Country Music Tour",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Dalrymple Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7e6acbfd-b109-49ce-8fcf-ef0eb474ef39?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Dalrymple Hotel"
-  },
-  {
-    "artist": "HURRICANE: THE AUSTRALIAN LUKE COMBS TRIBUTE",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Commercial Hotel - South Morang",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/1496be23-1308-4c18-9905-7dd27a7908b0?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Commercial Hotel - South Morang"
-  },
-  {
-    "artist": "Yacht Rock Revival - Full Steam Ahead Tour",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "York on Lilydale",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c9486cee-4f29-4d6f-a138-c140288eae03?utm_source=Oztix&utm_medium=Website",
-    "location_name": "York on Lilydale"
-  },
-  {
-    "artist": "The Superjesus",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Crowbar Brisbane",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/19d21905-abcc-4f54-aadd-a7d67a86cdaf?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Crowbar Brisbane"
-  },
-  {
-    "artist": "ROSE TATTOO",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Coolangatta Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6b822599-3609-4924-ad3d-10193b575a86?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Coolangatta Hotel"
-  },
-  {
-    "artist": "Tracey Miller STILL HERE Single Launch",
-    "startdate": "2025-06-20",
-    "starttime": "20:15:00",
-    "venue": "The Gem Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c9052a35-3781-4bf6-ba0a-75c0f98fa799?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Gem Bar"
-  },
-  {
-    "artist": "The Adventure Tour with Sheer Chance",
-    "startdate": "2025-06-20",
-    "starttime": "20:30:00",
-    "venue": "Bendigo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/33d07f60-e958-4424-8ff6-1738ce1d52ae?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bendigo Hotel"
-  },
-  {
-    "artist": "Trip To Paris Imposter Syndrome Single Launch at The Tote with Astrogate and Honeymoon Phase",
-    "startdate": "2025-06-20",
-    "starttime": "20:30:00",
-    "venue": "The Tote - Upstairs",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/13addc4c-9dc1-4208-8a25-320881533dea?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Tote - Upstairs"
-  },
-  {
-    "artist": "Nursery Crimes",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Hotel Metro",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9f36555e-15c0-4425-98c7-ecd4c797896b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Hotel Metro"
-  },
-  {
-    "artist": "Nursery Crimes",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Hotel Metro",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/c05cc8ea-aeff-44a5-ac3e-c5b82f5ef5fc?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Hotel Metro"
-  },
-  {
-    "artist": "Mandeng Groove 'Conakry' album launch",
-    "startdate": "2025-06-20",
-    "starttime": "20:30:00",
-    "venue": "Northcote Social Club",
-    "artisturl": "https://tickets.northcotesocialclub.com/outlet/event/a084a6e3-d6f1-4b18-90c7-bc8dc48960c2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Northcote Social Club"
-  },
-  {
-    "artist": "1927",
-    "startdate": "2025-06-20",
-    "starttime": "20:30:00",
-    "venue": "Bribie Island Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8f5eceee-07a9-4847-b840-45e23b442bcd?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bribie Island Hotel"
-  },
-  {
-    "artist": "Butterknife",
-    "startdate": "2025-06-20",
-    "starttime": "21:00:00",
-    "venue": "Vic on The Park Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/23a13548-7b6c-49cf-94b4-9a87ed44372d?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Vic on The Park Hotel"
-  },
-  {
-    "artist": "El Club: Reggaeton Party  - Melbourne",
-    "startdate": "2025-06-20",
-    "starttime": "21:00:00",
-    "venue": "Espy Gershwin",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/79d24522-482d-4575-807e-d6a6ae845c12?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Espy Gershwin"
-  },
-  {
-    "artist": "WINTER RHYTHM & BLUES CONCERT",
-    "startdate": "2025-06-20",
-    "starttime": "19:00:00",
-    "venue": "The Stirling Arms Hotel - Band Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/135c91ab-e476-4635-ada3-c248869b9938?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Stirling Arms Hotel - Band Room"
-  },
-  {
-    "artist": "Headspin | Circa The Sun | Last Ditch Effort | Moses & His Disciples",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Lyric's Underground",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d7d9f3d9-6c8a-4a1b-8500-a72724739545?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Lyric's Underground"
-  },
-  {
-    "artist": "Friday Feast",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Indian Ocean Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0fe6e5f1-2008-4306-bdbe-bbf09324b1ca?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Indian Ocean Hotel"
-  },
-  {
-    "artist": "Soccer Mommy | Australia Tour 2025",
-    "startdate": "2025-06-20",
-    "starttime": "19:30:00",
-    "venue": "Rosemount Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/fe702c97-e1fe-434a-88b9-34b70985a796?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Rosemount Hotel"
-  },
-  {
-    "artist": "SLEEP TOKEN WORSHIP PARTY + SHORT STACK AFTER PARTY // PERTH",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "Amplifier Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d5be2e68-8c8c-461c-860b-0a076f7be452?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Amplifier Bar"
-  },
-  {
-    "artist": "Surf Shop Cops \"Weird Energy\" Single Launch",
-    "startdate": "2025-06-20",
-    "starttime": "20:00:00",
-    "venue": "The Bird",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/53a9048f-b15b-4780-a90a-67496e76a9a6?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Bird"
-  },
-  {
-    "artist": "Royale With Cheese - The Ultimate 90's Rock Show",
-    "startdate": "2025-06-20",
-    "starttime": "22:00:00",
-    "venue": "Eureka Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/fe0bca7c-7358-42e2-9abd-dfe1d0f05b1f?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Eureka Hotel"
-  },
-  {
-    "artist": "LANDSLIDE - Fleetwood Mac and Stevie Nicks Tribute Show",
-    "startdate": "2025-06-20",
-    "starttime": "20:30:00",
-    "venue": "Old Courthouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/9510c4eb-6097-406b-aaf8-62b190254963?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Old Courthouse"
-  },
-  {
-    "artist": "Rock the Solstice",
-    "startdate": "2025-06-21",
-    "starttime": "12:00:00",
-    "venue": "Mo's Desert Clubhouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/24219c9e-5590-410f-bdef-9970143d2bcb?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Mo's Desert Clubhouse"
-  },
-  {
-    "artist": "Tanner Keast with Kash and Riordan",
-    "startdate": "2025-06-21",
-    "starttime": "12:30:00",
-    "venue": "Bergy Bandroom",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/e1ed21d4-1fd2-4a9a-a19a-57c9c89e8b9b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bergy Bandroom"
-  },
-  {
-    "artist": "IRON MIND LP Launch - Melbourne All Ages",
-    "startdate": "2025-06-21",
-    "starttime": "14:00:00",
-    "venue": "Phoenix Youth Centre",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3acf603f-9d13-4e44-a88e-ba3ae0c2032a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Phoenix Youth Centre"
-  },
-  {
-    "artist": "Reggae by the River",
-    "startdate": "2025-06-21",
-    "starttime": "15:00:00",
-    "venue": "Distillery Road Market",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/cbafad56-b1a5-4730-8bef-3c8af503723f?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Distillery Road Market"
-  },
-  {
-    "artist": "GWH Bull Riding Series 2025",
-    "startdate": "2025-06-21",
-    "starttime": "17:00:00",
-    "venue": "Great Western Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/b1206246-899f-486f-9f09-87a22a883ab1?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Great Western Hotel"
-  },
-  {
-    "artist": "Cassis",
-    "startdate": "2025-06-21",
-    "starttime": "15:00:00",
-    "venue": "The Bird",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7638cd1d-1016-4610-bbdf-00c48f39b728?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Bird"
-  },
-  {
-    "artist": "BOO SEEKA – RAW FILES TOUR (VOL. 2)",
-    "startdate": "2025-06-21",
-    "starttime": "18:00:00",
-    "venue": "Black Duck Brewery",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7c5437ba-a700-414f-aa8c-1304c28c48b1?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Black Duck Brewery"
-  },
-  {
-    "artist": "2000s + 2010s Party - Kingscliff",
-    "startdate": "2025-06-21",
-    "starttime": "18:00:00",
-    "venue": "Kingscliff Beach Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0826d56f-3f5a-4687-8632-42870a860182?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Kingscliff Beach Hotel"
-  },
-  {
-    "artist": "***THE SUPERJESUS ***          Album Tour",
-    "startdate": "2025-06-21",
-    "starttime": "18:00:00",
-    "venue": "Norton Music Factory",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7c2c5fa4-f96e-4a18-98f5-f39b5660d81b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Norton Music Factory"
-  },
-  {
-    "artist": "Pyrefly, Russian Novel & Shatterface @ The Burdekin",
-    "startdate": "2025-06-21",
-    "starttime": "18:30:00",
-    "venue": "Burdekin Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/68bf85b1-0414-4f78-a6f4-ec76a51679e9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Burdekin Hotel"
-  },
-  {
-    "artist": "Drunk Mums",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Solbar",
-    "artisturl": "https://tickets.solbar.com.au/outlet/event/9d12a958-95f5-4fda-bd97-53f6efc34744?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Solbar"
-  },
-  {
-    "artist": "Blind Corners Dancer Tour (Tamborine Mountain)",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "The Knoll Studio",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/cca77d03-905c-4563-a6b1-ddd80c40da89?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Knoll Studio"
-  },
-  {
-    "artist": "Flynn Gurry | ‘Don’t Stop Dreaming’ East Coast Tour",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "The Junk Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/a4a63dc6-2351-47dc-bb4c-6d2d02e713ae?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Junk Bar"
-  },
-  {
-    "artist": "Thelma Plum - \"I'm Sorry, Where Is That?\" Regional Tour",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Barwon Heads Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/13dd2eab-24b6-438f-80eb-df0107681000?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Barwon Heads Hotel"
-  },
-  {
-    "artist": "ONEFOUR - LOOK AT ME NOW AUS TOUR",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Uni Bar Hobart",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d7245079-2239-4b23-931b-b2b7625fcf73?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Uni Bar Hobart"
-  },
-  {
-    "artist": "Jem Cassar-Daley - Kiss Me Like You’re Leaving Tour",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "The Brightside",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2f881ce9-4c3c-43ef-b175-d34936e4f4be?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Brightside"
-  },
-  {
-    "artist": "King Parrot | ‘A Young Person’s Guide To King Parrot’ Album Launch Tour",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Barwon Club Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/b3099bf7-0afd-4ecc-86d0-de69d228642f?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Barwon Club Hotel"
+    "venue": "John Curtin Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/f0aedfbc-4c2f-42bd-94f9-2cdca15e324d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "John Curtin Hotel"
+  },
+  {
+    "artist": "Winterfest Biloela 2025",
+    "startdate": "2025-07-24",
+    "starttime": "13:00:00",
+    "venue": "Winterfest Biloela",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/ad6c7907-905c-4a3a-b872-0425370edeac?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Winterfest Biloela"
   },
   {
     "artist": "Ball Park Music - Like Love Tour",
-    "startdate": "2025-06-21",
+    "startdate": "2025-07-24",
+    "starttime": "17:00:00",
+    "venue": "Tilba Valley Winery and Alehouse",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e2d77fa4-e73a-43b6-a4bb-7449e1831cea?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Tilba Valley Winery and Alehouse"
+  },
+  {
+    "artist": "Fresh Country",
+    "startdate": "2025-07-24",
+    "starttime": "18:30:00",
+    "venue": "King Street Band Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/39f6c1b2-b4a6-43b0-ae69-07df3e822e9f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "King Street Band Room"
+  },
+  {
+    "artist": "Unplugged at the Waz - Luke Saunders & Emerson",
+    "startdate": "2025-07-24",
     "starttime": "19:00:00",
-    "venue": "JCU Uni Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/f6c51ef7-7982-4e91-8ce0-befc64c5c3f4?utm_source=Oztix&utm_medium=Website",
-    "location_name": "JCU Uni Bar"
+    "venue": "The Warren View Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5e9bc74b-3e32-4e17-b867-03ddd9d8ab9d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Warren View Hotel"
   },
   {
-    "artist": "LITTLE BIRDY - bigbiglove 21st Birthday Tour",
-    "startdate": "2025-06-21",
+    "artist": "Goodwood! Live! At The Tote",
+    "startdate": "2025-07-24",
     "starttime": "19:00:00",
-    "venue": "Miami Marketta, Gold Coast",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d699d825-9a3f-46f1-aaee-ae79ba26a831?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Miami Marketta, Gold Coast"
-  },
-  {
-    "artist": "Make Them Suffer Regional Australian Tour 2025",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "The Baso - Canberra",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/bf48b576-0a36-4a15-a67c-43943701e1da?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Baso - Canberra"
-  },
-  {
-    "artist": "Alta Falls National Tour",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Crowbar Brisbane",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2457806a-2b17-4f01-9ad2-25ef07db538a?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Crowbar Brisbane"
-  },
-  {
-    "artist": "Almost Strangers",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "Darling Nikki’s",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0dd7c31a-a757-41fe-807c-7fe94737b191?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Darling Nikki’s"
-  },
-  {
-    "artist": "Stolen Gold",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "The Evelyn Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/499e334c-d12a-420e-aa41-a8c02e708aa6?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Evelyn Hotel"
-  },
-  {
-    "artist": "Jess Ball (EP Launch)",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "Northcote Social Club",
-    "artisturl": "https://tickets.northcotesocialclub.com/outlet/event/0e0dd1bd-0c3d-449b-81ea-a337f33da8b7?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Northcote Social Club"
-  },
-  {
-    "artist": "The Sooks - Kickstarter Single Launch",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "The Chippo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3b7dc306-7e5e-4cc4-b732-7849f0714068?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Chippo Hotel"
-  },
-  {
-    "artist": "Party Dozen",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "Marrickville Bowling Club",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/968e3114-ce3e-46d5-ab70-2da2b35c4e38?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Marrickville Bowling Club"
-  },
-  {
-    "artist": "Private Function - ¯\\_(?)_/¯ ALBUM TOUR 2025",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "Vinnies Dive",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/11c75deb-d490-4525-be81-b927d9d75ea1?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Vinnies Dive"
-  },
-  {
-    "artist": "Thraxas Album Launch",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "The Back Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/6f122da6-aed1-4edc-99b8-4f6a9ce3dbb4?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Back Room"
-  },
-  {
-    "artist": "Ages of Rock",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Woodshed ",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/e68ff2ed-0a0b-47ea-9d50-df0def7c6a20?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Woodshed "
-  },
-  {
-    "artist": "TUMBLEWEED & THE NEW CHRISTS",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "The Hamilton Station Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/a5aa2730-0729-4659-908b-637fd71d51e8?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Hamilton Station Hotel"
-  },
-  {
-    "artist": "1927",
-    "startdate": "2025-06-21",
-    "starttime": "19:30:00",
-    "venue": "Mansfield Tavern",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/a8cf66e7-ae19-4115-b7d7-385f347c69ef?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Mansfield Tavern"
-  },
-  {
-    "artist": "Immigrant Union + Eils & The Drip",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Corner Hotel",
-    "artisturl": "https://tickets.cornerhotel.com/outlet/event/0fb837b8-12fd-4305-9d2e-c8ef2cf2542d?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Corner Hotel"
-  },
-  {
-    "artist": "Metdog “One for the Kids” album launch/Final Australian show.",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "The Gem Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/7de0e215-0778-4857-ade3-31e3c8643ec4?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Gem Bar"
-  },
-  {
-    "artist": "Nu Metal Masters - Limp Bizkit & Linkin Park Tribute night",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Kings Beach Tavern",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/891adce3-afdb-4f7d-9930-0773adc53d20?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Kings Beach Tavern"
-  },
-  {
-    "artist": "SADDLE UP! Country Music Roadshow",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "The Wool Exchange",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0b79bacd-73d0-4d1a-97a3-7e14b1e03b18?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Wool Exchange"
-  },
-  {
-    "artist": "Kidskin/Clit Split/Uberwench play the Tote Upstairs",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
     "venue": "The Tote - Upstairs",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/4ff2aaa6-1030-4452-a25c-f6a562eef3d7?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c76275b2-b2c9-46a5-bcff-d68a6522ac94?utm_source=Oztix&utm_medium=Website",
     "location_name": "The Tote - Upstairs"
   },
   {
-    "artist": "Johnston City 'Decie's Pride' Album Launch",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "The Stag & Hunter Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2f5adcf5-b1c4-471a-aa7e-f8588abcc6ee?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Stag & Hunter Hotel"
+    "artist": "'New Blood: Vol. 4' ft. Distorta",
+    "startdate": "2025-07-24",
+    "starttime": "19:00:00",
+    "venue": "The Workers Club",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/08a3d7d1-5da5-43bb-9e1c-18d849d2f15f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Workers Club"
   },
   {
-    "artist": "Pisco Sour",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Wallaby Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/f84899e9-0931-41cf-9d59-043c8ac7d64b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Wallaby Hotel"
+    "artist": "GRAVEMIND | MACKAY FT. HEADWRECK, SHELL OF ME & THANARTIST",
+    "startdate": "2025-07-24",
+    "starttime": "19:00:00",
+    "venue": "McGuires Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/eba2b85e-cec8-43e7-87f3-b5384462ae2d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "McGuires Hotel"
   },
   {
-    "artist": "Kyle Brew - 'Life and Living' Album Launch",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Cactus Room",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/479cd271-cf1b-44b6-b728-688e93738975?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Cactus Room"
-  },
-  {
-    "artist": "Paradise Valley’s ‘Take Me Higher’ — single launch’ - Upstairs at Bendigo Hotel",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Bendigo Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/f4f56c59-f5c4-4934-87d5-cd8e3f27e734?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Bendigo Hotel"
-  },
-  {
-    "artist": "Boot Scootin' Boogie - A Country Music Club Night - Newcastle",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "King Street Warehouse",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/350130f1-cedb-402a-bbb0-19e5ab47cbda?utm_source=Oztix&utm_medium=Website",
-    "location_name": "King Street Warehouse"
-  },
-  {
-    "artist": "Naberus - DREAD - Release show",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "The Leadbeater Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/107618d0-2337-4cf5-abc5-2f2eff564349?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Leadbeater Hotel"
-  },
-  {
-    "artist": "MAMMA MIA! - ABBA TRIBUTE SHOW",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Matthew Flinders Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/b16e4e06-2172-44f4-9752-0dc5f6f60941?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Matthew Flinders Hotel"
-  },
-  {
-    "artist": "Creedence – The John Fogerty Show - Down on Your Corner Tour",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Wilsonton Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/594d3b01-5b8a-4b43-a41b-9b69cfc77a1b?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Wilsonton Hotel"
-  },
-  {
-    "artist": "Electric Mary - Last Shows Ever: Adelaide",
-    "startdate": "2025-06-21",
+    "artist": "LIVE: Boys At The Back w/ Necko & Lazuli Mood",
+    "startdate": "2025-07-24",
     "starttime": "19:30:00",
-    "venue": "The Gov - The Venue",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/dee8d837-e361-4b59-a45d-14f2fd36abe3?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Gov - The Venue"
+    "venue": "Buddy’s Bar Newtown",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/7b2ed439-f120-4566-8b03-c96cd22f2df3?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Buddy’s Bar Newtown"
   },
   {
-    "artist": "Frenzal Rhomb  'A Man’s (Still) Not a Camel’ 25th Anniversary Tour",
-    "startdate": "2025-06-21",
+    "artist": "JAM Big Band at The Bergy Bandroom",
+    "startdate": "2025-07-24",
+    "starttime": "19:30:00",
+    "venue": "Bergy Bandroom",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e95461c4-2005-4509-b8d2-c73179ae7fde?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bergy Bandroom"
+  },
+  {
+    "artist": "**FREE ENTRY** Lewis Love @ Espy Live",
+    "startdate": "2025-07-24",
+    "starttime": "19:30:00",
+    "venue": "Espy Basement",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/751268af-4f02-4998-a607-ff9b88909d0b?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Espy Basement"
+  },
+  {
+    "artist": "EL TEE - 'KIND SAFE COOL' EP LAUNCH",
+    "startdate": "2025-07-24",
+    "starttime": "19:30:00",
+    "venue": "John Curtin Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/4170a2bb-c496-4937-9c45-e55702a90bf6?utm_source=Oztix&utm_medium=Website",
+    "location_name": "John Curtin Hotel"
+  },
+  {
+    "artist": "MKNAOMI with Sylvia and Shallow @ LAST CHANCE",
+    "startdate": "2025-07-24",
     "starttime": "20:00:00",
-    "venue": "Volta",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/bdbc6adf-779f-47a6-9817-a2ee27b1df1c?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Volta"
-  },
-  {
-    "artist": "Royale With Cheese - The Ultimate 90's Rock Show",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Max Watt's Melbourne",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/edd2ba4e-db28-455f-99ab-eb1b718b6b84?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Max Watt's Melbourne"
-  },
-  {
-    "artist": "Bliss n Eso | Party on the Moon tour",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Drifters Wharf",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2f847f56-fb9d-4e3d-9610-e82bbbce76ec?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Drifters Wharf"
-  },
-  {
-    "artist": "Land Down Under - The Aus-Music Explosion Phenomenon",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Chelsea Heights Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/5aa02613-2aea-470c-9e51-8c924b7f46c6?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Chelsea Heights Hotel"
-  },
-  {
-    "artist": "REWIND 80's",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Burvale Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/e2c98571-d260-4bf7-991d-8c042a8387d3?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Burvale Hotel"
-  },
-  {
-    "artist": "Old Mervs Album Tour",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
-    "venue": "Pier Bandroom",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/8ea4446c-d08a-475f-92a5-e113fc55cdb9?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Pier Bandroom"
-  },
-  {
-    "artist": "Ghoulies, Pleasants + The Unknowns",
-    "startdate": "2025-06-21",
-    "starttime": "20:30:00",
     "venue": "The Last Chance Rock & Roll Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d00e94d6-aa75-4e6b-8454-1a1a3b758973?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/3f907775-a97b-4ad9-99f0-90613626cde9?utm_source=Oztix&utm_medium=Website",
     "location_name": "The Last Chance Rock & Roll Bar"
   },
   {
-    "artist": "Nursery Crimes",
-    "startdate": "2025-06-21",
+    "artist": "NATE FAKER – I'M HERE... SOLO TOUR",
+    "startdate": "2025-07-24",
     "starttime": "20:00:00",
-    "venue": "Port Noarlunga Football Club",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/af3095fc-0b74-44b7-83d3-33b66710654e?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Port Noarlunga Football Club"
+    "venue": "Finnian's Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/3b208f23-ee8e-49dc-abb0-85cb23442133?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Finnian's Tavern"
   },
   {
-    "artist": "HURRICANE: THE AUSTRALIAN LUKE COMBS TRIBUTE",
-    "startdate": "2025-06-21",
+    "artist": "The Smith Street Band",
+    "startdate": "2025-07-24",
+    "starttime": "19:30:00",
+    "venue": "The Gov - The Venue",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/1f713ebb-81eb-4b60-9839-ac804f76cc49?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gov - The Venue"
+  },
+  {
+    "artist": "QUINNY at The Pinny III",
+    "startdate": "2025-07-24",
+    "starttime": "20:30:00",
+    "venue": "The Fitzroy Pinnacle",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/191181ca-1534-46f5-8313-d2b9bd98e19b?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Fitzroy Pinnacle"
+  },
+  {
+    "artist": "Oceanique \"Skylines\" Album Launch",
+    "startdate": "2025-07-24",
+    "starttime": "19:00:00",
+    "venue": "Lyric's Underground",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e454fbc8-841b-4987-89c8-30d6e56eb45f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Lyric's Underground"
+  },
+  {
+    "artist": "The Return of METAL OF HONOR",
+    "startdate": "2025-07-25",
+    "starttime": "18:00:00",
+    "venue": "The Back Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/edb64650-d0b2-48db-9347-7c209aa0798c?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Back Room"
+  },
+  {
+    "artist": "Luja Murfi - Live at Dust Temple",
+    "startdate": "2025-07-25",
+    "starttime": "18:00:00",
+    "venue": "Dust Temple",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/f179b73b-cdc7-495a-90ab-d4cb2477bca0?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Dust Temple"
+  },
+  {
+    "artist": "Lennon Wells - Warehouse Party w/ BOCCE & Grace Chia",
+    "startdate": "2025-07-25",
+    "starttime": "18:30:00",
+    "venue": "64 Warwick St",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/fb7eced9-7455-4041-a448-19f3fa49188a?utm_source=Oztix&utm_medium=Website",
+    "location_name": "64 Warwick St"
+  },
+  {
+    "artist": "FLIP THE SWITCH 3 IPSWICH DEDCITY RUMBLE TOUR '25 THE GREAT SOUTHERN TAKEOVER(only QLD show)",
+    "startdate": "2025-07-25",
+    "starttime": "18:30:00",
+    "venue": "Racehorse Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/cdfa9987-8d01-4b66-9185-a3705964f90b?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Racehorse Hotel"
+  },
+  {
+    "artist": "Dirty Harry",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Junk Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/72147405-cc4a-425e-add2-5fe3cf8cebd1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Junk Bar"
+  },
+  {
+    "artist": "SAXON'S BDAY BASH",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Brightside",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6a37dcfe-a26d-4871-8d13-a9b0dbf8e76e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Brightside"
+  },
+  {
+    "artist": "An evening with The Mods + Owen Perks",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Bard's Apothecary",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/955fbea4-7d48-47b8-8881-4c410e9dd95f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bard's Apothecary"
+  },
+  {
+    "artist": "Kylie Fisher",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Old Bundy Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/598d6968-da4c-488f-95f9-7782bc9ffdbd?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Old Bundy Tavern"
+  },
+  {
+    "artist": "Dashville Does The Bowlo",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Bangalow Bowlo",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/335d272c-5f0a-4cfd-93d8-c5ba5aadd4a3?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bangalow Bowlo"
+  },
+  {
+    "artist": "undercurrent vol 1.",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Black Bear Lodge",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6f8392fa-75f9-4a9e-8860-d42c77096341?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Black Bear Lodge"
+  },
+  {
+    "artist": "Fallweather (acoustic)",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Croxton Front Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c8aa136e-238b-4a5f-b9bf-f52c257bf013?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Croxton Front Bar"
+  },
+  {
+    "artist": "EORTI Greek Culture celebration - Day 1 - Irine Vela, Anthea Sidiropoulos, Anatreptix",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Odeon Richmond",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0f03eb7d-6266-4f24-82b7-ad9e0d99fc43?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Odeon Richmond"
+  },
+  {
+    "artist": "Deadheat 'We're Going to the Movies' Tour at The Presynct",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Presynct",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/aabfe9d0-9130-4de1-a139-818320d91305?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Presynct"
+  },
+  {
+    "artist": "Indie Sounds From The Gong & Surrounds - ALBUM LAUNCH",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Hamilton Station Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/4ed6811b-4999-4cf8-a672-5a3d57b47e59?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Hamilton Station Hotel"
+  },
+  {
+    "artist": "Press Club “To All The Ones That I Love” Album Tour",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Crowbar Brisbane",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/24cbb17b-b669-494c-9007-f5086bbd8018?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Crowbar Brisbane"
+  },
+  {
+    "artist": "SPEED, WHISPERS & FEEL THE PAIN IN ALBURY 18+",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "Beer DeLuxe - Albury",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/99e14bd0-ecd1-4588-b85f-cc9db541dd21?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Beer DeLuxe - Albury"
+  },
+  {
+    "artist": "SUBURBIA SUBURBIA | Live at Lou Lou",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "The Lou Lou Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/38192b21-2be6-4f30-85cd-30548c6b3cf9?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Lou Lou Room"
+  },
+  {
+    "artist": "Microwave (usa) & Free Throw (usa) Co-Headline Australian Tour 2025",
+    "startdate": "2025-07-25",
+    "starttime": "19:00:00",
+    "venue": "King Street Band Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/de714af8-89f5-4bb1-9892-d7a4bc377f15?utm_source=Oztix&utm_medium=Website",
+    "location_name": "King Street Band Room"
+  },
+  {
+    "artist": "BOOF HEADS - LOW BROW 'The Tour' - Gold Coast",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Vinnies Dive",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/b729e881-f2d5-4bf5-85df-39e03fc14eb1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Vinnies Dive"
+  },
+  {
+    "artist": "GHOSTSMOKER with support from FRANKENBOK, SCAPHIS, BOG MONSTER & RAT TOMB",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "The Tote - Band Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/8f4a2889-4f0e-4581-97b3-b76d8b0eee9d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Band Room"
+  },
+  {
+    "artist": "Cousin Tony’s (‘Rosewater Crocodile’ Album Tour)",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Corner Hotel",
+    "artisturl": "https://tickets.cornerhotel.com/outlet/event/a812255a-651b-4151-af28-555b82ae6e13?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Corner Hotel"
+  },
+  {
+    "artist": "The Gin Club \"Fear of the Sea\" 20th Anniversary",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Marrickville Bowling Club",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/70a62687-2416-4344-835e-519700b9dcf1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Marrickville Bowling Club"
+  },
+  {
+    "artist": "NOASIS – BE HERE NOW ‘25 Tour +",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Max Watt's Melbourne",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a0143146-3ef5-442a-8081-e1a4d6eb7770?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Max Watt's Melbourne"
+  },
+  {
+    "artist": "Eunice & The Footes + Friends upstairs at The Tote",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "The Tote - Upstairs",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/491f9467-ac24-43dc-b1fd-1aae59002b8d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Upstairs"
+  },
+  {
+    "artist": "Speccy w/ LXRP and Power Tools @ LAST CHANCE",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "The Last Chance Rock & Roll Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/087a22ad-b80d-4c62-9174-891284ec2234?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Last Chance Rock & Roll Bar"
+  },
+  {
+    "artist": "The Night Packers",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Botany View Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/f8932641-7e72-4cf9-a26e-eb7e1f606952?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Botany View Hotel"
+  },
+  {
+    "artist": "KIOS",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Woodshed ",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/87a78df6-46f1-4bcc-babd-ab63833911b6?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Woodshed "
+  },
+  {
+    "artist": "Cal Lawrence (Debut Headline Show & Single Launch)",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "The Workers Club",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/075a137b-5932-407f-ab86-34d0f75532ad?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Workers Club"
+  },
+  {
+    "artist": "THE HEART SHAPED ACES - 'DANCING IN DECAY' EP LAUNCH",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "John Curtin Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/92aa3f77-67ee-454b-9b25-3f16dc5bffb2?utm_source=Oztix&utm_medium=Website",
+    "location_name": "John Curtin Hotel"
+  },
+  {
+    "artist": "GRAVEMIND | TOWNSVILLE FT. HEADWRECK, LOST BENEATH & TRAUMA BONDS",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Otherwise Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/be2a7517-194f-4337-a682-12dec346c63c?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Otherwise Bar"
+  },
+  {
+    "artist": "LIVE BABY LIVE THE INXS TRIBUTE SHOW",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Miranda Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/9f3c6010-b08f-441b-884e-882273a3d4f4?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Miranda Hotel"
+  },
+  {
+    "artist": "Shannon Noll",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Mac's Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/31e86b8d-e2bf-4c84-a637-5747379df55c?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Mac's Hotel"
+  },
+  {
+    "artist": "The Radiators",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "The Strand Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c253c185-3db8-4131-913b-a45f962b011b?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Strand Hotel"
+  },
+  {
+    "artist": "Conrad Sewell - Firestone 10th Anniversary: Acoustic Sessions",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Edge Hill Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/982454d4-bc54-419f-ad73-76c0e8b40785?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Edge Hill Tavern"
+  },
+  {
+    "artist": "David Bridie",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "The Wheatsheaf Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0df8a1d7-b251-413b-8cab-dbd90daf4407?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Wheatsheaf Hotel"
+  },
+  {
+    "artist": "MAMMA MIA! - ABBA TRIBUTE SHOW",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "York on Lilydale",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a0801105-833d-4372-896e-101dd3fdc8ba?utm_source=Oztix&utm_medium=Website",
+    "location_name": "York on Lilydale"
+  },
+  {
+    "artist": "Remains presents: \"Grinding From The Grave\" Album Release Party",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Bergy Bandroom",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/9347ffea-a25a-4c2a-a723-fc6aeb4418f1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bergy Bandroom"
+  },
+  {
+    "artist": "The Song Men",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "The Gov - The Venue",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/828960a5-101b-4d90-ab5a-f5ff628254f8?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gov - The Venue"
+  },
+  {
+    "artist": "LOUD! V15 | BlackLight | FREE ENTRY",
+    "startdate": "2025-07-25",
+    "starttime": "20:30:00",
+    "venue": "Cleveland Sands Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/fd52c3d9-86b7-4457-94c9-b0ce5f98ded6?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Cleveland Sands Hotel"
+  },
+  {
+    "artist": "TRAVIS COLLINS – Boots, Beer & Barstools Tour 2025",
+    "startdate": "2025-07-25",
     "starttime": "20:30:00",
     "venue": "Gateway Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/3fba643c-c556-46e4-b6de-d0d10e3d404d?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/20b463f3-2f3e-4a3c-ae51-2b7b08b40fe1?utm_source=Oztix&utm_medium=Website",
     "location_name": "Gateway Hotel"
   },
   {
-    "artist": "Miramar",
-    "startdate": "2025-06-21",
+    "artist": "Camino Gold",
+    "startdate": "2025-07-25",
     "starttime": "21:00:00",
     "venue": "Vic on The Park Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0df5f459-d0a8-4259-96ee-3a85746dd891?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a7bcbdba-ba90-4918-a18e-9ad6fe024545?utm_source=Oztix&utm_medium=Website",
     "location_name": "Vic on The Park Hotel"
   },
   {
-    "artist": "Vanilla Gorilla",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "The River",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/ee60cc59-d3f3-41f4-bdd2-1bf8005210bd?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The River"
-  },
-  {
-    "artist": "Fremantle Winter Music Festival 2025",
-    "startdate": "2025-06-21",
-    "starttime": "19:00:00",
-    "venue": "Mojos, Port Beach Brewery, Swan Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d9f93866-d469-430f-909a-7219e27f76db?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Mojos, Port Beach Brewery, Swan Hotel"
-  },
-  {
-    "artist": "2000s + 2010s Party - Ulladulla",
-    "startdate": "2025-06-21",
+    "artist": "Voulez-Vous: Abba Appreciation Night - Caloundra",
+    "startdate": "2025-07-25",
     "starttime": "21:00:00",
-    "venue": "The Marlin Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/829b0393-5834-496d-a3d6-e4b165fecd94?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Marlin Hotel"
+    "venue": "Kings Beach Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/214d5f39-e4a1-4259-8062-58c5a238828e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Kings Beach Tavern"
   },
   {
-    "artist": "WINTER RHYTHM & BLUES CONCERT",
-    "startdate": "2025-06-21",
+    "artist": "The Smith Street Band",
+    "startdate": "2025-07-25",
     "starttime": "19:00:00",
-    "venue": "Burlington Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d4a5c76c-2bf9-40ca-9281-d657ea714e03?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Burlington Hotel"
+    "venue": "Magnet House",
+    "artisturl": "https://tickets.393murray.com.au/outlet/event/5a89ce22-c04a-4165-8efa-048e3dd5d7fe?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Magnet House"
   },
   {
-    "artist": "The Wayward Ones",
-    "startdate": "2025-06-21",
-    "starttime": "20:30:00",
-    "venue": "The Gov - The Gibson Stage",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/cff4b46d-c4c4-47a1-bfd7-e8fc2f67eba2?utm_source=Oztix&utm_medium=Website",
-    "location_name": "The Gov - The Gibson Stage"
-  },
-  {
-    "artist": "OH SNAP! // P!ATDs A Fever You Can't Sweat Out 20th Anniversary Party",
-    "startdate": "2025-06-21",
+    "artist": "AMITY AFFLICTION vs PARKWAY DRIVE // PERTH",
+    "startdate": "2025-07-25",
     "starttime": "19:30:00",
     "venue": "Amplifier Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/85202f05-9d67-48c3-a7b4-9997c7aa4d8c?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c9e94057-c5ab-414f-bfb3-e23690e4dfa7?utm_source=Oztix&utm_medium=Website",
     "location_name": "Amplifier Bar"
   },
   {
-    "artist": "GravyMania",
-    "startdate": "2025-06-21",
+    "artist": "Xmas in July with Little Pedro",
+    "startdate": "2025-07-25",
     "starttime": "19:30:00",
-    "venue": "Rosemount Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/85e1f835-70b9-49bc-92fb-2512d4b081d3?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Rosemount Hotel"
+    "venue": "Railway Hotel & Swan Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5cf9b38c-089f-4f4e-8df5-85ecbd58e6b1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Railway Hotel & Swan Hotel"
   },
   {
-    "artist": "HEADSPIN - Live at Four5nine",
-    "startdate": "2025-06-21",
-    "starttime": "20:00:00",
+    "artist": "Mandelt - Live at Four5nine",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
     "venue": "Four5Nine Bar",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/d3cb4ac6-f5de-4abf-8091-f04b0e903fa2?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/7a7c5b05-99a0-4b3a-bd36-66ede7bc6609?utm_source=Oztix&utm_medium=Website",
     "location_name": "Four5Nine Bar"
   },
   {
-    "artist": "Don’t Tell Daisy 'CITY LIGHTS' + 'CAN'T HELP' Double Single Launch",
-    "startdate": "2025-06-21",
+    "artist": "The Fauves",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Lyric's Underground",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c9f44d9f-158e-460c-9eac-2ce46321765c?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Lyric's Underground"
+  },
+  {
+    "artist": "Absolute Bowie (UK) The Best of Bowie Australian Tour",
+    "startdate": "2025-07-25",
+    "starttime": "19:30:00",
+    "venue": "Rosemount Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5e5acfcc-d196-4276-9a3d-635ddc333115?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Rosemount Hotel"
+  },
+  {
+    "artist": "World A Reggae #10",
+    "startdate": "2025-07-25",
     "starttime": "20:00:00",
     "venue": "Clancy's Fish Pub | Fremantle",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/2f8a2616-0165-41c0-b19c-62227ea9fb04?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/edca6d8e-8256-47e0-9e9e-fc8c6f7d19ce?utm_source=Oztix&utm_medium=Website",
     "location_name": "Clancy's Fish Pub | Fremantle"
   },
   {
-    "artist": "Funhouse : P!nk Tribute Show",
-    "startdate": "2025-06-21",
+    "artist": "Club Yoncé - Perth",
+    "startdate": "2025-07-25",
     "starttime": "20:00:00",
-    "venue": "Gosnells Hotel",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/0041374d-c590-4a06-8798-1b2b34937212?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Gosnells Hotel"
+    "venue": "The Court Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/b16de732-53ee-4d8a-b934-b77660811071?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Court Hotel"
   },
   {
-    "artist": "Kingswood - The Midnight Mavericks Tour - Froth Bunbury",
-    "startdate": "2025-06-21",
+    "artist": "SCAR TISSUE - RED HOT CHILI PEPPERS TRIBUTE | ALKIMOS",
+    "startdate": "2025-07-25",
     "starttime": "20:00:00",
-    "venue": "Froth Craft Bunbrewery Bunbury",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/290635d2-b7aa-4d44-846f-99285b993883?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Froth Craft Bunbrewery Bunbury"
+    "venue": "The Landing Alkimos",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/04ac8765-9760-4f44-b1d8-f52397b14427?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Landing Alkimos"
   },
   {
-    "artist": "TAKING BRAT SATURDAY: Emo vs Pop Night - Melbourne",
-    "startdate": "2025-06-21",
+    "artist": "FANGZ 'Shui' Album Tour",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Indian Ocean Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/119568cf-9883-4e34-a257-ac700db661d0?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Indian Ocean Hotel"
+  },
+  {
+    "artist": "What You Need : INXS Tribute",
+    "startdate": "2025-07-25",
+    "starttime": "20:00:00",
+    "venue": "Claremont Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/9cac6b97-d790-463c-a659-6a1253370e6d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Claremont Hotel"
+  },
+  {
+    "artist": "Deftones Appreciation Night with Xavier Switchblades",
+    "startdate": "2025-07-25",
     "starttime": "23:00:00",
     "venue": "Stay Gold ",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/41d48eea-21c8-4a84-9781-35132f4a894c?utm_source=Oztix&utm_medium=Website",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a7c14f86-3779-4565-8f15-7527a0422dab?utm_source=Oztix&utm_medium=Website",
     "location_name": "Stay Gold "
   },
   {
-    "artist": "Round Up: A Country Club Night - Esperance",
-    "startdate": "2025-06-21",
-    "starttime": "21:30:00",
-    "venue": "Pier Hotel, Esperence",
-    "artisturl": "https://tickets.oztix.com.au/outlet/event/80507d74-3b04-4876-bcbf-d13cee1de4e3?utm_source=Oztix&utm_medium=Website",
-    "location_name": "Pier Hotel, Esperence"
+    "artist": "Party on the Point",
+    "startdate": "2025-07-26",
+    "starttime": "12:30:00",
+    "venue": "Sandstone Point Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a61859e4-0dfc-4a69-a650-93ba815b4bce?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Sandstone Point Hotel"
+  },
+  {
+    "artist": "Proto-Punk Acid Rock Prog-Psychedelic - 3 bands",
+    "startdate": "2025-07-26",
+    "starttime": "13:00:00",
+    "venue": "Bergy Bandroom",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/eeba756c-c52a-415b-a71e-a980743c44eb?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bergy Bandroom"
+  },
+  {
+    "artist": "Forklift Assassins Ripsnorter Album Launch East Coast Tour (Gold Coast)",
+    "startdate": "2025-07-26",
+    "starttime": "13:30:00",
+    "venue": "Vinnies Dive",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c0430f0c-0f6a-4620-9661-e8ff6fb2fc0d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Vinnies Dive"
+  },
+  {
+    "artist": "Mack & Cook - Time Goes By single launch",
+    "startdate": "2025-07-26",
+    "starttime": "14:00:00",
+    "venue": "The Junk Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/787e5a5f-022f-4571-8674-8d7d78abbe2e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Junk Bar"
+  },
+  {
+    "artist": "A.U.D.I.O \"Choose Happiness\" Album Launch w/ Morningbirds + Vague Rituals",
+    "startdate": "2025-07-26",
+    "starttime": "15:00:00",
+    "venue": "The Last Chance Rock & Roll Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/4cbfb3bd-93ab-4af4-8709-96cfc4e41200?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Last Chance Rock & Roll Bar"
+  },
+  {
+    "artist": "HOW TO Workshop –  Get that Money - Grants for Performers",
+    "startdate": "2025-07-26",
+    "starttime": "13:00:00",
+    "venue": "Walyalup Civic Centre, Moodjar Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6bd5def4-4586-478d-a071-57de35f1cf88?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Walyalup Civic Centre, Moodjar Room"
+  },
+  {
+    "artist": "Early Bird: Daytime Clubbing for the 30+ Partygoer - Brisbane",
+    "startdate": "2025-07-26",
+    "starttime": "16:00:00",
+    "venue": "The Wickham",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/79c8b715-9807-4140-9fe2-4cb11f69be7d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Wickham"
+  },
+  {
+    "artist": "DUSTHEAD",
+    "startdate": "2025-07-26",
+    "starttime": "17:30:00",
+    "venue": "Sooki Lounge",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/cd2b535e-8f9d-4310-9d7d-2e8ebbd6acdd?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Sooki Lounge"
+  },
+  {
+    "artist": "SLAM N' JAM Live Metal & Wrestling Carnage",
+    "startdate": "2025-07-26",
+    "starttime": "18:00:00",
+    "venue": "Crowbar Sydney",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5f37480e-04c9-4aac-bedc-1a5cb4a44bc0?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Crowbar Sydney"
+  },
+  {
+    "artist": "WHOLE LOTTA ROSIES | WALLABY HOTEL - 26/07",
+    "startdate": "2025-07-26",
+    "starttime": "18:00:00",
+    "venue": "Wallaby Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/cdf16d56-0618-46d7-87d5-b5a6a9dd8835?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Wallaby Hotel"
+  },
+  {
+    "artist": "The Bennies | The 'You Can’t Put Out This Fire' Tour",
+    "startdate": "2025-07-26",
+    "starttime": "18:00:00",
+    "venue": "The Forth Pub",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5e0ef051-35e8-4527-8942-21a74bff2093?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Forth Pub"
+  },
+  {
+    "artist": "Creedence Clearwater Collective",
+    "startdate": "2025-07-26",
+    "starttime": "18:30:00",
+    "venue": "Eatons Hill Hotel - Grand Ballroom",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/2d423495-dfd3-48ed-92ec-824a616463c6?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Eatons Hill Hotel - Grand Ballroom"
+  },
+  {
+    "artist": "Lennon Wells - Warehouse Party w/ Powderkeg & Spooky Eyes",
+    "startdate": "2025-07-26",
+    "starttime": "18:30:00",
+    "venue": "64 Warwick St",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e14b01e2-1665-4906-ad36-58e99f5c2a46?utm_source=Oztix&utm_medium=Website",
+    "location_name": "64 Warwick St"
+  },
+  {
+    "artist": "Buttermello | Hottest 100 afters",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Solbar",
+    "artisturl": "https://tickets.solbar.com.au/outlet/event/35067eb2-0787-4c0c-be6f-13bc04675a96?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Solbar"
+  },
+  {
+    "artist": "CB Ghost Mayhemic Tour",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Low 302",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/ee6a0896-2697-4ef8-9430-03a70b85ce48?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Low 302"
+  },
+  {
+    "artist": "Hicktown Barnaby",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "The Junk Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6c4c1614-bf23-4842-b431-aa33bebfc65a?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Junk Bar"
+  },
+  {
+    "artist": "Blink 182 Greenday Experience",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Coolangatta Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a244f09d-5404-4115-bdc7-598d511eed35?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Coolangatta Hotel"
+  },
+  {
+    "artist": "EORTI Greek Culture celebration Day 2 - Peter Stathopoulos and Epistrofi",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Odeon Richmond",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/9664544f-d587-4a17-b5ee-fe6ac0748300?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Odeon Richmond"
+  },
+  {
+    "artist": "LoveLoveLove x Lottie McLeod - Love, Bug Tour",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Black Bear Lodge",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/b2718d28-f6c6-40b1-ba1e-83bbc667af5e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Black Bear Lodge"
+  },
+  {
+    "artist": "Deadheat 'We're Going to the Movies' Tour at PFR",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "PFR Lounge",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/58a1d6af-73af-42e6-8558-a6d35fb05340?utm_source=Oztix&utm_medium=Website",
+    "location_name": "PFR Lounge"
+  },
+  {
+    "artist": "The Chris Cornell Collection Live!!! A tribute to the voice of a generation.",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Crowbar Brisbane",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0b4f618b-990b-4a66-bb20-a52d9a162ef3?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Crowbar Brisbane"
+  },
+  {
+    "artist": "Press Club “To All The Ones That I Love” Album Tour",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "Vinnies Dive",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/52d7d4e4-c2de-4392-a630-f1bf73b46255?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Vinnies Dive"
+  },
+  {
+    "artist": "Ross Wilson & The Peaceniks",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Bended Elbow",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0a2ed717-2648-4f09-97c2-230e1f23f898?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Bended Elbow"
+  },
+  {
+    "artist": "The Creedence Clearwater Revival Music Show",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Banana Bender Pub, Aussie World",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/61639534-43c6-4b68-a601-d46b7770ec8a?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Banana Bender Pub, Aussie World"
+  },
+  {
+    "artist": "The Veil (NSW) with Lithik, Irreparable and Futility (ACT)",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Tote - Upstairs",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0dfc8d4b-5b53-4f9b-9d4e-d13881efb923?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Upstairs"
+  },
+  {
+    "artist": "Creedence - The John Fogerty show",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Lou Lou Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/f269a2dd-5c7c-47cd-b803-3baeee3591e4?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Lou Lou Room"
+  },
+  {
+    "artist": "The Stubbies With Long John Silvers",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Gov - The Gibson Stage",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/2e058953-2233-4c98-a6e8-ad634aef0317?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gov - The Gibson Stage"
+  },
+  {
+    "artist": "One More Weekend Rock Out at Woodshed",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "Woodshed ",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/73953234-a9a4-47d1-ba62-26bed1459e27?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Woodshed "
+  },
+  {
+    "artist": "simo soo + KAYO + si?r? w?ski + tim boh + Hyena",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Cactus Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0f39f432-eb9f-41a3-8aeb-d29f674d8002?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Cactus Room"
+  },
+  {
+    "artist": "am//pm emo night // sydney july 26",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Burdekin Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/4319fa56-08d9-45b9-91d9-b03ecd2e3761?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Burdekin Hotel"
+  },
+  {
+    "artist": "STEPSON '10 year anniversary show W/ Special Guests",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Bergy Bandroom",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0188a61e-1aeb-4498-87ab-9c74d83d8998?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bergy Bandroom"
+  },
+  {
+    "artist": "Turtle Skull \"Being Here\" Album Launch",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Tote - Band Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6165ba5a-2f41-4267-99af-74ea715e24ad?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Band Room"
+  },
+  {
+    "artist": "Control single launch",
+    "startdate": "2025-07-26",
+    "starttime": "18:00:00",
+    "venue": "The Bird",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6d2cfd20-d917-4b7a-9686-5f923aae7452?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Bird"
+  },
+  {
+    "artist": "RADIO X + METALLICA ...A TRIBUTE FOR ALL",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Hamilton Station Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/f035d1f7-c899-4d25-8266-3a7184d79be4?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Hamilton Station Hotel"
+  },
+  {
+    "artist": "Steve Sedergreen Quartet with 2 special guest vocalists!",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Central Club Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/43c62afb-da3d-4fe0-bb79-44197a66cbd1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Central Club Hotel"
+  },
+  {
+    "artist": "Powder Blue (EP Launch)",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Workers Club",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/494ce6ea-907d-4e86-a614-1792940cdc33?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Workers Club"
+  },
+  {
+    "artist": "NATE FAKER – I'M HERE... SOLO TOUR",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Gal",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/b50e51e9-1a24-43af-950f-c5c23c7ce0d3?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gal"
+  },
+  {
+    "artist": "GRAVEMIND",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Edge Hill Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e3ec73e7-b09a-4449-b234-81d0ba7990ad?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Edge Hill Tavern"
+  },
+  {
+    "artist": "Spiral Dance - Winter Widdershins at The Wheaty",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "The Wheatsheaf Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/3de4327a-5a89-459e-8aab-8712297cf373?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Wheatsheaf Hotel"
+  },
+  {
+    "artist": "TAYLOR MOSS - Firecracker Reignited Tour",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Presynct",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/ed4f48a0-ae06-4a95-b99d-cb2b870ddeb7?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Presynct"
+  },
+  {
+    "artist": "A Tribute to Bob Marley",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Kallangur Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/05c0602a-da71-48c3-b4d3-42f704a1e0d0?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Kallangur Tavern"
+  },
+  {
+    "artist": "Shannon Noll",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Commercial Hotel - South Morang",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/d241c699-99fa-4fb2-ae3c-2e5d76e2db4d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Commercial Hotel - South Morang"
+  },
+  {
+    "artist": "Black Majesty 'Oceans of Black' Album Tour",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Leadbeater Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/16d6c670-4a39-4f9c-bacb-ed52c2c9b462?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Leadbeater Hotel"
+  },
+  {
+    "artist": "One Direction: 15th Anniversary Party - Melbourne",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Max Watt's Melbourne",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/2cb543d3-cc88-43e7-b449-78fd96e0e7b7?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Max Watt's Melbourne"
+  },
+  {
+    "artist": "LIVE BABY LIVE THE INXS TRIBUTE SHOW",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Breakers Country Club",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/5f490059-ee48-4e2b-9760-e626e8cb0e99?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Breakers Country Club"
+  },
+  {
+    "artist": "Conrad Sewell - Firestone 10th Anniversary: Acoustic Sessions",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Dalrymple Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/100c269f-e278-4b97-bd25-2ead298918dd?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Dalrymple Hotel"
+  },
+  {
+    "artist": "MAMMA MIA! - ABBA TRIBUTE SHOW",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Shoppingtown Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/00eb37ed-7398-4ba7-8290-92f74a803ae6?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Shoppingtown Hotel"
+  },
+  {
+    "artist": "ONEFOUR - LOOK AT ME NOW AUS TOUR",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Torquay Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/dbce3b4e-7de8-47f7-96af-e3852f6d16c4?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Torquay Hotel"
+  },
+  {
+    "artist": "Ball Park Music - Like Love Tour",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Station",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/294fdfc8-bb68-4cf6-8f5e-a1e1ca65d3b1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Station"
+  },
+  {
+    "artist": "The Filthy Animals - The Cavill Hotel",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "The Cavill Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c2be2a2c-2357-4190-8677-4cf637207cdf?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Cavill Hotel"
+  },
+  {
+    "artist": "REWIND 80's",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Mac's Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6c010e50-f8ce-4354-b125-da58deb1a1af?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Mac's Hotel"
+  },
+  {
+    "artist": "Sunny Coast Rude Boys in Burleigh",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Burleigh Town Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/86c99b86-61ed-432b-8b18-4c9abbeeb7b8?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Burleigh Town Hotel"
+  },
+  {
+    "artist": "STERÖID",
+    "startdate": "2025-07-26",
+    "starttime": "20:30:00",
+    "venue": "The Last Chance Rock & Roll Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/8f32a516-4fff-417b-9cbe-7af422463213?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Last Chance Rock & Roll Bar"
+  },
+  {
+    "artist": "Charlie Lane - Winter Tour Finale",
+    "startdate": "2025-07-26",
+    "starttime": "20:30:00",
+    "venue": "The Gem Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/513bf537-08ac-46cb-a4d5-e0515a6f5527?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gem Bar"
+  },
+  {
+    "artist": "Glow Party 2025",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "Kings Beach Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/91a845f1-4e74-41b2-9d51-63e96edfee92?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Kings Beach Tavern"
+  },
+  {
+    "artist": "Sanctuary",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "Friday's",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6e223ed8-5eb1-44d8-aa71-db4efa46979d?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Friday's"
+  },
+  {
+    "artist": "Forever & Always: A Celebration of Taylor - Brisbane",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "The Wickham",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/512f0e64-6041-4730-96ad-71b77815efff?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Wickham"
+  },
+  {
+    "artist": "Poolroom.",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "Vic on The Park Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/ce8df429-977a-42f7-9ac1-432fec38bee8?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Vic on The Park Hotel"
+  },
+  {
+    "artist": "STRUTT'R | Kiss Tribute Band",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "The Prince Of Wales Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/75dddb52-13e2-40d9-9623-776b775797b1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Prince Of Wales Hotel"
+  },
+  {
+    "artist": "NO SCRUBS: 90s + Early 00s Party - Townsville",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "The Warehouse Bandroom ",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/761e1c70-c0b9-4de2-bb56-91e757dfa8d2?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Warehouse Bandroom "
+  },
+  {
+    "artist": "Eclipse: Metal Club Night at The Bendi",
+    "startdate": "2025-07-26",
+    "starttime": "21:00:00",
+    "venue": "Bendigo Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/ee69754f-ee65-4d55-8eda-eaa950c6cd8f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bendigo Hotel"
+  },
+  {
+    "artist": "The Preatures - Blue Planet Eyes 10th Anniversary Tour",
+    "startdate": "2025-07-26",
+    "starttime": "19:00:00",
+    "venue": "The River",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/616ffcf7-7834-4fbe-8e35-24d67b22da88?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The River"
+  },
+  {
+    "artist": "OH SNAP! // 15th BIRTHDAY PARTY",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "Amplifier Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a192f740-cf9c-49a2-b88d-9342ee2bc76e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Amplifier Bar"
+  },
+  {
+    "artist": "Vacant Home + Friends @ Lynott's Lounge",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "Lynott's Lounge",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/087ae027-a6d4-4c9f-bdbd-2247fc5e87a8?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Lynott's Lounge"
+  },
+  {
+    "artist": "The Killer Rock n Roll Xmas in July",
+    "startdate": "2025-07-26",
+    "starttime": "19:30:00",
+    "venue": "Four5Nine Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0aef4d75-879c-406d-8c9f-b2a8fdc3a969?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Four5Nine Bar"
+  },
+  {
+    "artist": "Free Aviary \"Hold My Mind\" Single launch",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Clancy's Fish Pub | Fremantle",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/eff56afb-c21f-40fd-bb26-3d017e6481a3?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Clancy's Fish Pub | Fremantle"
+  },
+  {
+    "artist": "The Country Allstars",
+    "startdate": "2025-07-26",
+    "starttime": "20:00:00",
+    "venue": "Leopold Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/a9233170-c100-4b91-9e67-b4d584a021bb?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Leopold Hotel"
+  },
+  {
+    "artist": "EORTI Greek Culture celebration - Day 3 - Greek BBQ, sweets, DJ and dancing",
+    "startdate": "2025-07-27",
+    "starttime": "12:00:00",
+    "venue": "Odeon Richmond",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/e5fb2dc6-64e4-4690-94ee-2c33f3e9d8ee?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Odeon Richmond"
+  },
+  {
+    "artist": "Rolling Stones 1973 Kooyong Celebration ft. The Monkey Men (matinee)",
+    "startdate": "2025-07-27",
+    "starttime": "12:30:00",
+    "venue": "Corner Hotel",
+    "artisturl": "https://tickets.cornerhotel.com/outlet/event/b5498fe0-baf6-4ae2-849b-675be82023a1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Corner Hotel"
+  },
+  {
+    "artist": "ROB MILLS performs the songs of BON JOVI",
+    "startdate": "2025-07-27",
+    "starttime": "13:00:00",
+    "venue": "The Gov - The Venue",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/86e5f7e7-9c23-43aa-94f6-77cf03a911bc?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Gov - The Venue"
+  },
+  {
+    "artist": "TAYLOR MOSS",
+    "startdate": "2025-07-27",
+    "starttime": "14:30:00",
+    "venue": "Wallaby Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/75d6da8f-dcd1-4b33-85ad-401900dd3a40?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Wallaby Hotel"
+  },
+  {
+    "artist": "LAZY SUNDAY",
+    "startdate": "2025-07-27",
+    "starttime": "15:00:00",
+    "venue": "The Tote - Band Room",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c86c834f-de69-4e40-9b3d-6c8c3186139b?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Band Room"
+  },
+  {
+    "artist": "Press Club “To All The Ones That I Love” Album Tour",
+    "startdate": "2025-07-27",
+    "starttime": "15:00:00",
+    "venue": "Bangalow Bowlo",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/61573d59-c595-4854-a401-a5a74507c391?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Bangalow Bowlo"
+  },
+  {
+    "artist": "The Radiators",
+    "startdate": "2025-07-27",
+    "starttime": "15:00:00",
+    "venue": "Kings Beach Tavern",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/4d72e8d8-6f75-40d0-b134-690907d1e2f7?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Kings Beach Tavern"
+  },
+  {
+    "artist": "Jordan Ireland",
+    "startdate": "2025-07-27",
+    "starttime": "15:30:00",
+    "venue": "Elm House",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/dbc92516-3a74-463f-b32e-c4688271e178?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Elm House"
+  },
+  {
+    "artist": "Benny Rowe & the Troica Band",
+    "startdate": "2025-07-27",
+    "starttime": "14:00:00",
+    "venue": "Clancy's Fish Pub | Fremantle",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/96c00814-c2b3-416e-90ab-39f2f4e75848?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Clancy's Fish Pub | Fremantle"
+  },
+  {
+    "artist": "Love & Laughter Tour | Luke O'Shea & Lyn Bowtell",
+    "startdate": "2025-07-27",
+    "starttime": "16:00:00",
+    "venue": "Robertson Public House & Kitchen",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/8680e4cf-f50f-4960-a820-9b1d01061b69?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Robertson Public House & Kitchen"
+  },
+  {
+    "artist": "The Vatican featuring Chris Finnen & Charmaine Jones (Gospo Collective)",
+    "startdate": "2025-07-27",
+    "starttime": "16:00:00",
+    "venue": "The Wheatsheaf Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/76b3792b-7b4d-4ea7-adb0-4342c09263e8?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Wheatsheaf Hotel"
+  },
+  {
+    "artist": "Darren Hanlon (Northcote SC 20th Birthday Celebration! - Matinee)",
+    "startdate": "2025-07-27",
+    "starttime": "16:30:00",
+    "venue": "Northcote Social Club",
+    "artisturl": "https://tickets.northcotesocialclub.com/outlet/event/6e9da6bc-f4c7-49b7-afbd-20785b447341?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Northcote Social Club"
+  },
+  {
+    "artist": "Dirty Hearts w/ Hyena Smyle & Good Tycoon",
+    "startdate": "2025-07-27",
+    "starttime": "17:00:00",
+    "venue": "The Junk Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/0cd424ad-4272-4895-99a9-9465014f8436?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Junk Bar"
+  },
+  {
+    "artist": "ARCHIVE LIVE - SUNDAY 27TH JULY - To The Skies + The Nouveau + Lost Louie",
+    "startdate": "2025-07-27",
+    "starttime": "17:00:00",
+    "venue": "Archive Beer Boutique Bar and Bistro",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/630cc8cc-d2e1-4342-8b8d-a421f39b7b30?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Archive Beer Boutique Bar and Bistro"
+  },
+  {
+    "artist": "Majelen",
+    "startdate": "2025-07-27",
+    "starttime": "17:30:00",
+    "venue": "Solbar Lounge",
+    "artisturl": "https://tickets.solbar.com.au/outlet/event/90bb2139-4429-4e9d-9562-c97cd4696293?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Solbar Lounge"
+  },
+  {
+    "artist": "**FREE ENTRY** The Agents of Reverb present Winter-A-Go-Go @ The Espy Basement",
+    "startdate": "2025-07-27",
+    "starttime": "18:00:00",
+    "venue": "Espy Basement",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/de0fc439-d20c-47e5-944a-8f5bbc5fdb12?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Espy Basement"
+  },
+  {
+    "artist": "Microwave (usa) & Free Throw (usa) Co-Headline Australian Tour 2025",
+    "startdate": "2025-07-27",
+    "starttime": "18:30:00",
+    "venue": "Tattersalls Hotel - Penrith",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/56857881-681e-4da5-a41e-ed419102c30e?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Tattersalls Hotel - Penrith"
+  },
+  {
+    "artist": "DYSMETRIA w/ The Salmon Sisters, ANGLERR & The Lickspits @ LAST CHANCE",
+    "startdate": "2025-07-27",
+    "starttime": "19:00:00",
+    "venue": "The Last Chance Rock & Roll Bar",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/1e28346c-4037-4a62-b696-db237fa07726?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Last Chance Rock & Roll Bar"
+  },
+  {
+    "artist": "Jenny Mitchell 'The Forest House' Tour",
+    "startdate": "2025-07-27",
+    "starttime": "19:00:00",
+    "venue": "The Stag & Hunter Hotel",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/c1c2b75b-dd88-4bc0-8428-836df61617bb?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Stag & Hunter Hotel"
+  },
+  {
+    "artist": "Outlaw: A Celebration of Willie Nelson",
+    "startdate": "2025-07-27",
+    "starttime": "17:00:00",
+    "venue": "Lyric's Underground",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/6367ab1b-b9b9-4090-8240-c4bd6e8ad23f?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Lyric's Underground"
+  },
+  {
+    "artist": "Lucien Finch, Matt Vincent + Michaeleah",
+    "startdate": "2025-07-27",
+    "starttime": "19:30:00",
+    "venue": "The Tote - Upstairs",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/25131a58-af6d-4c86-b1a4-8f08095e69ed?utm_source=Oztix&utm_medium=Website",
+    "location_name": "The Tote - Upstairs"
+  },
+  {
+    "artist": "Dave Johnson and Steve Gibson",
+    "startdate": "2025-07-27",
+    "starttime": "19:00:00",
+    "venue": "Clancy's Fish Pub | Fremantle",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/82423b10-3464-467c-818b-9b458d7701e1?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Clancy's Fish Pub | Fremantle"
+  },
+  {
+    "artist": "The Preatures - Blue Planet Eyes 10th Anniversary Tour - Froth Bunbury",
+    "startdate": "2025-07-27",
+    "starttime": "19:30:00",
+    "venue": "Froth Craft Bunbrewery Bunbury",
+    "artisturl": "https://tickets.oztix.com.au/outlet/event/208d582a-1375-42ff-b2bd-515cd52dc302?utm_source=Oztix&utm_medium=Website",
+    "location_name": "Froth Craft Bunbrewery Bunbury"
   }
 ]

@@ -24,7 +24,7 @@ export default function Error({
           () => reset()
         }
       >
-        Somehting has possibli gone worng
+        Something has possibli gone wrong
       </button>
     </div>
   );

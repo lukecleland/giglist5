@@ -1,4 +1,3 @@
-import "@/app/styles/main-section.css";
 import clsx from "clsx";
 import { lato } from "@/config/fonts";
 

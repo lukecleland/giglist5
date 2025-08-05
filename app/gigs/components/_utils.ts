@@ -1,36 +1,47 @@
 import { Listing, ListingDate, ListingVenue, Venue } from "@/app/types/types";
 
 export function formatDateToYMD(date: Date): string {
-    const year = date.getUTCFullYear();
-    const month = String(date.getUTCMonth() + 1).padStart(2, "0");
-    const day = String(date.getUTCDate()).padStart(2, "0");
-    return `${year}-${month}-${day}`;
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
+/**
+ * @function pivotEvents
+ * @description Pivot events by date.
+ * @param events Array of events to pivot
+ * @returns Array of pivoted events by date
+ *
+ * This function takes an array of events and groups them by date.
+ * Each event is expected to have a `startdate` property in the format "YYYY-MM-DD".
+ * The result is an array of objects, each containing a date string and an array of listings for that date.
+ * The date strings are formatted as "YYYY-MM-DD".
+ * The listings are grouped under the `listings` property of each object.
+ */
 export function pivotEvents(events: (Listing & Venue)[]): ListingDate[] {
-    const map = new Map<string, ListingVenue[]>();
+  const map = new Map<string, ListingVenue[]>();
 
-    for (const event of events) {
-        const dateObj = new Date(event.startdate);
-        const dateKey = formatDateToYMD(dateObj);
+  for (const event of events) {
+    const dateObj = new Date(event.startdate);
+    const dateKey = formatDateToYMD(dateObj);
 
-        if (!map.has(dateKey)) {
-        map.set(dateKey, []);
-        }
-        map.get(dateKey)!.push({ listing: event });
+    if (!map.has(dateKey)) {
+      map.set(dateKey, []);
     }
+    map.get(dateKey)!.push({ listing: event });
+  }
 
-    const result: ListingDate[] = Array.from(map, ([date, listings]) => ({
-        datestring: date,
-        datetime: new Date(date),
-        listings,
-    }));
+  const result: ListingDate[] = Array.from(map, ([date, listings]) => ({
+    datestring: date,
+    datetime: new Date(date),
+    listings,
+  }));
 
-    result.sort((a, b) => a.datestring.localeCompare(b.datestring));
+  result.sort((a, b) => a.datestring.localeCompare(b.datestring));
 
-    return result;
+  return result;
 }
-
 
 export function formatDateWithSuffix(dateStr: string) {
   const date = new Date(dateStr);
@@ -41,20 +52,21 @@ export function formatDateWithSuffix(dateStr: string) {
   const getSuffix = (day: number): string => {
     if (day >= 11 && day <= 13) return "th";
     switch (day % 10) {
-      case 1: return "st";
-      case 2: return "nd";
-      case 3: return "rd";
-      default: return "th";
+      case 1:
+        return "st";
+      case 2:
+        return "nd";
+      case 3:
+        return "rd";
+      default:
+        return "th";
     }
   };
 
   return `‎T${weekday} ${month} ${day}${getSuffix(day)}‎`;
 }
 
-
-
-
 export const formatter = new Intl.DateTimeFormat("en-US", {
-    hour: "numeric",
-    minute: "2-digit",
+  hour: "numeric",
+  minute: "2-digit",
 });

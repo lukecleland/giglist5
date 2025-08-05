@@ -5,12 +5,10 @@ import { ListingModal } from "./ListingModal";
 import { useListingsStore } from "@/app/gigtools/store/listings";
 import { useEffect, useMemo, useRef } from "react";
 import { pivotEvents, formatDateWithSuffix } from "./_utils";
-import { specialElite } from "@/config/fonts";
-import clsx from "clsx";
 import { bc } from "@/lib/broadcast";
-import "./ListingDates.css";
 import { useListingAds } from "@/app/gigs/hooks/useListingAds";
 import { ListingAds } from "./ListingAds";
+import "@/app/gigs/components/ListingDates.css";
 
 export function ListingDates() {
   const listings = useListingsStore((state) => state.listings);

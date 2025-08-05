@@ -4,7 +4,7 @@ import { Link } from "@heroui/link";
 import { button as buttonStyles } from "@heroui/theme";
 import { subtitle } from "@/components/primitives";
 import { Input } from "@heroui/input";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import postcodeData from "./postcodes";
 
 const raddii = [50, 20, 10, 5, 1];
@@ -47,6 +47,24 @@ export const Location = () => {
     }
   };
 
+  const handlePostcodeFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    setPostcode("");
+  };
+
+  useEffect(() => {
+    const location = window.localStorage.getItem("location");
+
+    if (location) {
+      const locationObj = JSON.parse(location);
+      setPostcode(locationObj.postcode);
+      setLat(locationObj.lat);
+      setLong(locationObj.long);
+      setRadius(100);
+      setDisabled(false);
+      window.location.href = "/gigs";
+    }
+  }, []);
+
   return (
     <>
       <div className="max-w-xl text-center justify-center">
@@ -54,18 +72,33 @@ export const Location = () => {
       </div>
 
       <div className="flex gap-3">
-        <Input placeholder="Enter your post code" />
+        <Input
+          placeholder="Enter your post code"
+          value={postcode}
+          onChange={handlePostcodeChange}
+          onFocus={handlePostcodeFocus}
+          isInvalid={lat === null || long === null}
+          errorMessage="Invalid postcode"
+        />
         <Link
           isExternal
+          isDisabled={disabled}
           className={buttonStyles({
             color: "primary",
-            radius: "full",
+            radius: "md",
             variant: "shadow",
           })}
           onClick={() => {
-            handlePostcodeChange({
-              target: { value: postcode },
-            } as ChangeEvent<HTMLInputElement>);
+            window.localStorage.setItem(
+              "location",
+              JSON.stringify({
+                postcode,
+                lat,
+                long,
+                radius,
+              })
+            );
+            window.location.href = "/gigs";
           }}
         >
           Go!

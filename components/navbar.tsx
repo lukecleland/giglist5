@@ -28,12 +28,21 @@ import {
 } from "@/components/icons";
 import NextLink from "next/link";
 import clsx from "clsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useListingsStore } from "@/app/gigtools/store/listings";
+import { CrosshairsIcon } from "@/app/icons/CrosshairsIcon";
 
 export const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const searchListings = useListingsStore((s) => s.searchListings);
+  const [postcode, setPostcode] = useState<string>("0000");
+
+  useEffect(() => {
+    const location = window.localStorage.getItem("location");
+    if (location) {
+      setPostcode(JSON.parse(location).postcode);
+    }
+  }, []);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value;
@@ -147,6 +156,15 @@ export const Navbar = () => {
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <div className="flex gap-2">
+            <Button
+              as={Link}
+              className="text-sm font-normal text-default-600 bg-default-100"
+              href={siteConfig.links.github}
+              startContent={<CrosshairsIcon />}
+              variant="flat"
+            >
+              {postcode}
+            </Button>
             <Button
               isExternal
               as={Link}

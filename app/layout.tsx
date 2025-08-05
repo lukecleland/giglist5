@@ -32,10 +32,8 @@ export default function RootLayout({
       <head />
       <body className="min-h-screen bg-background font-sans antialiased">
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <>
-            <Navbar />
-            <main className="flex">{children}</main>
-          </>
+          <Navbar />
+          <main className="flex">{children}</main>
         </Providers>
       </body>
     </html>

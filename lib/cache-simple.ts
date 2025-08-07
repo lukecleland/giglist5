@@ -114,3 +114,33 @@ export function withDeduplication<T>(
   pendingRequests.set(key, promise);
   return promise;
 }
+
+// Helper functions for cache management
+export function setCacheItem<T>(
+  cache: SimpleCache<T>,
+  key: string,
+  value: T,
+  ttlMs: number = 300000
+): void {
+  cache.set(key, value, ttlMs);
+}
+
+export function getCacheItem<T>(
+  cache: SimpleCache<T>,
+  key: string
+): T | undefined {
+  return cache.get(key);
+}
+
+export function invalidateCache(
+  cache: SimpleCache<any>,
+  pattern?: string
+): void {
+  if (pattern) {
+    // For pattern-based invalidation, we'd need to iterate through keys
+    // For now, just clear the entire cache
+    cache.clear();
+  } else {
+    cache.clear();
+  }
+}

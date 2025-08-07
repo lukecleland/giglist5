@@ -2,7 +2,12 @@
 
 import { query } from "@/lib/db";
 import { revalidatePath } from "next/cache";
-import { venueCache, listingCache, searchCache, withDeduplication } from "@/lib/cache";
+import {
+  venueCache,
+  listingCache,
+  searchCache,
+  withDeduplication,
+} from "@/lib/cache";
 
 // Debounce utility for search functions
 function debounce<T extends (...args: any[]) => any>(
@@ -12,13 +17,13 @@ function debounce<T extends (...args: any[]) => any>(
   let timeoutId: NodeJS.Timeout;
   let resolvePromise: (value: ReturnType<T>) => void;
   let rejectPromise: (error: any) => void;
-  
+
   return (...args: Parameters<T>): Promise<ReturnType<T>> => {
     return new Promise((resolve, reject) => {
       clearTimeout(timeoutId);
       resolvePromise = resolve;
       rejectPromise = reject;
-      
+
       timeoutId = setTimeout(async () => {
         try {
           const result = await func(...args);
@@ -52,7 +57,7 @@ export const searchVenue = debounce(async (searchText: string) => {
       `SELECT * FROM gl_venues WHERE name LIKE ? ORDER BY name ASC LIMIT 10`,
       [`%${searchText}%`]
     );
-    
+
     const jsonResult = JSON.stringify(result);
     searchCache.set(cacheKey, jsonResult, 60000); // 1 minute TTL
     return jsonResult;
@@ -76,7 +81,7 @@ export async function selectVenues(limit: number = 50, offset: number = 0) {
       `SELECT * FROM gl_venues ORDER BY name ASC LIMIT ? OFFSET ?`,
       [limit, offset]
     );
-    
+
     const jsonResult = JSON.stringify(result);
     venueCache.set(cacheKey, jsonResult, 300000); // 5 minutes TTL
     return jsonResult;
@@ -113,15 +118,14 @@ export async function selectVenue(id: number) {
   }
 
   return withDeduplication(cacheKey, async () => {
-    const result = await query(
-      `SELECT * FROM gl_venues WHERE id = ? LIMIT 1`,
-      [id]
-    );
-    
+    const result = await query(`SELECT * FROM gl_venues WHERE id = ? LIMIT 1`, [
+      id,
+    ]);
+
     if ((result as any[]).length === 0) {
       return null;
     }
-    
+
     const venue = (result as any[])[0];
     venueCache.set(cacheKey, venue, 300000); // 5 minutes TTL
     return venue;
@@ -133,7 +137,10 @@ export async function selectVenue(id: number) {
  * @param limit
  * @param showHistorical
  */
-export async function getListings(limit: number = 100, showHistorical: boolean = false) {
+export async function getListings(
+  limit: number = 100,
+  showHistorical: boolean = false
+) {
   const cacheKey = `listings_${limit}_${showHistorical}`;
   const cached = listingCache.get(cacheKey);
   if (cached) {
@@ -141,11 +148,12 @@ export async function getListings(limit: number = 100, showHistorical: boolean =
   }
 
   return withDeduplication(cacheKey, async () => {
-    const dateCondition = showHistorical 
-      ? "" 
+    const dateCondition = showHistorical
+      ? ""
       : "AND gl_listings.startdate >= DATE(DATE_ADD(NOW(), INTERVAL -1 WEEK))";
 
-    const result = await query(`
+    const result = await query(
+      `
       SELECT 
         gl_listings.id,
         gl_listings.name,
@@ -167,8 +175,10 @@ export async function getListings(limit: number = 100, showHistorical: boolean =
       WHERE gl_venues.lat IS NOT NULL ${dateCondition}
       ORDER BY gl_listings.startdate ASC, gl_listings.starttime ASC 
       LIMIT ?
-    `, [limit]);
-    
+    `,
+      [limit]
+    );
+
     listingCache.set(cacheKey, result, 120000); // 2 minutes TTL
     return result;
   });
@@ -185,20 +195,21 @@ export async function getListingsByHoldingIds(
     return [];
   }
 
-  const cacheKey = `listings_holding_${holdingIds.sort().join(',')}_${showHistorical}`;
+  const cacheKey = `listings_holding_${holdingIds.sort().join(",")}_${showHistorical}`;
   const cached = listingCache.get(cacheKey);
   if (cached) {
     return cached;
   }
 
   return withDeduplication(cacheKey, async () => {
-    const dateCondition = showHistorical 
-      ? "" 
+    const dateCondition = showHistorical
+      ? ""
       : "AND gl_listings.startdate >= DATE(DATE_ADD(NOW(), INTERVAL -1 WEEK))";
 
     // Use parameterized query with IN clause
-    const placeholders = holdingIds.map(() => '?').join(',');
-    const result = await query(`
+    const placeholders = holdingIds.map(() => "?").join(",");
+    const result = await query(
+      `
       SELECT 
         gl_listings.id,
         gl_listings.name,
@@ -215,7 +226,9 @@ export async function getListingsByHoldingIds(
       WHERE TRUE ${dateCondition}
       AND holdingId IN (${placeholders})
       ORDER BY gl_listings.startdate ASC
-    `, holdingIds);
+    `,
+      holdingIds
+    );
 
     listingCache.set(cacheKey, result, 120000); // 2 minutes TTL
     return result;
@@ -254,53 +267,59 @@ type Venue = {
 };
 
 export async function addVenue(item: Venue) {
-  await query(`
+  await query(
+    `
     INSERT INTO gl_venues (name, address1, suburb, state, postcode, url, lat, lng, heroImage, slug, description, phone, email)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-  `, [
-    item.name,
-    item.address1,
-    item.suburb,
-    item.state,
-    item.postcode,
-    item.url,
-    item.lat,
-    item.lng,
-    item.heroImage,
-    item.slug,
-    item.description,
-    item.phone,
-    item.email
-  ]);
-  
+  `,
+    [
+      item.name,
+      item.address1,
+      item.suburb,
+      item.state,
+      item.postcode,
+      item.url,
+      item.lat,
+      item.lng,
+      item.heroImage,
+      item.slug,
+      item.description,
+      item.phone,
+      item.email,
+    ]
+  );
+
   await invalidateVenueCache();
   revalidatePath(`/`);
 }
 
 export async function updateVenue(item: Venue & { venueId: number }) {
-  await query(`
+  await query(
+    `
     UPDATE gl_venues
     SET name = ?, address1 = ?, suburb = ?, state = ?, postcode = ?, 
         url = ?, lat = ?, lng = ?, heroImage = ?, slug = ?, 
         description = ?, phone = ?, email = ?
     WHERE id = ?
-  `, [
-    item.name,
-    item.address1,
-    item.suburb,
-    item.state,
-    item.postcode,
-    item.url,
-    item.lat,
-    item.lng,
-    item.heroImage,
-    item.slug,
-    item.description,
-    item.phone,
-    item.email,
-    item.venueId
-  ]);
-  
+  `,
+    [
+      item.name,
+      item.address1,
+      item.suburb,
+      item.state,
+      item.postcode,
+      item.url,
+      item.lat,
+      item.lng,
+      item.heroImage,
+      item.slug,
+      item.description,
+      item.phone,
+      item.email,
+      item.venueId,
+    ]
+  );
+
   await invalidateVenueCache(item.venueId);
   revalidatePath(`/`);
 }

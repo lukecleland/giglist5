@@ -36,19 +36,22 @@ export function escapeParam(value: any): string {
 }
 
 // Utility to build WHERE clauses safely
-export function buildWhereClause(conditions: Record<string, any>): { sql: string; values: any[] } {
+export function buildWhereClause(conditions: Record<string, any>): {
+  sql: string;
+  values: any[];
+} {
   const clauses: string[] = [];
   const values: any[] = [];
-  
+
   for (const [key, value] of Object.entries(conditions)) {
     if (value !== undefined && value !== null) {
       clauses.push(`${key} = ?`);
       values.push(value);
     }
   }
-  
+
   return {
     sql: clauses.length > 0 ? `WHERE ${clauses.join(" AND ")}` : "",
-    values
+    values,
   };
 }

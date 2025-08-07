@@ -24,13 +24,18 @@ export function useVenueSearch(initialQuery: string = "") {
     []
   );
 
-  const updateQuery = useCallback((newQuery: string) => {
-    setQuery(newQuery);
-    debounceTimeout(newQuery);
-  }, [debounceTimeout]);
+  const updateQuery = useCallback(
+    (newQuery: string) => {
+      setQuery(newQuery);
+      debounceTimeout(newQuery);
+    },
+    [debounceTimeout]
+  );
 
   const { data, error, isLoading, mutate } = useSWR(
-    debouncedQuery.length >= 3 ? `/api/venues/search?q=${debouncedQuery}` : null,
+    debouncedQuery.length >= 3
+      ? `/api/venues/search?q=${debouncedQuery}`
+      : null,
     fetcher,
     {
       revalidateOnFocus: false,
@@ -73,7 +78,10 @@ export function useVenues(limit: number = 50, offset: number = 0) {
 /**
  * Hook for listings with caching
  */
-export function useListings(limit: number = 100, showHistorical: boolean = false) {
+export function useListings(
+  limit: number = 100,
+  showHistorical: boolean = false
+) {
   const { data, error, isLoading, mutate } = useSWR(
     `/api/listings?limit=${limit}&historical=${showHistorical}`,
     fetcher,

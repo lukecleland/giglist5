@@ -15,6 +15,9 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(venues);
   } catch (error) {
     console.error("Error searching venues:", error);
-    return NextResponse.json({ error: "Failed to search venues" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to search venues" },
+      { status: 500 }
+    );
   }
 }

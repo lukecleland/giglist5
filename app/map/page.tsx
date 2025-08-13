@@ -10,7 +10,7 @@ export default async function MapPage() {
 
   return (
     <div style={{ height: "100vh", width: "100%" }} className="min-h-screen">
-      <GigMap3d gigs={gigs} />
+      <GigMap gigs={gigs} />
     </div>
   );
 }
